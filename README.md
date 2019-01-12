@@ -1,4 +1,7 @@
-# Gatsby + Netlify CMS Starter
+# matsuko-ca
+
+## Starter Info
+This site is build off of the [Gatsby + Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
@@ -23,7 +26,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 $ cd [REPO_NAME]
-$ yarn
+$ npm install
 $ npm run develop
 ```
 To test the CMS locally, you'll need run a production build of the site:
