@@ -36,7 +36,7 @@ const Nav = styled.nav`
 
 const Header = styled(({ className }) => (
   <header className={className}>
-    <div class="container">
+    <div className="container">
       <Link to="/">
         matsuko.ca
       </Link>

@@ -1,10 +1,13 @@
 ---
 templateKey: project
-title: Explore Edmonton Website
+title: Explore Edmonton
 date: 2018-09-27
 description: Website for Edmonton Tourism.
 thumbnail: /img/flavor_wheel.jpg
-website: https://exploreedmonton.com/
+category: Website
+links:
+  - text: Live Site
+    url: https://exploreedmonton.com/
 ---
 
 ## Notes

@@ -1,10 +1,13 @@
 ---
 templateKey: project
-title: Where's the Line Newsletter Landing Page
+title: Where's the Line Newsletter
 date: 2018-02-16
 description: Landing page to promote Where's the Line Power Line Safety newsletter.
 thumbnail: /img/flavor_wheel.jpg
-website: https://wherestheline.ca/newsletter/
+category: Landing Page
+links:
+  - text: Live Site
+    url: https://wherestheline.ca/newsletter/
 ---
 
 ## Notes

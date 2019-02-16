@@ -4,7 +4,10 @@ title: VanArts Student Work
 date: 2019-01-16
 description: A collection of projects from my year in VanArts' one-year Web Development and Interactive Design program.
 thumbnail: /img/flavor_wheel.jpg
-repository: https://github.com/missmatsuko/vanarts
+category: Website
+links:
+  - text: Source Code
+    url: https://github.com/missmatsuko/vanarts
 ---
 
 ## Notes

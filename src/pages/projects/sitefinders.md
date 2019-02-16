@@ -1,10 +1,13 @@
 ---
 templateKey: project
-title: SiteFinders Website
+title: Sitefinders
 date: 2017-07-16
-description: Website for SiteFinders, a commercial real estate company.
+description: Website for Sitefinders, a commercial real estate company.
 thumbnail: /img/flavor_wheel.jpg
-website: https://www.sitefinders.ca/
+category: Website
+links:
+  - text: Live Site
+    url: https://www.sitefinders.ca/
 ---
 
 ## Notes
