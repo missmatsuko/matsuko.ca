@@ -1,13 +1,21 @@
 ---
 templateKey: project
+date: 2017-02-01T00:00:00.000Z
 title: Logitech Skype Room Systems Decision Tree
-date: 2017-02-01
-description: A quiz and informational landing page to help choose the right video conferencing solution for an organization.
+description: >-
+  A quiz and informational landing page to help choose the right video
+  conferencing solution for an organization.
 thumbnail: /img/flavor_wheel.jpg
 projectType: Landing Page
+technologies:
+  - HTML
+  - CSS
+  - JS
+  - Marketo
+  - jQuery
 links:
   - text: Live Site
-    url: https://info.logitech.com/srs-decision-tree-en-us.html
+    url: 'https://info.logitech.com/srs-decision-tree-en-us.html'
 ---
 
 ## Notes
