@@ -1,19 +1,28 @@
 ---
 templateKey: project
+date: 2019-01-16T00:00:00.000Z
 title: ASL Tab
-date: 2019-01-16
-description: A browser extension that helps you learn a little American Sign Language (ASL) every time you open a new tab.
+description: >-
+  A browser extension that helps you learn a little American Sign Language (ASL)
+  every time you open a new tab.
 thumbnail: /img/flavor_wheel.jpg
-projectType: Miscellaneous
+projectType: Other
+technologies:
+  - HTML
+  - CSS
+  - JS
+  - YouTube APIs
+  - AWS Lambda
 links:
   - text: Download for Chrome
-    url: https://chrome.google.com/webstore/detail/asl-tab/bjiakmejoofpfclmopcfpkopmamecnkd
+    url: >-
+      https://chrome.google.com/webstore/detail/asl-tab/bjiakmejoofpfclmopcfpkopmamecnkd
   - text: Download for Firefox
-    url: https://addons.mozilla.org/en-US/firefox/addon/asl-tab/
+    url: 'https://addons.mozilla.org/en-US/firefox/addon/asl-tab/'
   - text: Front-end Repository
-    url: https://github.com/missmatsuko/asl-tab
+    url: 'https://github.com/missmatsuko/asl-tab'
   - text: Back-end Repository
-    url: https://github.com/missmatsuko/asl-tab-api
+    url: 'https://github.com/missmatsuko/asl-tab-api'
 ---
 
 ## Notes
