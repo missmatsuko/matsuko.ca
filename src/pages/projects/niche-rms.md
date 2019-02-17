@@ -1,13 +1,19 @@
 ---
 templateKey: project
+date: 2017-04-01T00:00:00.000Z
 title: NicheRMS
-date: 2017-04-01
 description: WordPress website for NicheRMS™ Police Records Management System.
 thumbnail: /img/flavor_wheel.jpg
 projectType: Website
+technologies:
+  - HTML
+  - CSS
+  - JS
+  - jQuery
+  - WordPress
 links:
   - text: Live Site
-    url: https://nicherms.com/
+    url: 'https://nicherms.com/'
 ---
 
 ## Notes
