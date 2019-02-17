@@ -12,6 +12,7 @@ export const ProjectsPageTemplate = ({ title, content, contentComponent }) => {
     <section>
       <h1>{title}</h1>
       <div className="container">
+        <PageContent />
         <ProjectsListing />
       </div>
     </section>
