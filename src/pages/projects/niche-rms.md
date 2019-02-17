@@ -7,6 +7,7 @@ thumbnail: /img/flavor_wheel.jpg
 projectType: Website
 technologies:
   - HTML
+  - PHP
   - CSS
   - JS
   - jQuery
