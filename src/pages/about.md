@@ -47,6 +47,5 @@ content:
 
 
       ##
-    type: body
+    type: Body
 ---
-

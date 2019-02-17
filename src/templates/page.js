@@ -3,38 +3,36 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+
+// Page builder components
+import ProjectsListing from '../components/ProjectsListing'
 
 export const PageTemplate = ({
   content,
-  contentComponent,
   description,
   title,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
-
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-          </div>
-        </div>
+      <div className="container">
+        <h1>{title}</h1>
+        <p>{description}</p>
+        {content && (content.map((block, index) => {
+          switch (block.type) {
+            case 'ProjectsListing':
+              return <ProjectsListing key={index} />;
+            default:
+              return null;
+          }
+        }))}
       </div>
     </section>
   )
 }
 
 PageTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
@@ -46,9 +44,9 @@ const Page = ({ data }) => {
   return (
     <Layout>
       <PageTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
         description={post.frontmatter.description}
+        content={post.frontmatter.content}
         helmet={
           <Helmet
             titleTemplate="%s | Pages"
@@ -57,7 +55,6 @@ const Page = ({ data }) => {
             <meta name="description" content={`${post.frontmatter.description}`} />
           </Helmet>
         }
-        title={post.frontmatter.title}
       />
     </Layout>
   )
@@ -77,9 +74,11 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
         description
+        content {
+          type
+        }
       }
     }
   }
