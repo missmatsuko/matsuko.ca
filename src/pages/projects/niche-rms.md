@@ -4,7 +4,7 @@ title: NicheRMS
 date: 2017-04-01
 description: WordPress website for NicheRMS™ Police Records Management System.
 thumbnail: /img/flavor_wheel.jpg
-category: Website
+projectType: Website
 links:
   - text: Live Site
     url: https://nicherms.com/

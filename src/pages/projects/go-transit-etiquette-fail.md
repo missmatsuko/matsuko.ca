@@ -4,7 +4,7 @@ title: GO Transit Etiquette Fail
 date: 2018-01-17
 description: Landing page to promote GO Transit's book on transit etiquette.
 thumbnail: /img/flavor_wheel.jpg
-category: Landing Page
+projectType: Landing Page
 links:
   - text: Live Site - English
     url: https://www.gotransit.com/etiquettefail/

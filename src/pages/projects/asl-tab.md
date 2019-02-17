@@ -4,7 +4,7 @@ title: ASL Tab
 date: 2019-01-16
 description: A browser extension that helps you learn a little American Sign Language (ASL) every time you open a new tab.
 thumbnail: /img/flavor_wheel.jpg
-category: Miscellaneous
+projectType: Miscellaneous
 links:
   - text: Download for Chrome
     url: https://chrome.google.com/webstore/detail/asl-tab/bjiakmejoofpfclmopcfpkopmamecnkd

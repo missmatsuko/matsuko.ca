@@ -1,29 +1,62 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: matsuko-ca
 
 media_folder: static/img
 public_folder: /img
 
 collections:
 
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+  - name: "page"
+    label: "Page"
+    folder: src/pages
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "page"
+      - label: "Publish Date"
+        name: "date"
+        widget: "date"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "Links"
+        name: "links"
+        widget: "list"
+        required: false
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/projects/index.md"
-        label: "Projects"
-        name: "projects"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Link Text"
+            name: "text"
+            widget: "string"
+          - label: "Link URL"
+            name: "url"
+            widget: "string"
+            pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+', "Must be a valid URL. (e.g. https://www.google.com)"]
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        types:
+        - label: "Body"
+          name: "body"
+          widget: "object"
+          fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+        - label: "Projects Listing"
+          name: "projectsListing"
+          widget: "object"
+        - label: "Homepage Hero"
+          name: "homepageHero"
+          widget: "object"
 
   - name: "project"
     label: "Project"
@@ -35,26 +68,32 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "project"
-      - label: "Title"
-        name: "title"
-        widget: "string"
       - label: "Publish Date"
         name: "date"
         widget: "date"
+      - label: "Title"
+        name: "title"
+        widget: "string"
       - label: "Description"
         name: "description"
         widget: "text"
+        required: false
       - label: "Thumbnail"
         name: "thumbnail"
         widget: image
         allow_multiple: false
-      - label: "Category"
-        name: "category"
+      - label: "Project Type"
+        name: "projectType"
         widget: "select"
         options: ["Website", "Landing Page", "Other"]
+      - label: "Technologies"
+        name: "technologies"
+        widget: "list"
+        required: false
       - label: "Links"
         name: "links"
         widget: "list"
+        required: false
         fields:
           - label: "Link Text"
             name: "text"

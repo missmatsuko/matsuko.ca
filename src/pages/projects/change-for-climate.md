@@ -4,7 +4,7 @@ title: Change for Climate
 date: 2017-11-08
 description: Website for the City of Edmonton's environmental program.
 thumbnail: /img/flavor_wheel.jpg
-category: Website
+projectType: Website
 links:
   - text: Live Site
     url: https://changeforclimate.ca/

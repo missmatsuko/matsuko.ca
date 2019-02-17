@@ -4,7 +4,7 @@ title: Crestle.ai
 date: 2019-01-01
 description: Website for Crestle.ai, a one-click deep learning platform.
 thumbnail: /img/flavor_wheel.jpg
-category: Landing Page
+projectType: Landing Page
 links:
   - text: Live Site
     url: https://crestle.ai/

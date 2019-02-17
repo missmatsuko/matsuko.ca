@@ -4,7 +4,7 @@ title: Explore Edmonton
 date: 2018-09-27
 description: Website for Edmonton Tourism.
 thumbnail: /img/flavor_wheel.jpg
-category: Website
+projectType: Website
 links:
   - text: Live Site
     url: https://exploreedmonton.com/

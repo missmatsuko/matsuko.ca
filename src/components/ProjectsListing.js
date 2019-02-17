@@ -67,7 +67,7 @@ class ProjectsListing extends React.Component {
             <ProjectsListingItem key={post.id}>
               <Link to={post.fields.slug} className="text">
                 <h3 className="title">{post.frontmatter.title}</h3>
-                <p className="category">{post.frontmatter.category}</p>
+                <p className="category">{post.frontmatter.projectType}</p>
               </Link>
               <div className="image">
                 <img src="https://picsum.photos/200/300/?random" alt="" />
@@ -104,7 +104,7 @@ export default () => (
             frontmatter {
               title
               templateKey
-              category
+              projectType
             }
           }
         }
