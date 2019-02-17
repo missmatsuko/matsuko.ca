@@ -1,13 +1,18 @@
 ---
 templateKey: project
+date: 2017-10-30T00:00:00.000Z
 title: Sky Residences
-date: 2017-10-30
 description: Website for new residences in the centre of Edmonton's ICE District.
 thumbnail: /img/flavor_wheel.jpg
 projectType: Website
+technologies:
+  - HTML
+  - CSS
+  - JS
+  - WordPress
 links:
   - text: Live Site
-    url: http://liveskycondos.com/
+    url: 'http://liveskycondos.com/'
 ---
 
 ## Notes
