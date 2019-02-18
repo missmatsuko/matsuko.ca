@@ -10,7 +10,7 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
   html, body, #___gatsby, #___gatsby>div {
-    height: 100%
+    min-height: 100%
   }
 
   #___gatsby>div {
