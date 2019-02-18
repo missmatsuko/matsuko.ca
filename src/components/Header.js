@@ -3,6 +3,14 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Container from '../components/Container'
 
+const HomeLink = styled(Link)`
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 1;
+`
+
 const Nav = styled.nav`
   font-weight: 700;
   font-size: 0.8rem;
@@ -38,9 +46,9 @@ const Nav = styled.nav`
 const Header = styled(({ className }) => (
   <header className={className}>
     <Container className="inner">
-      <Link to="/">
-        matsuko.ca
-      </Link>
+      <HomeLink to="/">
+        m<span class="sr-only">atsuko</span>.<span class="sr-only">ca</span>
+      </HomeLink>
 
       <Nav>
         <ul>
