@@ -6,12 +6,14 @@ import Layout from '../components/Layout'
 
 // Page builder components
 import ProjectsListing from '../components/ProjectsListing'
+import {MDContent} from '../components/Content'
 
 export const PageTemplate = ({
-  content,
-  description,
-  title,
   helmet,
+  title,
+  description,
+  content,
+  links
 }) => {
   return (
     <section>
@@ -23,6 +25,8 @@ export const PageTemplate = ({
           switch (block.type) {
             case 'ProjectsListing':
               return <ProjectsListing key={index} />;
+            case 'Body':
+              return <MDContent key={index} content={block.body} />;
             default:
               return null;
           }
@@ -78,6 +82,7 @@ export const pageQuery = graphql`
         description
         content {
           type
+          body
         }
       }
     }

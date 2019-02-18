@@ -48,4 +48,3 @@ content:
       perspective when working on multilingual projects.
     type: Body
 ---
-

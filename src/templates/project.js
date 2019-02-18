@@ -3,17 +3,15 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 
 export const ProjectTemplate = ({
   helmet,
   title,
   description,
   content,
-  contentComponent,
   links
 }) => {
-  const PostContent = contentComponent || Content
 
   return (
     <section>
@@ -26,7 +24,7 @@ export const ProjectTemplate = ({
           <p>{description}</p>
         </div>
         <div>
-          <PostContent content={content} />
+          <HTMLContent content={content} />
 
           {links && (
             <ul>
@@ -45,7 +43,6 @@ export const ProjectTemplate = ({
 
 ProjectTemplate.propTypes = {
   content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
@@ -58,7 +55,6 @@ const Project = ({ data }) => {
     <Layout>
       <ProjectTemplate
         content={post.html}
-        contentComponent={HTMLContent}
         description={post.frontmatter.description}
         links={post.frontmatter.links}
         helmet={
