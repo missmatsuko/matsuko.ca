@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
+import Hero from '../components/Hero'
 
 // Page builder components
 import ProjectsListing from '../components/ProjectsListing'
@@ -19,9 +20,9 @@ export const PageTemplate = ({
   return (
     <section>
       {helmet || ''}
+      <Hero headline={title} description={description} />
+
       <Container>
-        <h1>{title}</h1>
-        <p>{description}</p>
         {content && (content.map((block, index) => {
           switch (block.type) {
             case 'ProjectsListing':

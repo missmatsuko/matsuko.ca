@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background-color: white;
     color: #333;
-    line-height: 1.5;
+    line-height: 1.8;
     font-family: 'Asap', sans-serif;
   }
 
@@ -36,6 +36,30 @@ const GlobalStyle = createGlobalStyle`
 
   *:focus {
     outline: 2px solid currentColor;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1;
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  p {
+    margin: 0;
+
+    & + p {
+      margin-top: 10px;
+    }
   }
 
   a {

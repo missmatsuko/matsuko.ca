@@ -6,6 +6,7 @@ import { Box, Flex } from '@rebass/grid'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import Container from '../components/Container'
+import Hero from '../components/Hero'
 import Sidebar from '../components/Sidebar'
 
 export const ProjectTemplate = ({
@@ -20,14 +21,9 @@ export const ProjectTemplate = ({
   return (
     <section>
       {helmet || ''}
-      <Container>
-        <div>
-          <h1>
-            {title}
-          </h1>
-          <p>{description}</p>
-        </div>
+      <Hero headline={title} description={description} />
 
+      <Container>
         <Flex flexWrap="wrap" mx={[-10, -20]} flexDirection={['column-reverse','row']}>
           <Box p={[10,20]} width={[1, 2/3, 3/4]}>
             <HTMLContent content={content} />
