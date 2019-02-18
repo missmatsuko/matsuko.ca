@@ -64,8 +64,10 @@ const Header = styled(({ className }) => (
     </Container>
   </header>
 ))`
+  background-color: white;
   border-bottom: 1px solid #eee;
   position: sticky;
+  top: 0;
 
   .inner {
     display: flex;

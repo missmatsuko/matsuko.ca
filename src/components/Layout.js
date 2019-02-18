@@ -3,16 +3,31 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { ThemeProvider, createGlobalStyle } from 'styled-components'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const theme = {
 }
 
 const GlobalStyle = createGlobalStyle`
+  html, body, #___gatsby, #___gatsby>div {
+    height: 100%
+  }
+
+  #___gatsby>div {
+    display: flex;
+    flex-direction: column;
+  }
+
   body {
     margin: 0;
+    background-color: white;
     color: #333;
     line-height: 1.5;
     font-family: 'Asap', sans-serif;
+  }
+
+  main {
+    padding-bottom: 100px;
   }
 
   * {
@@ -88,6 +103,8 @@ const TemplateWrapper = ({ children }) => (
           <main>
             {children}
           </main>
+
+          <Footer />
 
           <GlobalStyle />
         </>
