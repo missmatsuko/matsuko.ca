@@ -8,25 +8,23 @@ projectType: Landing Page
 technologies:
   - HTML
   - CSS
+  - SCSS
   - JS
   - Twig
+  - Gulp
 links:
   - text: Live Site - English
     url: 'https://www.gotransit.com/etiquettefail/'
+  - text: PDF - English
+    url: https://www.gotransit.com/gotransit/etiquettefail/etiquetefail/Etiquette_Book.pdf
   - text: Site Live - en Français
     url: 'https://www.gotransit.com/manquedebienseance/'
+  - text: PDF - en Français
+    url: https://www.gotransit.com/gotransit/etiquettefail/manquedebienseance/Etiquette_Book_fr.pdf
+
 ---
 
-## Notes
-This project's content is unfinished. This is a collection of notes on things to include in the final post.
+## Summary
+GO Transit is the regional public transit service for the Greater Toronto and Hamilton Area. Together with DDB, they produced a book of "transit etiquette fails" entitled "Unwritten Rules of Transit Etiquette Written Down" (and in French, "Règles de bienséance non-écrites-maintenant-écrites en transport en commun"). The book is a compilation of "etiquette fails" suggested by GO Transit riders.
 
-### Technologies
-- HTML, CSS, JS
-
-### Other
-- Static page
-- Multilingual (FR + EN)
-
-### Links
-- PDF (en) (large file size): https://www.gotransit.com/gotransit/etiquettefail/etiquetefail/Etiquette_Book.pdf
-- PDF (fr) (large file size): https://www.gotransit.com/gotransit/etiquettefail/manquedebienseance/Etiquette_Book_fr.pdf
+This static landing page was created to promote the book, which is available in print and PDF, and in both official languages of Canada (English and French).

@@ -8,17 +8,15 @@ projectType: Website
 technologies:
   - HTML
   - CSS
+  - SCSS
   - JS
   - Twig
   - Craft CMS
+  - Webpack
 links:
   - text: Live Site
     url: 'https://exploreedmonton.com/'
 ---
 
-## Notes
-This project's content is unfinished. This is a collection of notes on things to include in the final post.
-
-### Technologies
-- HTML, CSS, JS
-- Craft CMS
+## Summary
+Website built with Craft CMS for Explore Edmonton/Edmonton Tourism.

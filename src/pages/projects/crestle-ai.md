@@ -9,22 +9,15 @@ technologies:
   - HTML
   - CSS
   - JS
-  - React
+  - React JS
   - Gatsby
-  - Surge
+  - Surge.sh
 links:
   - text: Live Site
     url: 'https://crestle.ai/'
+  - text: Stage Site
+    url: 'http://crestle-ai.surge.sh/'
 ---
 
-## Notes
-This project's content is unfinished. This is a collection of notes on things to include in the final post.
-
-### Technologies
-- HTML, CSS, JS
-- Gatsby
-- React
-- Surge.sh for preview http://crestle-ai.surge.sh/
-
-### Other:
-- More about: https://medium.com/@_doc_ai/doc-ai-launches-crestle-ai-a-one-click-deep-learning-platform-cbccaa441804
+## Summary
+New landing page designed and developed for Crestle.ai.

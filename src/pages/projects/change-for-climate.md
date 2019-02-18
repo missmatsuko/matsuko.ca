@@ -16,12 +16,5 @@ links:
     url: 'https://changeforclimate.ca/'
 ---
 
-## Notes
-This project's content is unfinished. This is a collection of notes on things to include in the final post.
-
-### Technologies
-- HTML, CSS, JS
-- Craft CMS
-
-### Other
-- Action cards and functionality
+## Summary
+Change for Climate is City of Edmonton's campaign to promote lifestyle changes to fight climate change.

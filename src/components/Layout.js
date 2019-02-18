@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     color: #333;
-    line-height: 1.3;
+    line-height: 1.5;
     font-family: 'Asap', sans-serif;
   }
 
