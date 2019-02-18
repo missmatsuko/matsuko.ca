@@ -35,6 +35,7 @@ The workshop was a success, and I became more interested in how browser extensio
 
 I'd been learning ASL at [Queer ASL](http://www.queerasl.com/) and often referred to Dr. Bill's videos. Since his videos are very short, I thought that playing a random video of his would be a great way to build ASL vocabulary.
 
+<!--
 ## Development
 I decided to pull videos from his YouTube channel since YouTube has APIs and his website's content is less structured and doesn't have an API (i.e. crawling it would've been a nightmare). During development, though, I found that YouTube's APIs aren't exactly a dream to work with, either, at least for the functionality of this plugin. At least I didn't have to worry about complex builds and legacy browsers since the extension is only downloadable on modern Firefox and Chrome.
 
@@ -61,6 +62,7 @@ For v2, I created an AWS Lambda function to get information from YouTube's Data 
 The front-end code now calls a file of video information created by the Lambda function. This file is cached, making it quicker to load videos.
 
 Since I was pulling out *all* third-party scripts to appease Firefox, I could no longer use the Iframe Player API to simulate looping single video embeds. I ended up finding another hacky workaround: it's possible to embed a playlist with a single video by setting the embed ID and playlist ID to the video's ID. Since it's possible to loop playlist embeds, and this playlist only contains the video I want to loop, it has the same effect as looping a single video.
+-->
 
 ## Results
 After building the first version of ASL Tab, I shared it with Dr. Bill who then shared it with his ASL learners' Facebook group.
