@@ -5,7 +5,7 @@ title: Logitech Skype Room Systems Decision Tree
 description: >-
   A quiz and informational landing page to help choose the right video
   conferencing solution for an organization.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/logitech-logo.png
 projectType: Landing Page
 technologies:
   - HTML

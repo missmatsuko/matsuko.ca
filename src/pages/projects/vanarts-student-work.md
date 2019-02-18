@@ -1,11 +1,11 @@
 ---
 templateKey: project
-date: 2019-01-16T00:00:00.000Z
+date: 2016-09-16T00:00:00.000Z
 title: VanArts Student Work
 description: >-
   A collection of projects from my year in VanArts' one-year Web Development and
   Interactive Design program.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/vanarts-logo.png
 projectType: Website
 technologies:
   - HTML

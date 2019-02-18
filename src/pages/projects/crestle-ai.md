@@ -3,7 +3,7 @@ templateKey: project
 date: 2019-01-01T00:00:00.000Z
 title: Crestle.ai
 description: 'Website for Crestle.ai, a one-click deep learning platform.'
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/crestle-ai-logo.png
 projectType: Landing Page
 technologies:
   - HTML

@@ -3,7 +3,7 @@ templateKey: project
 date: 2017-11-08T00:00:00.000Z
 title: Change for Climate
 description: Website for the City of Edmonton's environmental program.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/change-for-climate-logo.png
 projectType: Website
 technologies:
   - HTML

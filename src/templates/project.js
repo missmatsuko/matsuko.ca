@@ -6,26 +6,37 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ProjectTemplate = ({
+  helmet,
+  title,
+  description,
   content,
   contentComponent,
-  description,
-  title,
-  helmet,
+  links
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-          </div>
+      <div className="container">
+        <div>
+          <h1>
+            {title}
+          </h1>
+          <p>{description}</p>
+        </div>
+        <div>
+          <PostContent content={content} />
+
+          {links && (
+            <ul>
+              {links.map((link, index) => (
+                <li key={index}>
+                  <a href={link.url}>{link.text}</a>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </section>
@@ -49,6 +60,7 @@ const Project = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        links={post.frontmatter.links}
         helmet={
           <Helmet
             titleTemplate="%s | Projects"
@@ -80,6 +92,10 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        links {
+          text
+          url
+        }
       }
     }
   }

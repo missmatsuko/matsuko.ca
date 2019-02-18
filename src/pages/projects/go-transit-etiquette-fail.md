@@ -1,9 +1,9 @@
 ---
 templateKey: project
 date: 2018-01-17T00:00:00.000Z
-title: GO Transit Etiquette Fail
+title: "GO Transit #EtiquetteFail"
 description: Landing page to promote GO Transit's book on transit etiquette.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/go-transit-etiquette-fail-book.png
 projectType: Landing Page
 technologies:
   - HTML

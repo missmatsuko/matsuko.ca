@@ -4,6 +4,7 @@ import { Link, graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 import Grid from '../components/Grid'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const ProjectsListingItem = styled.div`
   text-align: center;
@@ -28,16 +29,6 @@ const ProjectsListingItem = styled.div`
 
   .image {
     background-color: gray;
-    padding-bottom: 100%;
-    position: relative;
-
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
   }
 
   .text {
@@ -70,7 +61,7 @@ class ProjectsListing extends React.Component {
                 <p className="category">{post.frontmatter.projectType}</p>
               </Link>
               <div className="image">
-                <img src="https://picsum.photos/200/300/?random" alt="" />
+                <PreviewCompatibleImage imageInfo={post.frontmatter.thumbnail} />
               </div>
             </ProjectsListingItem>
         )))}
@@ -105,6 +96,13 @@ export default () => (
               title
               templateKey
               projectType
+              thumbnail {
+                childImageSharp {
+                  fluid(maxHeight: 500, maxWidth: 500, quality: 64) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
           }
         }

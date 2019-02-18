@@ -3,7 +3,7 @@ templateKey: project
 date: 2018-09-27T00:00:00.000Z
 title: Explore Edmonton
 description: Website for Edmonton Tourism.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/explore-edmonton-logo.png
 projectType: Website
 technologies:
   - HTML

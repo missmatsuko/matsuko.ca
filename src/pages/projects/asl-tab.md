@@ -5,7 +5,7 @@ title: ASL Tab
 description: >-
   A browser extension that helps you learn a little American Sign Language (ASL)
   every time you open a new tab.
-thumbnail: /img/flavor_wheel.jpg
+thumbnail: /img/projects/asl-tab-icon.png
 projectType: Other
 technologies:
   - HTML
