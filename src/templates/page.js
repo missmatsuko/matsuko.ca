@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Container from '../components/Container'
 
 // Page builder components
 import ProjectsListing from '../components/ProjectsListing'
@@ -18,7 +19,7 @@ export const PageTemplate = ({
   return (
     <section>
       {helmet || ''}
-      <div className="container">
+      <Container>
         <h1>{title}</h1>
         <p>{description}</p>
         {content && (content.map((block, index) => {
@@ -31,7 +32,7 @@ export const PageTemplate = ({
               return null;
           }
         }))}
-      </div>
+      </Container>
     </section>
   )
 }
@@ -53,7 +54,7 @@ const Page = ({ data }) => {
         content={post.frontmatter.content}
         helmet={
           <Helmet
-            titleTemplate="%s | Pages"
+            titleTemplate="%s"
           >
             <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.description}`} />

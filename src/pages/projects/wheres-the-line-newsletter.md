@@ -10,7 +10,6 @@ technologies:
   - CSS
   - SCSS
   - JS
-  - ''
 links:
   - text: Live Site
     url: 'https://wherestheline.ca/newsletter/'

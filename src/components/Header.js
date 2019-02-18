@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import Container from '../components/Container'
 
 const Nav = styled.nav`
   font-weight: 700;
@@ -36,7 +37,7 @@ const Nav = styled.nav`
 
 const Header = styled(({ className }) => (
   <header className={className}>
-    <div className="container">
+    <Container className="inner">
       <Link to="/">
         matsuko.ca
       </Link>
@@ -60,13 +61,13 @@ const Header = styled(({ className }) => (
           </li>
         </ul>
       </Nav>
-    </div>
+    </Container>
   </header>
 ))`
   border-bottom: 1px solid #eee;
   position: sticky;
 
-  .container {
+  .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;

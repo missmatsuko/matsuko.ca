@@ -2,15 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
-
-import Grid from '../components/Grid'
+import { Flex } from '@rebass/grid'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const ProjectsListingItem = styled.div`
+const ProjectsListingItem = styled(Flex)`
   text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
   position: relative;
 
   a {
@@ -29,6 +25,7 @@ const ProjectsListingItem = styled.div`
 
   .image {
     background-color: gray;
+    z-index: -1;
   }
 
   .text {
@@ -52,10 +49,16 @@ class ProjectsListing extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <Grid columns={4} gutter="10px">
+      <Flex flexWrap='wrap' m={-10}>
         {posts && (posts
           .map(({ node: post }) => (
-            <ProjectsListingItem key={post.id}>
+            <ProjectsListingItem
+              key={post.id}
+              width={[1/2, 1/3, 1/4]}
+              p={10}
+              flexDirection='column-reverse'
+              justifyContent='flex-end'
+            >
               <Link to={post.fields.slug} className="text">
                 <h3 className="title">{post.frontmatter.title}</h3>
                 <p className="category">{post.frontmatter.projectType}</p>
@@ -65,7 +68,7 @@ class ProjectsListing extends React.Component {
               </div>
             </ProjectsListingItem>
         )))}
-      </Grid>
+      </Flex>
     );
   }
 }

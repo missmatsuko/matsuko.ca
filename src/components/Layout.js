@@ -1,9 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { createGlobalStyle } from 'styled-components'
-
+import { ThemeProvider, createGlobalStyle } from 'styled-components'
 import Header from '../components/Header'
+
+const theme = {
+}
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -19,14 +21,6 @@ const GlobalStyle = createGlobalStyle`
 
   *:focus {
     outline: 2px solid currentColor;
-  }
-
-  .container {
-    max-width: 900px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   a {
@@ -68,34 +62,36 @@ const TemplateWrapper = ({ children }) => (
         }
     `}
     render={data => (
-      <>
-        <Helmet>
-          <html lang="en" />
-          <title>{data.site.siteMetadata.title}</title>
-          <meta name="description" content={data.site.siteMetadata.description} />
+      <ThemeProvider theme={theme}>
+        <>
+          <Helmet>
+            <html lang="en" />
+            <title>{data.site.siteMetadata.title}</title>
+            <meta name="description" content={data.site.siteMetadata.description} />
 
-          <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-	        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+  	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+  	        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
 
-	        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" />
-	        <meta name="theme-color" content="#fff" />
+  	        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" />
+  	        <meta name="theme-color" content="#fff" />
 
-	        <meta property="og:type" content="business.business" />
-          <meta property="og:title" content={data.site.siteMetadata.title} />
-          <meta property="og:url" content="/" />
-          <meta property="og:image" content="/img/og-image.jpg" />
-          <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet" />
-        </Helmet>
+  	        <meta property="og:type" content="business.business" />
+            <meta property="og:title" content={data.site.siteMetadata.title} />
+            <meta property="og:url" content="/" />
+            <meta property="og:image" content="/img/og-image.jpg" />
+            <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet" />
+          </Helmet>
 
-        <Header />
+          <Header />
 
-        <main>
-          {children}
-        </main>
+          <main>
+            {children}
+          </main>
 
-        <GlobalStyle />
-      </>
+          <GlobalStyle />
+        </>
+      </ThemeProvider>
     )}
   />
 )
