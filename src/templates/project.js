@@ -8,6 +8,7 @@ import { HTMLContent } from '../components/Content'
 import Container from '../components/Container'
 import Hero from '../components/Hero'
 import Sidebar from '../components/Sidebar'
+import Link from '../components/Link'
 
 export const ProjectTemplate = ({
   helmet,
@@ -37,7 +38,7 @@ export const ProjectTemplate = ({
                   <ul>
                     {links.map((link, index) => (
                       <li key={index}>
-                        <a href={link.url}>{link.text}</a>
+                        <Link href={link.url}>{link.text}</Link>
                       </li>
                     ))}
                   </ul>

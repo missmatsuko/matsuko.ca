@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import { Flex } from '@rebass/grid'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Link from '../components/Link'
 
 const ProjectsListingItem = styled(Flex)`
   text-align: center;
