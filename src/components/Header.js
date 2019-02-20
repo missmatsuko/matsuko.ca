@@ -43,30 +43,26 @@ const Nav = styled.nav`
   }
 `
 
+const NavItem = ({to, children}) => (
+  <li>
+    <Link to={to} activeClassName="active">
+      {children}
+    </Link>
+  </li>
+)
+
 const Header = styled(({ className }) => (
   <header className={className}>
     <Container className="inner">
       <HomeLink to="/">
-        m<span class="sr-only">atsuko</span>.<span class="sr-only">ca</span>
+        m<span className="sr-only">atsuko</span>.<span className="sr-only">ca</span>
       </HomeLink>
 
       <Nav>
         <ul>
-          <li>
-            <Link to="/" activeClassName="active">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/projects" activeClassName="active">
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" activeClassName="active">
-              About
-            </Link>
-          </li>
+          <NavItem to="/">Home</NavItem>
+          <NavItem to="/projects">Projects</NavItem>
+          <NavItem to="/about">About</NavItem>
         </ul>
       </Nav>
     </Container>
