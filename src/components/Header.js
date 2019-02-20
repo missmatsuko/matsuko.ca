@@ -81,5 +81,4 @@ const Header = styled(({ className }) => (
   }
 `;
 
-
 export default Header

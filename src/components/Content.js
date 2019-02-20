@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import remark from 'remark';
 import recommended from 'remark-preset-lint-recommended';
 import remarkHtml from 'remark-html';
@@ -22,13 +21,5 @@ export const MDContent = ({ content }) => {
 const Content = ({ content }) => (
   <div>{content}</div>
 )
-
-Content.propTypes = {
-  content: PropTypes.node,
-}
-
-HTMLContent.propTypes = Content.propTypes
-
-MDContent.propTypes = Content.propTypes
 
 export default Content

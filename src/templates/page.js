@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -38,12 +37,6 @@ export const PageTemplate = ({
   )
 }
 
-PageTemplate.propTypes = {
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
-}
-
 const Page = ({ data }) => {
   const { markdownRemark: post } = data
 
@@ -66,19 +59,12 @@ const Page = ({ data }) => {
   )
 }
 
-Page.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
 export default Page
 
 export const pageQuery = graphql`
   query PageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         title
         description

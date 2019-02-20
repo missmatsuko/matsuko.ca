@@ -39,5 +39,4 @@ const Sidebar = styled(({ className, children }) => (
   }
 `;
 
-
 export default Sidebar

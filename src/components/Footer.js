@@ -15,5 +15,4 @@ const Footer = styled(({ className }) => (
   margin-top: auto;
 `;
 
-
 export default Footer

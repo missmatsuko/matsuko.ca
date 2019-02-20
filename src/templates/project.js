@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Box, Flex } from '@rebass/grid'
@@ -65,13 +64,6 @@ export const ProjectTemplate = ({
   )
 }
 
-ProjectTemplate.propTypes = {
-  helmet: PropTypes.object,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  content: PropTypes.node.isRequired,
-}
-
 const Project = ({ data }) => {
   const { markdownRemark: post } = data
 
@@ -96,12 +88,6 @@ const Project = ({ data }) => {
   )
 }
 
-Project.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
 export default Project
 
 export const pageQuery = graphql`
@@ -110,7 +96,6 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
         description
         links {
