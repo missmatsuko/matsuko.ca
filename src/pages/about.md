@@ -2,7 +2,13 @@
 templateKey: page
 date: 2019-02-16T00:00:00.000Z
 title: About
-description: All about me.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: All about me.
+  body:
 links:
   - text: LinkedIn
     url: 'https://www.linkedin.com/in/matsuko/'

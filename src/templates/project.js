@@ -10,18 +10,16 @@ import Sidebar from '../components/Sidebar'
 import Link from '../components/Link'
 
 export const ProjectTemplate = ({
-  helmet,
   title,
-  description,
-  content,
   links,
-  technologies
+  technologies,
+  hero,
+  content,
 }) => {
 
   return (
     <section>
-      {helmet || ''}
-      <Hero headline={title} description={description} />
+      <Hero headline={hero.headline || title} description={hero.subheadline} />
 
       <Container>
         <Flex flexWrap="wrap" mx={[-10, -20]} flexDirection={['column-reverse','row']}>
@@ -69,20 +67,22 @@ const Project = ({ data }) => {
 
   return (
     <Layout>
+      <Helmet
+        titleTemplate="%s | Projects | Matsuko Friedland"
+      >
+        <title>{`${post.frontmatter.seo.title || post.frontmatter.title}`}</title>
+
+        {post.frontmatter.seo.description && (
+          <meta name="description" content={`${post.frontmatter.seo.description}`} />
+        )}
+      </Helmet>
+
       <ProjectTemplate
-        content={post.html}
-        description={post.frontmatter.description}
+        title={post.frontmatter.title}
         links={post.frontmatter.links}
         technologies={post.frontmatter.technologies}
-        helmet={
-          <Helmet
-            titleTemplate="%s | Projects"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
-          </Helmet>
-        }
-        title={post.frontmatter.title}
+        hero={post.frontmatter.hero}
+        content={post.html}
       />
     </Layout>
   )
@@ -97,12 +97,19 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        description
+        seo {
+          title
+          description
+        }
         links {
           text
           url
         }
         technologies
+        hero {
+          headline
+          subheadline
+        }
       }
     }
   }

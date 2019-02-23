@@ -17,19 +17,19 @@ common_fields:
     widget: date
 
   links: &links
-    label: "Links"
-    name: "links"
-    widget: "list"
+    label: Links
+    name: links
+    widget: list
     required: false
     fields:
-      - label: "Link Text"
-        name: "text"
-        widget: "string"
-      - label: "Link URL"
-        name: "url"
-        widget: "string"
+      - label: Link Text
+        name: text
+        widget: string
+      - label: Link URL
+        name: url
+        widget: string
         pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
-  ', "Must be a valid URL. (e.g. https://www.google.com)"]
+  ', Must be a valid URL. (e.g. https://www.google.com)]
 
   seo: &seo
     label: SEO
@@ -54,68 +54,68 @@ common_fields:
       - label: Subheadline
         name: subheadline
         widget: string
-      - label: body
+      - label: Body
         name: body
         widget: markdown
 
 collections:
-  - name: "page"
-    label: "Page"
+  - name: page
+    label: Page
     folder: src/pages
     slug: "{{slug}}"
     create: true
     fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "page"
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: page
       - <<: *title
       - <<: *publish_date
       - <<: *seo
       - <<: *links
       - <<: *hero
-      - label: "Content"
-        name: "content"
-        widget: "list"
+      - label: Content
+        name: content
+        widget: list
         types:
-          - label: "Body"
-            name: "Body"
-            widget: "object"
+          - label: Body
+            name: Body
+            widget: object
             fields:
-              - label: "Body"
-                name: "body"
-                widget: "markdown"
-          - label: "Projects Listing"
-            name: "ProjectsListing"
-            widget: "object"
+              - label: Body
+                name: body
+                widget: markdown
+          - label: Projects Listing
+            name: ProjectsListing
+            widget: object
 
-  - name: "project"
-    label: "Project"
-    folder: "src/pages/projects"
+  - name: project
+    label: Project
+    folder: src/pages/projects
     create: true
     slug: "{{slug}}"
     fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "project"
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: project
       - <<: *title
       - <<: *publish_date
       - <<: *seo
-      - label: "Thumbnail"
-        name: "thumbnail"
+      - label: Thumbnail
+        name: thumbnail
         widget: image
         allow_multiple: false
-      - label: "Project Type"
-        name: "projectType"
-        widget: "select"
-        options: ["Website", "Landing Page", "Other"]
-      - label: "Technologies"
-        name: "technologies"
-        widget: "list"
+      - label: Project Type
+        name: projectType
+        widget: select
+        options: [Website, Landing Page, Other]
+      - label: Technologies
+        name: technologies
+        widget: list
         required: false
       - <<: *links
       - <<: *hero
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
+      - label: Body
+        name: body
+        widget: markdown

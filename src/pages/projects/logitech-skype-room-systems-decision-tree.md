@@ -2,7 +2,13 @@
 templateKey: project
 date: 2017-02-01T00:00:00.000Z
 title: Logitech Skype Room Systems Decision Tree
-description: Landing page featuring an interactive decision tree.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: Landing page featuring an interactive decision tree.
+  body:
 thumbnail: /img/projects/logitech-logo.png
 projectType: Landing Page
 technologies:

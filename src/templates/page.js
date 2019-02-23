@@ -10,16 +10,13 @@ import ProjectsListing from '../components/ProjectsListing'
 import {MDContent} from '../components/Content'
 
 export const PageTemplate = ({
-  helmet,
   title,
-  description,
-  content,
-  links
+  hero,
+  content
 }) => {
   return (
     <section>
-      {helmet || ''}
-      <Hero headline={title} description={description} />
+      <Hero headline={hero.headline || title} description={hero.subheadline} />
 
       <Container>
         {content && (content.map((block, index) => {
@@ -42,18 +39,21 @@ const Page = ({ data }) => {
 
   return (
     <Layout>
+      <Helmet
+        titleTemplate="%s | Matsuko Friedland"
+      >
+        <title>{`${post.frontmatter.seo.title || post.frontmatter.title}`}</title>
+
+        {post.frontmatter.seo.description && (
+          <meta name="description" content={`${post.frontmatter.seo.description}`} />
+        )}
+      </Helmet>
+
       <PageTemplate
         title={post.frontmatter.title}
-        description={post.frontmatter.description}
+        hero={post.frontmatter.hero}
         content={post.frontmatter.content}
-        helmet={
-          <Helmet
-            titleTemplate="%s"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
-          </Helmet>
-        }
+        links={post.frontmatter.links}
       />
     </Layout>
   )
@@ -67,10 +67,21 @@ export const pageQuery = graphql`
       id
       frontmatter {
         title
-        description
+        seo {
+          title
+          description
+        }
+        hero {
+          headline
+          subheadline
+        }
         content {
           type
           body
+        }
+        links {
+          text
+          url
         }
       }
     }

@@ -2,9 +2,13 @@
 templateKey: project
 date: 2016-09-16T00:00:00.000Z
 title: VanArts Student Work
-description: >-
-  A collection of projects from my year in VanArts' one-year Web Development and
-  Interactive Design program.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: A collection of projects from my year in VanArts\' one-year Web Development and Interactive Design program.
+  body:
 thumbnail: /img/projects/vanarts-logo.png
 projectType: Website
 technologies:

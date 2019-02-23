@@ -2,7 +2,13 @@
 templateKey: project
 date: 2017-10-30T00:00:00.000Z
 title: SKY Residences
-description: Website for new residences in the centre of Edmonton's ICE District.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: Website for new residences in the centre of Edmonton's ICE District.
+  body:
 thumbnail: /img/projects/sky-residences-logo.png
 projectType: Website
 technologies:

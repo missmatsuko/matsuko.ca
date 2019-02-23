@@ -2,7 +2,13 @@
 templateKey: project
 date: 2018-02-16T00:00:00.000Z
 title: Where's the Line? Newsletter
-description: Landing page to promote Where's the Line? Power Line Safety newsletter.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: Landing page to promote Where's the Line? Power Line Safety newsletter.
+  body:
 thumbnail: /img/projects/wheres-the-line-logo.png
 projectType: Landing Page
 technologies:

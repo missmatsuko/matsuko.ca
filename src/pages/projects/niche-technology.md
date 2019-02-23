@@ -2,7 +2,13 @@
 templateKey: project
 date: 2017-04-01T00:00:00.000Z
 title: Niche Technology
-description: WordPress website for Niche Technology.
+seo:
+  title:
+  description:
+hero:
+  headline:
+  subheadline: WordPress website for Niche Technology.
+  body:
 thumbnail: /img/projects/niche-rms-logo.png
 projectType: Website
 technologies:
