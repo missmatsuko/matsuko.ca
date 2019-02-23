@@ -16,7 +16,11 @@ export const PageTemplate = ({
 }) => {
   return (
     <section>
-      <Hero headline={hero.headline || title} description={hero.subheadline} />
+      <Hero
+        headline={hero.headline || title}
+        subheadline={hero.subheadline}
+        body={hero.body}
+      />
 
       <Container>
         {content && (content.map((block, index) => {
@@ -74,6 +78,7 @@ export const pageQuery = graphql`
         hero {
           headline
           subheadline
+          body
         }
         content {
           type

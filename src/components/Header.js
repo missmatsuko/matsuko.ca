@@ -70,8 +70,9 @@ const Header = styled(({ className }) => (
 ))`
   background-color: white;
   border-bottom: 1px solid #eee;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1;
 
   .inner {
