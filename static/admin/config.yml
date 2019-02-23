@@ -5,8 +5,60 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-collections:
+common_fields:
+  title: &title
+    label: Title
+    name: title
+    widget: string
 
+  publishDate: &publish_date
+    label: Publish Date
+    name: date
+    widget: date
+
+  links: &links
+    label: "Links"
+    name: "links"
+    widget: "list"
+    required: false
+    fields:
+      - label: "Link Text"
+        name: "text"
+        widget: "string"
+      - label: "Link URL"
+        name: "url"
+        widget: "string"
+        pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+  ', "Must be a valid URL. (e.g. https://www.google.com)"]
+
+  seo: &seo
+    label: SEO
+    name: seo
+    widget: object
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+
+  hero: &hero
+    label: Hero
+    name: hero
+    widget: object
+    fields:
+      - label: Headline
+        name: headline
+        widget: string
+      - label: Subheadline
+        name: subheadline
+        widget: string
+      - label: body
+        name: body
+        widget: markdown
+
+collections:
   - name: "page"
     label: "Page"
     folder: src/pages
@@ -17,29 +69,11 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "page"
-      - label: "Publish Date"
-        name: "date"
-        widget: "date"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Description"
-        name: "description"
-        widget: "text"
-        required: false
-      - label: "Links"
-        name: "links"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Link Text"
-            name: "text"
-            widget: "string"
-          - label: "Link URL"
-            name: "url"
-            widget: "string"
-            pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
-', "Must be a valid URL. (e.g. https://www.google.com)"]
+      - <<: *title
+      - <<: *publish_date
+      - <<: *seo
+      - <<: *links
+      - <<: *hero
       - label: "Content"
         name: "content"
         widget: "list"
@@ -54,9 +88,6 @@ collections:
           - label: "Projects Listing"
             name: "ProjectsListing"
             widget: "object"
-          - label: "Homepage Hero"
-            name: "HomepageHero"
-            widget: "object"
 
   - name: "project"
     label: "Project"
@@ -68,16 +99,9 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "project"
-      - label: "Publish Date"
-        name: "date"
-        widget: "date"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Description"
-        name: "description"
-        widget: "text"
-        required: false
+      - <<: *title
+      - <<: *publish_date
+      - <<: *seo
       - label: "Thumbnail"
         name: "thumbnail"
         widget: image
@@ -90,19 +114,8 @@ collections:
         name: "technologies"
         widget: "list"
         required: false
-      - label: "Links"
-        name: "links"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Link Text"
-            name: "text"
-            widget: "string"
-          - label: "Link URL"
-            name: "url"
-            widget: "string"
-            pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
-', "Must be a valid URL. (e.g. https://www.google.com)"]
+      - <<: *links
+      - <<: *hero
       - label: "Body"
         name: "body"
         widget: "markdown"
