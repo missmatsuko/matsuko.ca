@@ -5,18 +5,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `matsuko.ca`,
-        short_name: `matsuko.ca`,
-        start_url: `/`,
-        background_color: `#FFFFFF`,
-        theme_color: `#FFFFFF`,
-        icon: `src/img/logo.svg`,
-        include_favicon: true,
-      },
-    },
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -38,6 +26,18 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: 'images',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `matsuko.ca`,
+        short_name: `matsuko.ca`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FFFFFF`,
+        icon: `src/img/logo.svg`,
+        include_favicon: true,
       },
     },
     'gatsby-plugin-sharp',
