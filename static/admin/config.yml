@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: matsuko-ca
+  branch: master
 
 media_folder: static/img
 public_folder: /img
