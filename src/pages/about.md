@@ -1,19 +1,15 @@
 ---
 templateKey: page
-date: 2019-02-16T00:00:00.000Z
 title: About
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: All about me.
-  body:
+date: 2019-02-16T00:00:00.000Z
+seo: {}
 links:
   - text: LinkedIn
     url: 'https://www.linkedin.com/in/matsuko/'
   - text: GitHub
     url: 'https://github.com/missmatsuko'
+hero:
+  subheadline: All about me.
 content:
   - body: >-
       ## Contact
@@ -48,9 +44,8 @@ content:
       Aside from web development, she enjoys trying new foods and learning new
       things, especially languages. Matsuko has varying levels of skill in a
       variety of languages, including English, Japanese, Mandarin Chinese,
-
-
       French, and American Sign Language (ASL). This gives her an advantageous
       perspective when working on multilingual projects.
     type: Body
 ---
+
