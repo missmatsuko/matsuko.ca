@@ -28,18 +28,18 @@ module.exports = {
         name: 'images',
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `matsuko.ca`,
-        short_name: `matsuko.ca`,
-        start_url: `/`,
-        background_color: `#FFFFFF`,
-        theme_color: `#FFFFFF`,
-        icon: `src/img/logo.svg`,
-        include_favicon: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `matsuko.ca`,
+    //     short_name: `matsuko.ca`,
+    //     start_url: `/`,
+    //     background_color: `#FFFFFF`,
+    //     theme_color: `#FFFFFF`,
+    //     icon: `src/img/logo.svg`,
+    //     include_favicon: true,
+    //   },
+    // },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
