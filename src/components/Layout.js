@@ -107,7 +107,6 @@ const TemplateWrapper = ({ children }) => (
             <html lang="en" />
             <title>{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description} />
-            <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet" />
           </Helmet>
 
           <Header />
