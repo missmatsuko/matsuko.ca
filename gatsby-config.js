@@ -46,6 +46,10 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-external-links', // Add target and rel to external links
+          'gatsby-remark-smartypants', // Fix dumbquotes, etc.
+          'gatsby-remark-autolink-headers', // Add anchors to headings
+          'gatsby-remark-responsive-iframe', // Make iframes responsive
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
