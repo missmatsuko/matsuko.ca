@@ -17,5 +17,5 @@ $ npm start
 ```
 To test the CMS locally, you'll need run a production build of the site:
 ```
-$ npm run build && npm run serve
+$ npm run build-dev && npm run serve
 ```
