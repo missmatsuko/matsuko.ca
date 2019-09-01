@@ -1,7 +1,11 @@
 {
   "name": "matsuko-ca",
+  "description": "Gridsome + Netlify porfolio site",
+  "version": "2.0.0",
+  "author": "Matsuko Friedland <info@matsuko.ca>",
   "private": true,
   "scripts": {
+    "start": "gridsome develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
