@@ -9,7 +9,9 @@
         <g-link class="nav__link" to="/about">About</g-link>
       </nav>
     </header>
-    <slot/>
+    <main>
+      <slot/>
+    </main>
   </div>
 </template>
 

@@ -1,19 +1,22 @@
 <template>
   <Layout>
-    
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-    
-    <h1>Hello, world!</h1>
-   
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
 
-    <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    <div>
+      <h1>Matsuko Friedland</h1>
+
+      <p>[ˈma.t͡sɯ̥.ko ˈfɹiːd.lənd]<em>proper noun</em></p>
+
+      <ol>
+        <li>Front-End Engineer at <a href="https://zaengle.com/">Zaengle</a>.</li>
+        <li>Formerly at <a href="https://yorkandchapel.com/">York & Chapel</a> and <a href="https://tribalworldwide.ca/">Tribal Worldwide/DDB</a>.</li>
+        <li>Honours graduate of <a href="https://www.vanarts.com/programs/web-development-interactive-design/">VanArts' Web Development and Interactive Design Program</a></li>
+        <li>Web developer and designer with interests in accessibility and UX.</li>
+      </ol>
+
+      <hr>
+
+      <small>See Also: <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>, <a href="https://github.com/missmatsuko">GitHub</a>, <a href="https://codepen.io/missmatsuko/">CodePen</a></small>
+    </div>
 
   </Layout>
 </template>
@@ -21,13 +24,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 </style>
