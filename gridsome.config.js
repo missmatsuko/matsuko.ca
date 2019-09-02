@@ -15,10 +15,18 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        path: "blog/*.md",
+        baseDir: "./src/data",
+        typeName: "Blog"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         path: "portfolio/*.md",
         baseDir: "./src/data",
         typeName: "Portfolio"
       }
-    }
-  ]
+    },
+  ],
 };
