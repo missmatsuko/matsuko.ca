@@ -1,15 +1,25 @@
 <template>
   <header>
-    <g-link to="/">Home</g-link>
+    <Link to="/">Home</Link>
 
     <nav>
-      <g-link class="nav__link" to="/">Home</g-link>
-      <g-link class="nav__link" to="/portfolio">Portfolio</g-link>
-      <g-link class="nav__link" to="/blog">Blog</g-link>
-      <g-link class="nav__link" to="/about">About</g-link>
+      <Link class="nav__link" to="/">Home</Link>
+      <Link class="nav__link" to="/portfolio">Portfolio</Link>
+      <Link class="nav__link" to="/blog">Blog</Link>
+      <Link class="nav__link" to="/about">About</Link>
     </nav>
   </header>
 </template>
+
+<script>
+  import Link from '~/components/Link.vue';
+
+  export default {
+    components: {
+      Link,
+    },
+  };
+</script>
 
 <style>
   header {
