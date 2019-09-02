@@ -6,5 +6,19 @@
 
 module.exports = {
   siteName: 'Matsuko Friedland',
-  plugins: []
-}
+
+  transformers: {
+    remark: {}
+  },
+
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "portfolio/*.md",
+        baseDir: "./src/data",
+        typeName: "Portfolio"
+      }
+    }
+  ]
+};
