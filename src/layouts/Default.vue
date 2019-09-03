@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <Header />
-    <main>
+    <main class="main">
       <slot/>
     </main>
   </div>
@@ -25,23 +25,14 @@
   };
 </script>
 
-<style>
-  html,
-  body,
+<style scoped>
   .layout {
     height: 100%;
-  }
-
-  body {
-    margin: 0;
-  }
-
-  .layout {
     display: flex;
     flex-direction: column;
   }
 
-  main {
+  .main {
     flex-grow: 1;
   }
 </style>

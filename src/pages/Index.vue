@@ -1,11 +1,11 @@
 <template>
   <Layout>
 
-    <div class="page page-index">
-      <div>
+    <section class="page page-index">
+      <div class="container rich-text">
         <h1>Matsuko Friedland</h1>
 
-        <p>[ˈma.t͡sɯ̥.ko ˈfɹiːd.lənd]<em>proper noun</em></p>
+        <p>[ˈma.t͡sɯ̥.ko ˈfɹiːd.lənd] <em>proper noun</em></p>
 
         <ol>
           <li>Front-End Engineer at <a href="https://zaengle.com/">Zaengle</a>.</li>
@@ -18,7 +18,7 @@
 
         <small>See Also: <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>, <a href="https://github.com/missmatsuko">GitHub</a>, <a href="https://codepen.io/missmatsuko/">CodePen</a></small>
       </div>
-    </div>
+    </section>
 
   </Layout>
 </template>

@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #333;
+  --color-secondary: #FFF;
+  --color-gray-extra-light: #EEE;
+  --color-gray-light: #CCC;
+
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 30px;
+
+  --container-max-width: 900px;
+}

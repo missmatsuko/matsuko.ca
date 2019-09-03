@@ -1,12 +1,12 @@
 <template>
   <Layout>
+    <section class="container">
+      <h1>Blog</h1>
 
-  <h1>Blog</h1>
-
-  <div v-for="edge in $page.posts.edges" :key="edge.node.id">
-    <h2>{{ edge.node.title }}</h2>
-  </div>  
-
+      <div v-for="edge in $page.posts.edges" :key="edge.node.id">
+        <h2>{{ edge.node.title }}</h2>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -14,7 +14,7 @@
 query Posts {
   posts: allBlog {
     edges {
-      node { 
+      node {
         id
         title
       }
