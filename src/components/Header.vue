@@ -16,9 +16,6 @@
   </header>
 </template>
 
-<page-query>
-</page-query>
-
 <script>
   export default {
     data: () => ({

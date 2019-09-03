@@ -4,9 +4,11 @@
   --color-gray-extra-light: #EEE;
   --color-gray-light: #CCC;
 
+  --spacing-xs: 5px;
   --spacing-sm: 10px;
   --spacing-md: 15px;
   --spacing-lg: 30px;
+  --spacing-xl: 60px;
 
   --container-max-width: 900px;
 }

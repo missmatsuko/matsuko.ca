@@ -19,5 +19,18 @@
 }
 
 .rich-text > *:not(:last-child) {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+/*
+  TODO: Use `:is()` selector when autoprefixer plugin is available:
+  https://github.com/postcss/postcss-selector-matches/issues/19
+*/
+.rich-text h1:not(:first-child),
+.rich-text h2:not(:first-child),
+.rich-text h3:not(:first-child),
+.rich-text h4:not(:first-child),
+.rich-text h5:not(:first-child),
+.rich-text h6:not(:first-child) {
+  margin-top: var(--spacing-lg);
 }

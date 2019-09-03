@@ -1,10 +1,16 @@
 <template>
   <Layout>
-    <section class="container">
-      <h1>Blog</h1>
+    <section>
+      <Intro
+        :title="title"
+        :description="description"
+      />
 
-      <div v-for="edge in $page.posts.edges" :key="edge.node.id">
-        <h2>{{ edge.node.title }}</h2>
+      <div class="container">
+        <!-- TODO: style blog listing -->
+        <div v-for="edge in $page.posts.edges" :key="edge.node.id">
+          <h2>{{ edge.node.title }}</h2>
+        </div>
       </div>
     </section>
   </Layout>
@@ -24,9 +30,25 @@ query Posts {
 </page-query>
 
 <script>
+import Intro from '~/components/Intro.vue';
+
 export default {
-  metaInfo: {
-    title: 'Blog'
-  }
+  components: {
+    Intro,
+  },
+  data: () => ({
+    title: 'Blog',
+    description: 'Things I\'ve written.',
+  }),
+  metaInfo: () => ({
+    title: this.title,
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: this.description,
+      }
+    ],
+  })
 }
 </script>
