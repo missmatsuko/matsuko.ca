@@ -20,7 +20,7 @@ technologies:
   - Gulp
 links:
   - text: Live Site - English
-    url: 'https://www.gotransit.com/etiquettefail/'etiquetefail/Etiquette_Book.pdf
+    url: 'https://www.gotransit.com/etiquettefail/etiquetefail/Etiquette_Book.pdf'
   - text: Site Live - en Français
     url: 'https://www.gotransit.com/manquedebienseance/'
 
