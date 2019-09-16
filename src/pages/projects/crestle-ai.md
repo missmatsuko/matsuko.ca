@@ -21,8 +21,6 @@ technologies:
 links:
   - text: Live Site
     url: 'https://crestle.ai/'
-  - text: Stage Site
-    url: 'http://crestle-ai.surge.sh/'
 ---
 
 ## Summary
