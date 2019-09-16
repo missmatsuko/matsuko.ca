@@ -18,9 +18,6 @@ technologies:
   - JS
   - Gulp
   - Twig
-links:
-  - text: Live Site
-    url: 'https://wherestheline.ca/newsletter/'
 ---
 
 ## Summary
