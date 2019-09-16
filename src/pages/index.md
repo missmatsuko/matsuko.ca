@@ -11,10 +11,10 @@ hero:
     _proper noun_
 
 
-    1. Web Developer at [Tribal Worldwide/DDB](https://tribalworldwide.ca/).
+    1. Front-End Engineer at [Zaengle](https://zaengle.com/).
 
     2. Honours graduate of [VanArts' Web Development and Interactive Design
-    Program](https://www.vanarts.com/programs/web-development-interactive-design/)
+    Program](https://www.vanarts.com/programs/web-development-interactive-design/).
 
     3. Web developer and designer with interests in accessibility and UX.
 
