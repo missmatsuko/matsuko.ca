@@ -7,10 +7,15 @@
       />
 
       <div class="container">
+
         <!-- TODO: style blog listing -->
-        <div v-for="edge in $page.posts.edges" :key="edge.node.id">
-          <h2>{{ edge.node.title }}</h2>
-        </div>
+        <ul>
+          <li v-for="edge in $page.posts.edges" :key="edge.node.id">
+            <h2>{{ edge.node.title }}</h2>
+            <Link to="">Read more</Link>
+          </li>
+        </ul>
+
       </div>
     </section>
   </Layout>
