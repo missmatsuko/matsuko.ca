@@ -18,6 +18,21 @@
   word-wrap: normal !important;
 }
 
+.nested-link {
+  position: relative;
+}
+
+.nested-link a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 .rich-text > *:not(:last-child) {
   margin-bottom: var(--spacing-sm);
 }
