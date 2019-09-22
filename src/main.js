@@ -13,6 +13,6 @@ export default function (Vue, { router, head, isClient }) {
   // Add Google Fonts from CDN to head
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Asap:400,700&display=swap',
+    href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap',
   });
 }

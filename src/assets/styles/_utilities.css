@@ -5,6 +5,10 @@
   padding: 0 var(--spacing-md);
 }
 
+.container--narrow {
+  max-width: var(--container-narrow-max-width);
+}
+
 .sr-only {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <div v-html="$page.post.content"/>
+    <div class="container container--narrow">
+      <div class="rich-text" v-html="$page.post.content"/>
+    </div>
   </Layout>
 </template>
 
