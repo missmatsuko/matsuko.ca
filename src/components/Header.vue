@@ -75,8 +75,11 @@
     border-left: none;
     border-right: none;
   }
-  .nav a.active--exact {
+  .nav a.active {
     border-bottom-color: var(--color-gray-light);
+  }
+  .nav a[href="/"].active:not(.active--exact) {
+    border-color: transparent;
   }
   a {
     text-decoration: none;
