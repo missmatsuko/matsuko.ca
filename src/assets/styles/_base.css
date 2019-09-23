@@ -55,3 +55,7 @@ a {
   text-decoration-skip: none; /* Safari */
   text-decoration-skip-ink: none; /* Chrome and Firefox */
 }
+
+iframe {
+  border: none;
+}

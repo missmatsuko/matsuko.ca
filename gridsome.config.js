@@ -19,7 +19,12 @@ module.exports = {
       options: {
         path: "blog/*.md",
         baseDir: "./src/data",
-        typeName: "Blog"
+        typeName: "Blog",
+        remark: {
+          plugins: [
+            ['gridsome-plugin-remark-youtube', {align: 'auto'}]
+          ]
+        },
       }
     },
     {
@@ -27,7 +32,12 @@ module.exports = {
       options: {
         path: "portfolio/*.md",
         baseDir: "./src/data",
-        typeName: "Portfolio"
+        typeName: "Portfolio",
+        remark: {
+          plugins: [
+            ['gridsome-plugin-remark-youtube', {align: 'auto'}]
+          ]
+        },
       }
     },
   ],
