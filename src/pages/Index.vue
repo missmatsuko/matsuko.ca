@@ -1,30 +1,45 @@
 <template>
   <Layout>
 
-    <section class="page page-index">
-      <div class="container rich-text">
-        <h1>Matsuko Friedland</h1>
+    <Intro
+      :title="'Matsuko Friedland'"
+      :description="'Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver.'"
+      :image="require('~/assets/images/headshot.jpg')"
+    >
+      <div class="details rich-text">
+        <h2 class="sr-only">Details</h2>
 
-        <p>[ˈma.t͡sɯ̥.ko ˈfɹiːd.lənd] <em>proper noun</em></p>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:info@matsuko.ca">Email</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/missmatsuko/">GitHub</a>
+            </li>
+            <li>
+              <a href="https://codepen.io/missmatsuko/">CodePen</a>
+            </li>
+          </ul>
+        </div>
 
-        <ol>
-          <li>Front-End Engineer at <a href="https://zaengle.com/">Zaengle</a>.</li>
-          <li>Formerly at <a href="https://yorkandchapel.com/">York & Chapel</a> and <a href="https://tribalworldwide.ca/">Tribal Worldwide/DDB</a>.</li>
-          <li>Honours graduate of <a href="https://www.vanarts.com/programs/web-development-interactive-design/">VanArts' Web Development and Interactive Design Program</a></li>
-          <li>Web developer and designer with interests in accessibility and UX.</li>
-        </ol>
-
-        <hr>
-
-        <small>See Also: <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>, <a href="https://github.com/missmatsuko">GitHub</a>, <a href="https://codepen.io/missmatsuko/">CodePen</a></small>
       </div>
-    </section>
+    </Intro>
 
   </Layout>
 </template>
 
 <script>
+import Intro from '~/components/Intro.vue';
+
 export default {
+  components: {
+    Intro,
+  },
   metaInfo: {
     title: 'Home'
   }

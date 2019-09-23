@@ -8,7 +8,10 @@
       />
       <h1 v-if="title" v-text="title" />
       <p v-if="description" v-text="description" />
-      <slot />
+
+      <div class="details" v-if="!!$slots.default">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -53,6 +56,22 @@
 
   p {
     font-size: larger;
+    color: var(--color-gray-dark);
+  }
+
+  .details {
+    font-size: smaller;
+    margin: var(--spacing-lg) auto 0;
+    max-width: 300px;
+  }
+  .details ul {
+    margin: 0;
+  }
+  .details li {
+    display: inline-block;
+    padding: 0 var(--spacing-xs);
+  }
+  .details h3 {
     color: var(--color-gray-dark);
   }
 </style>

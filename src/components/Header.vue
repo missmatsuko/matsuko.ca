@@ -32,10 +32,6 @@
           to: '/blog',
           text: 'Blog',
         },
-        {
-          to: '/about',
-          text: 'About',
-        },
       ],
     }),
   };

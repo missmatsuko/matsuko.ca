@@ -5,7 +5,7 @@
       :description="entry.description"
       :image="entry.thumbnail"
     >
-      <div class="details rich-text">
+      <div class="rich-text">
         <h2 class="sr-only">Details</h2>
 
         <div v-if="entry.links.length">
@@ -69,21 +69,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-  .details {
-    font-size: smaller;
-    margin: var(--spacing-lg) auto 0;
-    max-width: 300px;
-  }
-  .details ul {
-    margin: 0;
-  }
-  .details li {
-    display: inline-block;
-    padding: 0 var(--spacing-xs);
-  }
-  .details h3 {
-    color: var(--color-gray-dark);
-  }
-</style>
