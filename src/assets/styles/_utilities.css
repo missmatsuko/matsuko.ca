@@ -53,7 +53,7 @@
 }
 
 .rich-text > *:not(:last-child) {
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
 }
 
 /*
@@ -66,7 +66,7 @@
 .rich-text h4:not(:first-child),
 .rich-text h5:not(:first-child),
 .rich-text h6:not(:first-child) {
-  margin-top: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
 }
 
 .rich-text img {
@@ -79,4 +79,9 @@
   margin-right: 0;
   padding: var(--spacing-xs) var(--spacing-md);
   border-left: 4px solid var(--color-gray-light);
+}
+
+.rich-text iframe {
+  background-color: var(--color-gray);
+  border-radius: var(--spacing-xs);
 }

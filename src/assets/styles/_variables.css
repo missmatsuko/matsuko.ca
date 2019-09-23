@@ -12,7 +12,8 @@
   --spacing-sm: 10px;
   --spacing-md: 15px;
   --spacing-lg: 30px;
-  --spacing-xl: 60px;
+  --spacing-xl: 40px;
+  --spacing-xxl: 60px;
 
   --box-shadow: 0 5px 10px -1px rgba(0, 0, 0, 0.1);
 

@@ -45,7 +45,7 @@
 <style scoped>
   .intro {
     text-align: center;
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-xxl) 0;
   }
 
   img {
@@ -65,13 +65,20 @@
     margin: var(--spacing-lg) auto 0;
     max-width: 300px;
   }
+
+  .details h3 {
+    margin-bottom: var(--spacing-xs);
+  }
+
   .details ul {
     margin: 0;
   }
+
   .details li {
     display: inline-block;
     padding: 0 var(--spacing-xs);
   }
+
   .details h3 {
     color: var(--color-gray-dark);
   }

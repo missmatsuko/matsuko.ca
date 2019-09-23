@@ -8,7 +8,7 @@
 
 <style scoped>
   .footer {
-    padding: var(--spacing-xl) 0 var(--spacing-lg);
+    padding: var(--spacing-xxl) 0 var(--spacing-lg);
     text-align: center;
   }
 </style>

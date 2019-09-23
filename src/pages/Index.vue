@@ -6,7 +6,7 @@
       :description="'Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver.'"
       :image="require('~/assets/images/headshot.jpg')"
     >
-      <div class="details rich-text">
+      <div class="rich-text">
         <h2 class="sr-only">Details</h2>
 
         <div>
