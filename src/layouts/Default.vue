@@ -1,9 +1,11 @@
 <template>
   <div class="layout">
     <Header />
-    <main class="main">
-      <slot/>
-    </main>
+    <transition name="fade" appear>
+      <main class="main">
+        <slot/>
+      </main>
+    </transition>
     <Footer />
   </div>
 </template>
@@ -37,5 +39,14 @@
 
   .main {
     flex-grow: 1;
+  }
+
+  /* REF: https://gridsome.org/docs/page-transitions/ */
+  .fade-enter-active {
+    transition: opacity .5s;
+  }
+
+  .fade-enter {
+    opacity: 0;
   }
 </style>
