@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="portfolio">
+    <section>
       <Intro
         :title="title"
         :description="description"
@@ -66,6 +66,7 @@ export default {
       {
         key: 'description',
         name: 'description',
+        content: this.description,
       }
     ],
   }),

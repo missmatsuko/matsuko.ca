@@ -1,5 +1,6 @@
 ---
 title: Example Blog Post
+description: Test
 date: 2019-09-01
 ---
 

@@ -18,7 +18,7 @@
 
     <div class="card-text">
       <div>
-        <h3>{{ headline }}</h3>
+        <h2>{{ headline }}</h2>
         <p v-if="subheadline">{{ subheadline }}</p>
       </div>
     </div>
@@ -68,6 +68,7 @@ export default {
     border-radius: var(--spacing-xs);
     overflow: hidden;
     text-decoration: none;
+    border: 1px solid var(--color-gray-extra-light);
     box-shadow: var(--box-shadow);
   }
 

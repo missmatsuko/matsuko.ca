@@ -52,6 +52,7 @@
     width: 100px;
     border-radius: var(--spacing-xs);
     box-shadow: var(--box-shadow);
+    border: 1px solid var(--color-gray-extra-light);
   }
 
   p {

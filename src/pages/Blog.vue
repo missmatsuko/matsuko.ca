@@ -7,15 +7,14 @@
       />
 
       <div class="container">
-
-        <!-- TODO: style blog listing -->
-        <ul>
-          <li v-for="edge in $page.posts.edges" :key="edge.node.id">
-            <h2>{{ edge.node.title }}</h2>
-            <Link to="">Read more</Link>
-          </li>
-        </ul>
-
+        <Excerpt
+          v-for="edge in $page.posts.edges"
+          :key="edge.node.id"
+          :headline="edge.node.title"
+          :subheadline="edge.node.date"
+          :body="edge.node.description"
+          :url="edge.node.path"
+        />
       </div>
     </section>
   </Layout>
@@ -23,11 +22,14 @@
 
 <page-query>
 query Posts {
-  posts: allBlog {
+  posts: allBlog(sortBy: "date", order: DESC) {
     edges {
       node {
         id
+        path
+        date(format: "MMMM Do, YYYY")
         title
+        description
       }
     }
   }
@@ -35,10 +37,12 @@ query Posts {
 </page-query>
 
 <script>
+import Excerpt from '~/components/Excerpt.vue';
 import Intro from '~/components/Intro.vue';
 
 export default {
   components: {
+    Excerpt,
     Intro,
   },
   data: () => ({
