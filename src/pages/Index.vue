@@ -45,11 +45,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .page-index {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-</style>
