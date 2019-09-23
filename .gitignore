@@ -1,6 +1,8 @@
-*.log
-.cache
-src/.temp
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
-dist
-.env
+.cache/
+
+# Build directory
+public/
+static/admin/*.bundle.*
