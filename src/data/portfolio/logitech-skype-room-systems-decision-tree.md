@@ -2,7 +2,7 @@
 title: Logitech Skype Room Systems Decision Tree
 description: Landing page featuring an interactive decision tree.
 date: 2017-02-01
-thumbnail: ./thumbnails/logitech-logo.png
+thumbnail: ./images/thumbnails/logitech-logo.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#2F3132',

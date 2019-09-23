@@ -9,6 +9,10 @@
   max-width: var(--container-narrow-max-width);
 }
 
+.container--extra-narrow {
+  max-width: var(--container-extra-narrow-max-width);
+}
+
 .sr-only {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -20,6 +24,17 @@
   position: absolute;
   width: 1px;
   word-wrap: normal !important;
+}
+
+/* REF: https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html */
+
+.list-reset li {
+  list-style-type: none; /* remove bullets */
+}
+
+.list-reset li:before {
+  content: '\200B'; /* add zero-width space */
+  position: absolute; /* addition */
 }
 
 .nested-link {
@@ -52,4 +67,9 @@
 .rich-text h5:not(:first-child),
 .rich-text h6:not(:first-child) {
   margin-top: var(--spacing-lg);
+}
+
+.rich-text img {
+  width: 100%;
+  height: auto;
 }

@@ -7,8 +7,10 @@
       />
 
       <div class="container">
-        <div class="grid">
-          <!-- TODO: style portfolio listing -->
+        <Grid
+          :columns="3"
+          gap="var(--spacing-lg)"
+        >
           <div v-for="edge in $page.posts.edges" :key="edge.node.id">
             <Card
               :url="edge.node.path"
@@ -18,7 +20,7 @@
               :subheadline="edge.node.projectType"
             />
           </div>
-        </div>
+        </Grid>
       </div>
     </section>
   </Layout>
@@ -46,11 +48,13 @@ query Posts {
 
 <script>
 import Card from '~/components/Card.vue';
+import Grid from '~/components/Grid.vue';
 import Intro from '~/components/Intro.vue';
 
 export default {
   components: {
     Card,
+    Grid,
     Intro,
   },
   data: () => ({
@@ -67,11 +71,3 @@ export default {
   }),
 }
 </script>
-
-<style scoped>
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-lg);
-  }
-</style>

@@ -1,8 +1,8 @@
 ---
 title: "GO Transit #EtiquetteFail"
-description: Landing page to promote GO Transit's book on transit etiquette.
+description: Landing page to promote GO Transit's book on transit etiquette.
 date: 2018-01-17
-thumbnail: ./thumbnails/go-transit-etiquette-fail-book.png
+thumbnail: ./images/thumbnails/go-transit-etiquette-fail-book.png
 colors: {
   primary: '#000000',
   secondary: '#CBE3D2',

@@ -1,8 +1,8 @@
 ---
 title: ASL Tab
-description: A browser extension that helps you learn a little American Sign Language (ASL) every time you open a new tab.
+description: A browser extension that helps you learn a little American Sign Language (ASL) every time you open a new tab.
 date: 2019-01-16
-thumbnail: ./thumbnails/asl-tab-icon.png
+thumbnail: ./images/thumbnails/asl-tab-icon.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#000000',
@@ -17,8 +17,6 @@ technologies:
 links:
   - text: Download for Chrome
     url: 'https://chrome.google.com/webstore/detail/asl-tab/bjiakmejoofpfclmopcfpkopmamecnkd'
-  - text: Download for Firefox
-    url: 'https://addons.mozilla.org/en-US/firefox/addon/asl-tab/'
   - text: Front-end Repository
     url: 'https://github.com/missmatsuko/asl-tab'
   - text: Back-end Repository

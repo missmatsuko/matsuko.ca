@@ -1,8 +1,14 @@
 <template>
   <div class="intro">
-    <div class="container rich-text">
+    <div class="container container--extra-narrow rich-text">
+      <g-image
+        v-if="image"
+        :src="image"
+        alt=""
+      />
       <h1 v-if="title" v-text="title" />
       <p v-if="description" v-text="description" />
+      <slot />
     </div>
   </div>
 </template>
@@ -24,18 +30,29 @@
         default: '',
         type: String,
       },
+      image: {
+        required: false,
+        default: () => {},
+        type: Object,
+      }
     },
   };
 </script>
 
 <style scoped>
   .intro {
-    background-color: black;
-    color: var(--color-secondary);
-    display: flex;
-    align-items: flex-end;
+    text-align: center;
     padding: var(--spacing-xl) 0;
-    min-height: 40vh;
-    margin-bottom: var(--spacing-xl);
+  }
+
+  img {
+    width: 100px;
+    border-radius: var(--spacing-xs);
+    box-shadow: var(--box-shadow);
+  }
+
+  p {
+    font-size: larger;
+    color: var(--color-gray-dark);
   }
 </style>

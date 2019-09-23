@@ -8,9 +8,7 @@
 
 <style scoped>
   .footer {
-    background-color: var(--color-gray-extra-light);
-    margin-top: var(--spacing-xl);
-    padding: var(--spacing-xs) 0;
-    text-align: right;
+    padding: var(--spacing-xl) 0 var(--spacing-lg);
+    text-align: center;
   }
 </style>

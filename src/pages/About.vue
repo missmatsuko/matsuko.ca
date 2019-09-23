@@ -6,7 +6,7 @@
         :description="description"
       />
 
-      <div class="container rich-text">
+      <div class="container container--narrow rich-text">
         <h2>Contact</h2>
         <a href="mailto:info@matsuko.ca">info@matsuko.ca</a>
 
