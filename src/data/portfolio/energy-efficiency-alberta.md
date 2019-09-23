@@ -1,7 +1,7 @@
 ---
-title: Change for Climate
+title: Energy Efficiency Alberta
 description: Website for the province of Alberta's energy-saving program.
-date: 2017-11-08
+date: 2019-09-12
 thumbnail: ./images/thumbnails/energy-efficiency-alberta-logo.png
 colors: {
   primary: '#FFFFFF',

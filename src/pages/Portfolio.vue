@@ -28,7 +28,7 @@
 
 <page-query>
 query Posts {
-  posts: allPortfolio {
+  posts: allPortfolio(sortBy: "date", order: DESC) {
     edges {
       node {
         id
