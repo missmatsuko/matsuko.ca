@@ -2,7 +2,7 @@
 title: SKY Residences
 description: Website for new residences in the centre of Edmonton's ICE District.
 date: 2017-10-30
-thumbnail: ./images/thumbnails/sky-residences-logo.png
+thumbnail: ./assets/thumbnails/sky-residences-logo.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#4E80B9',

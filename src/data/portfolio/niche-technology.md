@@ -2,7 +2,7 @@
 title: Niche Technology
 description: WordPress website for Niche Technology.
 date: 2017-04-01
-thumbnail: ./images/thumbnails/niche-rms-logo.png
+thumbnail: ./assets/thumbnails/niche-rms-logo.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#3B6E8F',

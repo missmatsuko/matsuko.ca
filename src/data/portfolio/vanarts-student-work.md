@@ -2,7 +2,7 @@
 title: VanArts Student Work
 description: A collection of projects from my year in VanArts' one-year Web Development and Interactive Design program.
 date: 2016-09-16
-thumbnail: ./images/thumbnails/vanarts-logo.png
+thumbnail: ./assets/thumbnails/vanarts-logo.png
 colors: {
   primary: '#CC0101',
   secondary: '#FFFFFF',
