@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 4px solid currentColor;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  line-height: 1.6;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+ol, ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  background: transparent;
+  border-top: 2px solid currentColor;
+  width: 5rem;
+  margin: var(--spacing-lg) 0;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  /*
+    Don't skip underline for descenders on links by default.
+    I think it makes it harder to tell where links start and end.
+  */
+  text-decoration-skip: none; /* Safari */
+  text-decoration-skip-ink: none; /* Chrome and Firefox */
+}
+
+iframe {
+  border: none;
+}
