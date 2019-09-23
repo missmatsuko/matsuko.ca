@@ -1,13 +1,7 @@
 ---
-date: 2018-02-16T00:00:00.000Z
 title: Where's the Line? Newsletter
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Landing page to promote Where's the Line? Power Line Safety newsletter.
-  body:
+description: Landing page to promote Where's the Line? Power Line Safety newsletter.
+date: 2018-02-16
 thumbnail: ./thumbnails/wheres-the-line-logo.png
 colors: {
   primary: '#FFFFFF',
@@ -21,9 +15,6 @@ technologies:
   - JS
   - Gulp
   - Twig
-links:
-  - text: Live Site
-    url: 'https://wherestheline.ca/newsletter/'
 ---
 
 ## Summary

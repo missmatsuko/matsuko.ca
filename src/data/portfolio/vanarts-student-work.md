@@ -1,13 +1,7 @@
 ---
-date: 2016-09-16T00:00:00.000Z
 title: VanArts Student Work
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: A collection of projects from my year in VanArts\' one-year Web Development and Interactive Design program.
-  body:
+description: A collection of projects from my year in VanArts' one-year Web Development and Interactive Design program.
+date: 2016-09-16
 thumbnail: ./thumbnails/vanarts-logo.png
 colors: {
   primary: '#CC0101',

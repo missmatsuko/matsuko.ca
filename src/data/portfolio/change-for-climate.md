@@ -1,13 +1,7 @@
 ---
-date: 2017-11-08T00:00:00.000Z
 title: Change for Climate
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Website for the City of Edmonton's environmental program.
-  body:
+description: Website for the City of Edmonton's environmental program.
+date: 2017-11-08
 thumbnail: ./thumbnails/change-for-climate-logo.png
 colors: {
   primary: '#0064B6',

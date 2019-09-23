@@ -1,13 +1,7 @@
 ---
-date: 2018-09-27T00:00:00.000Z
 title: Explore Edmonton
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Website for Edmonton Tourism.
-  body:
+description: Website for Edmonton Tourism.
+date: 2018-09-27
 thumbnail: ./thumbnails/explore-edmonton-logo.png
 colors: {
   primary: '#FFFFFF',

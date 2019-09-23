@@ -1,13 +1,7 @@
 ---
-date: 2018-01-17T00:00:00.000Z
 title: "GO Transit #EtiquetteFail"
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Landing page to promote GO Transit's book on transit etiquette.
-  body:
+description: Landing page to promote GO Transit's book on transit etiquette.
+date: 2018-01-17
 thumbnail: ./thumbnails/go-transit-etiquette-fail-book.png
 colors: {
   primary: '#000000',
@@ -24,12 +18,8 @@ technologies:
 links:
   - text: Live Site - English
     url: 'https://www.gotransit.com/etiquettefail/'
-  - text: PDF - English
-    url: https://www.gotransit.com/gotransit/etiquettefail/etiquetefail/Etiquette_Book.pdf
   - text: Site Live - en Français
     url: 'https://www.gotransit.com/manquedebienseance/'
-  - text: PDF - en Français
-    url: https://www.gotransit.com/gotransit/etiquettefail/manquedebienseance/Etiquette_Book_fr.pdf
 
 ---
 

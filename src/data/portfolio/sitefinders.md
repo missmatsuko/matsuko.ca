@@ -1,13 +1,7 @@
 ---
-date: 2017-07-16T00:00:00.000Z
 title: Sitefinders
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Website for Sitefinders, a commercial real estate company.
-  body:
+description: Website for Sitefinders, a commercial real estate company.
+date: 2017-07-16
 thumbnail: ./thumbnails/sitefinders-logo.png
 colors: {
   primary: '#CC0000',

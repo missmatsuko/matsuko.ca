@@ -1,13 +1,7 @@
 ---
-date: 2017-04-01T00:00:00.000Z
 title: Niche Technology
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: WordPress website for Niche Technology.
-  body:
+description: WordPress website for Niche Technology.
+date: 2017-04-01
 thumbnail: ./thumbnails/niche-rms-logo.png
 colors: {
   primary: '#FFFFFF',

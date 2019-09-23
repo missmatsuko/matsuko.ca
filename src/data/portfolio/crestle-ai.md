@@ -1,13 +1,7 @@
 ---
-date: 2019-01-01T00:00:00.000Z
 title: Crestle.ai
-seo:
-  title:
-  description:
-hero:
-  headline:
-  subheadline: Website for Crestle.ai, a one-click deep learning platform.
-  body:
+description: Website for Crestle.ai, a one-click deep learning platform.
+date: 2019-01-01
 thumbnail: ./thumbnails/crestle-ai-logo.png
 colors: {
   primary: '#404040',
@@ -24,8 +18,6 @@ technologies:
 links:
   - text: Live Site
     url: 'https://crestle.ai/'
-  - text: Stage Site
-    url: 'http://crestle-ai.surge.sh/'
 ---
 
 ## Summary
