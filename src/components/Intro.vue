@@ -36,7 +36,7 @@
       image: {
         required: false,
         default: () => {},
-        type: Object,
+        type: [String, Object],
       }
     },
   };
