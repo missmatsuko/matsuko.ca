@@ -6,6 +6,12 @@
 
 const autoprefixer = require('autoprefixer');
 
+const remarkPlugins = [
+  [ '@noxify/gridsome-plugin-remark-embed', {
+      'enabledProviders' : ['Youtube', 'Twitter', 'Gist', 'Codepen', 'JSFiddle'],
+  }]
+];
+
 module.exports = {
   siteName: 'Matsuko Friedland',
 
@@ -21,9 +27,7 @@ module.exports = {
         baseDir: "./src/data",
         typeName: "Blog",
         remark: {
-          plugins: [
-            ['gridsome-plugin-remark-youtube', {align: 'auto'}]
-          ]
+          plugins: remarkPlugins,
         },
       }
     },
@@ -34,9 +38,7 @@ module.exports = {
         baseDir: "./src/data",
         typeName: "Portfolio",
         remark: {
-          plugins: [
-            ['gridsome-plugin-remark-youtube', {align: 'auto'}]
-          ]
+          plugins: remarkPlugins,
         },
       }
     },

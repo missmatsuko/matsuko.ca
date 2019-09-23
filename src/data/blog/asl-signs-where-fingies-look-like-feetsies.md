@@ -11,21 +11,21 @@ Source: ["anxious" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/
 
 > The sign "SIT" can be modified to show someone squirming in their chair.  This can be used to mean "anxiety" and similar concepts. This sign doesn't exactly mean nervous, it means "restless" or perhaps "ants in the pants."
 
-`youtube:https://www.youtube.com/embed/nVDFsl5hR44`
+https://www.youtube.com/embed/nVDFsl5hR44
 
 ## Dance
 Source: ["dance" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/d/dance.htm)
 
 > Memory aid: Think of your feet gliding across the dance floor.
 
-`youtube:https://www.youtube.com/embed/p3UKhedGeTA`
+https://www.youtube.com/embed/p3UKhedGeTA
 
 ## Jump
 Source: ["jump" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/j/jump.htm)
 
 > The generic sign for jump is to use an upside down "V" to represent what it looks like when a person jumps
 
-`youtube:https://www.youtube.com/embed/_CMXWiZJDPM`
+https://www.youtube.com/embed/_CMXWiZJDPM
 
 ## Crawl
 [Source: "crawl" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=506)
@@ -38,25 +38,25 @@ Source: ["sit" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/s/sit.h
 
 > The sign for "sit" uses a single motion.  This is part of a noun/verb pair.  If you use a double motion it means "chair."
 
-`youtube:https://www.youtube.com/embed/ZvzKTn4qWfA`
+https://www.youtube.com/embed/ZvzKTn4qWfA
 
 
 ## Stand
 Source: ["stand" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/s/stand.htm)
 
-`youtube:https://www.youtube.com/embed/KhhowNO7Ywk`
+https://www.youtube.com/embed/KhhowNO7Ywk
 
 ## Go to bed
 Source: ["go-to-bed" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/g/go-to-bed.htm)
 
-`youtube:https://www.youtube.com/embed/opGSFLEio9E`
+https://www.youtube.com/embed/opGSFLEio9E
 
 ## Get out of bed
 [Source: "get up" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=903)
 
 ## Gymnastics
 
-`youtube:https://www.youtube.com/embed/eIjsa-MRaoo`
+https://www.youtube.com/embed/eIjsa-MRaoo
 
 
 ## Seizure (medical)
@@ -64,7 +64,7 @@ Source: ["seizure" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/
 
 > The sign "seizure" when referring to a person having a seizure, would generally be done using the lexicalized classifier: "SEIZURE."  The handshape starts with the bent-V and rolls on the palm twice.
 
-`youtube:https://www.youtube.com/embed/D3DZClWcxt4`
+https://www.youtube.com/embed/D3DZClWcxt4
 
 ## Walk to
 ## Hike to
