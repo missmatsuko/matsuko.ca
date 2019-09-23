@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Website for the City of Edmonton's environmental program.
   body:
-thumbnail: /img/projects/change-for-climate-logo.png
+thumbnail: ./thumbnails/change-for-climate-logo.png
+colors: {
+  primary: '#0064B6',
+  secondary: '#FFFFFF',
+}
 projectType: Website
 technologies:
   - HTML

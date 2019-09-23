@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Landing page featuring an interactive decision tree.
   body:
-thumbnail: /img/projects/logitech-logo.png
+thumbnail: ./thumbnails/logitech-logo.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#2F3132',
+}
 projectType: Landing Page
 technologies:
   - HTML

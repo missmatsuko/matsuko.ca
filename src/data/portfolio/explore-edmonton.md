@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Website for Edmonton Tourism.
   body:
-thumbnail: /img/projects/explore-edmonton-logo.png
+thumbnail: ./thumbnails/explore-edmonton-logo.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#2D2926',
+}
 projectType: Website
 technologies:
   - HTML

@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Website for new residences in the centre of Edmonton's ICE District.
   body:
-thumbnail: /img/projects/sky-residences-logo.png
+thumbnail: ./thumbnails/sky-residences-logo.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#4E80B9',
+}
 projectType: Website
 technologies:
   - HTML

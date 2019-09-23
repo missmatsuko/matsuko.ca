@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Landing page to promote Where's the Line? Power Line Safety newsletter.
   body:
-thumbnail: /img/projects/wheres-the-line-logo.png
+thumbnail: ./thumbnails/wheres-the-line-logo.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#FF5F00',
+}
 projectType: Landing Page
 technologies:
   - HTML

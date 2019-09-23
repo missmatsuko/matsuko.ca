@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: WordPress website for Niche Technology.
   body:
-thumbnail: /img/projects/niche-rms-logo.png
+thumbnail: ./thumbnails/niche-rms-logo.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#3B6E8F',
+}
 projectType: Website
 technologies:
   - HTML

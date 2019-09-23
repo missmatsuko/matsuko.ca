@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: A collection of projects from my year in VanArts\' one-year Web Development and Interactive Design program.
   body:
-thumbnail: /img/projects/vanarts-logo.png
+thumbnail: ./thumbnails/vanarts-logo.png
+colors: {
+  primary: '#CC0101',
+  secondary: '#FFFFFF',
+}
 projectType: Website
 technologies:
   - HTML

@@ -2,7 +2,11 @@
 title: ASL Tab
 date: 2019-01-16T00:00:00.000Z
 seo: {}
-thumbnail: /img/projects/asl-tab-icon.png
+thumbnail: ./thumbnails/asl-tab-icon.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#000000',
+}
 projectType: Other
 technologies:
   - HTML

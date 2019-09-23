@@ -1,14 +1,19 @@
 :root {
   --color-primary: #333;
   --color-secondary: #FFF;
+  --color-black: #333;
+  --color-white: #FFF;
   --color-gray-extra-light: #EEE;
   --color-gray-light: #CCC;
+  --color-gray: #BBB;
 
   --spacing-xs: 5px;
   --spacing-sm: 10px;
   --spacing-md: 15px;
   --spacing-lg: 30px;
   --spacing-xl: 60px;
+
+  --box-shadow: 0 5px 10px -1px rgba(0, 0, 0, 0.1);
 
   --container-max-width: 900px;
   --container-narrow-max-width: 600px;

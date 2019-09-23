@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Landing page to promote GO Transit's book on transit etiquette.
   body:
-thumbnail: /img/projects/go-transit-etiquette-fail-book.png
+thumbnail: ./thumbnails/go-transit-etiquette-fail-book.png
+colors: {
+  primary: '#000000',
+  secondary: '#CBE3D2',
+}
 projectType: Landing Page
 technologies:
   - HTML

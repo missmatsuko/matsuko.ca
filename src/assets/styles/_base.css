@@ -3,7 +3,7 @@
 }
 
 *:focus {
-  outline: 2px solid currentColor;
+  outline: 4px solid currentColor;
 }
 
 html,

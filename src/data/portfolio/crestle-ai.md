@@ -8,7 +8,11 @@ hero:
   headline:
   subheadline: Website for Crestle.ai, a one-click deep learning platform.
   body:
-thumbnail: /img/projects/crestle-ai-logo.png
+thumbnail: ./thumbnails/crestle-ai-logo.png
+colors: {
+  primary: '#404040',
+  secondary: '#FFFFFF',
+}
 projectType: Landing Page
 technologies:
   - HTML

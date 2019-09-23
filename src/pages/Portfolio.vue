@@ -1,15 +1,23 @@
 <template>
   <Layout>
-    <section>
+    <section class="portfolio">
       <Intro
         :title="title"
         :description="description"
       />
 
       <div class="container">
-        <!-- TODO: style portfolio listing -->
-        <div v-for="edge in $page.posts.edges" :key="edge.node.id">
-          <h2>{{ edge.node.title }}</h2>
+        <div class="grid">
+          <!-- TODO: style portfolio listing -->
+          <div v-for="edge in $page.posts.edges" :key="edge.node.id">
+            <Card
+              :url="edge.node.path"
+              :image="edge.node.thumbnail"
+              :colors="edge.node.colors"
+              :headline="edge.node.title"
+              :subheadline="edge.node.projectType"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -22,7 +30,14 @@ query Posts {
     edges {
       node {
         id
+        path
         title
+        thumbnail
+        colors {
+          primary
+          secondary
+        }
+        projectType
       }
     }
   }
@@ -30,10 +45,12 @@ query Posts {
 </page-query>
 
 <script>
+import Card from '~/components/Card.vue';
 import Intro from '~/components/Intro.vue';
 
 export default {
   components: {
+    Card,
     Intro,
   },
   data: () => ({
@@ -41,14 +58,20 @@ export default {
     description: 'Things I\'ve made.',
   }),
   metaInfo: () => ({
-    title: this.title,
     meta: [
       {
         key: 'description',
         name: 'description',
-        content: this.description,
       }
     ],
-  })
+  }),
 }
 </script>
+
+<style scoped>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+  }
+</style>
