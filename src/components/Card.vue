@@ -70,12 +70,33 @@ export default {
     text-decoration: none;
     border: 1px solid var(--color-gray-extra-light);
     box-shadow: var(--box-shadow);
+    position: relative;
+  }
+
+  .card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent 0, var(--color-primary) 80% 100%);
+    max-height: 0;
+    transition: 0.3s;
+  }
+
+  .card:focus {
+    outline-color: var(--color-black);
   }
 
   .card:hover .card-text,
   .card:focus .card-text {
     color: var(--color-secondary);
-    background-color: var(--color-primary);
+  }
+
+  .card:hover::after,
+  .card:focus::after {
+    max-height: 100%;
   }
 
   .card-image {
@@ -99,5 +120,7 @@ export default {
     align-items: center;
     padding: var(--spacing-md);
     transition: 0.3s;
+    position: relative;
+    z-index: 1;
   }
 </style>
