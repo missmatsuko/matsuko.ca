@@ -1,12 +1,12 @@
 :root {
-  --color-primary: #333;
+  --color-primary: #222;
   --color-secondary: #FFF;
-  --color-black: #333;
+  --color-black: #222;
   --color-white: #FFF;
   --color-gray-extra-light: #EEE;
   --color-gray-light: #CCC;
   --color-gray: #BBB;
-  --color-gray-dark: #999;
+  --color-gray-dark: #949494;
 
   --spacing-xs: 5px;
   --spacing-sm: 10px;
