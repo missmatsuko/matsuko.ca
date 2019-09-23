@@ -65,6 +65,13 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: this.entry.description,
+        }
+      ],
     };
   }
 };

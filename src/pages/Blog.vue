@@ -11,12 +11,12 @@
           gap="var(--spacing-lg)"
         >
           <Excerpt
-            v-for="edge in $page.posts.edges"
-            :key="edge.node.id"
-            :headline="edge.node.title"
-            :subheadline="edge.node.date"
-            :body="edge.node.description"
-            :url="edge.node.path"
+            v-for="item in items"
+            :key="item.id"
+            :headline="item.title"
+            :subheadline="item.date"
+            :body="item.description"
+            :url="item.path"
           />
         </Grid>
       </div>
@@ -51,19 +51,26 @@ export default {
     Grid,
     Intro,
   },
+  computed: {
+    items() {
+      return this.$page.posts.edges.map(edge => edge.node);
+    }
+  },
   data: () => ({
     title: 'Blog',
     description: 'Things I\'ve written.',
   }),
-  metaInfo: () => ({
-    title: this.title,
-    meta: [
-      {
-        key: 'description',
-        name: 'description',
-        content: this.description,
-      }
-    ],
-  })
+  metaInfo() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: 'Articles on various topics, mainly focused on web development and design.',
+        }
+      ],
+    }
+  }
 }
 </script>

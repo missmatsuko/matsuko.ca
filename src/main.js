@@ -10,6 +10,13 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Link', Link);
   Vue.component('Layout', DefaultLayout);
 
+  // Add default meta description
+  head.meta.push({
+    key: 'description',
+    name: 'description',
+    content: 'Front-end web developer, and sometimes designer. Focused on accessibility. Usually located in Vancouver.'
+  });
+
   // Add Google Fonts from CDN to head
   head.link.push({
     rel: 'stylesheet',

@@ -11,13 +11,13 @@
           :columns="3"
           gap="var(--spacing-lg)"
         >
-          <div v-for="edge in $page.posts.edges" :key="edge.node.id">
+          <div v-for="item in items" :key="item.id">
             <Card
-              :url="edge.node.path"
-              :image="edge.node.thumbnail"
-              :colors="edge.node.colors"
-              :headline="edge.node.title"
-              :subheadline="edge.node.projectType"
+              :url="item.path"
+              :image="item.thumbnail"
+              :colors="item.colors"
+              :headline="item.title"
+              :subheadline="item.projectType"
             />
           </div>
         </Grid>
@@ -57,18 +57,26 @@ export default {
     Grid,
     Intro,
   },
+  computed: {
+    items() {
+      return this.$page.posts.edges.map(edge => edge.node);
+    }
+  },
   data: () => ({
     title: 'Portfolio',
     description: 'Things I\'ve made.',
   }),
-  metaInfo: () => ({
-    meta: [
-      {
-        key: 'description',
-        name: 'description',
-        content: this.description,
-      }
-    ],
-  }),
+  metaInfo() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: 'Web development and design projects by Matsuko Friedland.',
+        }
+      ],
+    }
+  },
 }
 </script>

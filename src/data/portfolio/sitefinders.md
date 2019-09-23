@@ -25,8 +25,10 @@ Sitefinders is a commercial real estate company operating in Alberta and BC. The
 
 ## Before
 ![Sitefinders' original homepage.](./assets/sitefinders/screenshot-old-home.png)
+
 The original website was out of date both in terms of visual design and technology. The website content was only editable in code, which made it difficult for content authors to update content. There were also various code errors and artifacts found throughout the site.
 
 ## After
 ![Sitefinders' newly designed homepage.](./assets/sitefinders/screenshot-new-home.png)
+
 The new website has a modern look and feel. Bolt CMS was integrated to make it quick and easy for non-developers to update content.
