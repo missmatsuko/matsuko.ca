@@ -2,18 +2,9 @@
   <Layout>
     <Intro
       :title="entry.title"
-      :description="entry.description"
+      :description="entry.date"
       :image="entry.thumbnail"
-    >
-      <div class="rich-text">
-        <h2 class="sr-only">Details</h2>
-
-        <div>
-          <h3>Date</h3>
-          <p>{{ entry.date }}</p>
-        </div>
-      </div>
-    </Intro>
+    />
 
     <div class="container container--narrow">
       <div class="rich-text" v-html="entry.content"/>

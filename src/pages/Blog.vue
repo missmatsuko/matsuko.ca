@@ -7,14 +7,18 @@
       />
 
       <div class="container">
-        <Excerpt
-          v-for="edge in $page.posts.edges"
-          :key="edge.node.id"
-          :headline="edge.node.title"
-          :subheadline="edge.node.date"
-          :body="edge.node.description"
-          :url="edge.node.path"
-        />
+        <Grid
+          gap="var(--spacing-lg)"
+        >
+          <Excerpt
+            v-for="edge in $page.posts.edges"
+            :key="edge.node.id"
+            :headline="edge.node.title"
+            :subheadline="edge.node.date"
+            :body="edge.node.description"
+            :url="edge.node.path"
+          />
+        </Grid>
       </div>
     </section>
   </Layout>
@@ -38,11 +42,13 @@ query Posts {
 
 <script>
 import Excerpt from '~/components/Excerpt.vue';
+import Grid from '~/components/Grid.vue';
 import Intro from '~/components/Intro.vue';
 
 export default {
   components: {
     Excerpt,
+    Grid,
     Intro,
   },
   data: () => ({
