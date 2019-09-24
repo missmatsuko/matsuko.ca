@@ -1,7 +1,7 @@
 ---
 title: 'ASL signs with fingies that look like feetsies'
 description: A collection of ASL signs where the index and middle fingers represent legs.
-date: 2019-09-22
+date: 2019-09-23
 ---
 
 I'm learning American Sign Language (ASL), and I'm making a list of signs where the index and middle fingers represent legs. I find these signs are especially intuitive, and pretty cute, too. Let me know if you have any additions (or corrections) for this list.
