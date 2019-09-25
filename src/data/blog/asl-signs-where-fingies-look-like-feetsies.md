@@ -27,6 +27,9 @@ https://www.youtube.com/embed/_CMXWiZJDPM
 
 Source: ["jump" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/j/jump.htm)
 
+## Trampoline
+Source: ["trampoline" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=4749)
+
 ## Crawl
 Source: ["crawl" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=506)
 
