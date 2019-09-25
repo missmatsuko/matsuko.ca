@@ -81,7 +81,7 @@ Source: ["elevator" at HandSpeak](https://www.handspeak.com/word/search/index.ph
 ## Go up/down stairs
 https://www.youtube.com/watch?v=TFtn8OyCGj4
 
-Source: ["stairs" at LifePrin](https://www.lifeprint.com/asl101/pages-signs/s/stairs.htm)
+Source: ["stairs" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/stairs.htm)
 
 ## Intercourse
 Source: ["intercourse" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=1136)
