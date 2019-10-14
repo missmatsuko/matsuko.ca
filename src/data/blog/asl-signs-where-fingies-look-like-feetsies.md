@@ -114,3 +114,9 @@ This was taught to me by a Deaf ASL teacher in Vancouver, and may be a local sig
 
 ## Travel
 Source: ["travel" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=2262)
+
+## Arisen / resurrect
+Source: ["arisen" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/arisen.htm)
+
+## Transcend / go up into
+Source: ["arisen" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/arisen.htm)
