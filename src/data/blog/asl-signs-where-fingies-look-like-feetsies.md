@@ -106,7 +106,7 @@ Source: ["laid out" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/l
 
 Source: ["quit" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/q/quit.htm)
 
-## Ride (horse/motorcycle/vehicle/rollercoaster)
+## Ride (horse / motorcycle / vehicle / rollercoaster)
 Source: ["ride" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=1831)
 
 ## Ariel the little mermaid
