@@ -9,6 +9,8 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
   siteName: 'Matsuko Friedland',
 
+  siteUrl: 'https://www.matsuko.ca',
+
   transformers: {
     remark: {
       plugins: [
@@ -41,6 +43,9 @@ module.exports = {
         baseDir: "./src/data",
         typeName: "Portfolio",
       }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
     },
   ],
 
