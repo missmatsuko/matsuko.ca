@@ -1,5 +1,5 @@
 ---
-title: 'ASL signs with fingies that look like feetsies'
+title: ASL signs with fingies that look like feetsies
 description: A collection of ASL signs where the index and middle fingers represent legs.
 date: 2019-09-23
 ---
