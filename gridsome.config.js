@@ -15,6 +15,20 @@ module.exports = {
     remark: {
       plugins: [
         [
+          'remark-autolink-headings',
+          {
+            linkProperties: {
+              ariaHidden: true, // Default, TODO: Add screen-reader text
+              class: 'rich-text__heading-anchor',
+            },
+            content: {
+              type: 'element',
+              tagName: 'span',
+              children: [{type: 'text', value: '#'}]
+            },
+          },
+        ],
+        [
           '@noxify/gridsome-plugin-remark-embed',
           {
             'enabledProviders' : ['Youtube', 'Twitter', 'Gist', 'Codepen', 'JSFiddle'],
@@ -24,7 +38,7 @@ module.exports = {
           }
         ],
       ],
-    }
+    },
   },
 
   plugins: [

@@ -85,3 +85,10 @@
   background-color: var(--color-gray);
   border-radius: var(--spacing-xs);
 }
+
+.rich-text__heading-anchor {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-gray);
+  margin-right: 0.25em;
+}
