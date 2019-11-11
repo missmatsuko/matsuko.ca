@@ -1,5 +1,11 @@
 <template>
   <Layout>
+    <SEO
+      :title="entry.title"
+      :description="entry.description"
+      :path="entry.path"
+    />
+
     <Intro
       :title="entry.title"
       :description="entry.description"
@@ -37,6 +43,7 @@
 <page-query>
 query Post ($path: String!) {
   post: portfolio (path: $path) {
+    path
     title
     description
     thumbnail
@@ -62,17 +69,5 @@ export default {
       return this.$page.post;
     }
   },
-  metaInfo() {
-    return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          key: 'description',
-          name: 'description',
-          content: this.entry.description,
-        }
-      ],
-    };
-  }
 };
 </script>

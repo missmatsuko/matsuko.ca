@@ -1,9 +1,13 @@
 <template>
   <Layout>
 
+    <SEO
+      title="Home"
+    />
+
     <Intro
-      :title="'Matsuko Friedland'"
-      :description="'Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver.'"
+      title="Matsuko Friedland"
+      description="Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver."
       :image="require('~/assets/images/headshot.jpg')"
     >
       <div class="rich-text">
@@ -40,8 +44,5 @@ export default {
   components: {
     Intro,
   },
-  metaInfo: {
-    title: 'Home'
-  }
 }
 </script>

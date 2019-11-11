@@ -1,9 +1,15 @@
 <template>
   <Layout>
+    <SEO
+      title="Portfolio"
+      description="Web development and design projects by Matsuko Friedland."
+      path="/portfolio"
+    />
+
     <section>
       <Intro
-        :title="title"
-        :description="description"
+        title="Portfolio"
+        description="Things I've made."
       />
 
       <div class="container">
@@ -60,22 +66,6 @@ export default {
   computed: {
     items() {
       return this.$page.posts.edges.map(edge => edge.node);
-    }
-  },
-  data: () => ({
-    title: 'Portfolio',
-    description: 'Things I\'ve made.',
-  }),
-  metaInfo() {
-    return {
-      title: this.title,
-      meta: [
-        {
-          key: 'description',
-          name: 'description',
-          content: 'Web development and design projects by Matsuko Friedland.',
-        }
-      ],
     }
   },
 }

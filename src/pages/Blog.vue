@@ -1,9 +1,15 @@
 <template>
   <Layout>
+    <SEO
+      title="Blog"
+      description="A variety of articles by Matsuko Friedland, mainly focused on web development and design."
+      path="/blog"
+    />
+
     <section>
       <Intro
-        :title="title"
-        :description="description"
+        title="Blog"
+        description="Things I've written."
       />
 
       <div class="container">
@@ -56,21 +62,5 @@ export default {
       return this.$page.posts.edges.map(edge => edge.node);
     }
   },
-  data: () => ({
-    title: 'Blog',
-    description: 'Things I\'ve written.',
-  }),
-  metaInfo() {
-    return {
-      title: this.title,
-      meta: [
-        {
-          key: 'description',
-          name: 'description',
-          content: 'Articles on various topics, mainly focused on web development and design.',
-        }
-      ],
-    }
-  }
 }
 </script>

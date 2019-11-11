@@ -1,9 +1,13 @@
 <template>
   <Layout>
 
+    <SEO
+      title="404 page not found"
+    />
+
     <Intro
-      :title="'404'"
-      :description="'Sorry, this page doesn\'t exist.'"
+      title="404"
+      description="Sorry, this page doesn't exist."
     >
       <div class="rich-text">
         <h2 class="sr-only">Details</h2>
@@ -36,8 +40,5 @@ export default {
   components: {
     Intro,
   },
-  metaInfo: {
-    title: '404 page not found'
-  }
 }
 </script>

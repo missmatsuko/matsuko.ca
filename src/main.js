@@ -4,18 +4,13 @@
 import '~/assets/styles/index.css';
 import Link from '~/components/Link.vue';
 import DefaultLayout from '~/layouts/Default.vue';
+import SEO from '~/components/SEO.vue';
 
 export default function (Vue, { router, head, isClient }) {
   // Set global components
-  Vue.component('Link', Link);
   Vue.component('Layout', DefaultLayout);
-
-  // Add default meta description
-  head.meta.push({
-    key: 'description',
-    name: 'description',
-    content: 'Front-end web developer, and sometimes designer. Focused on accessibility. Usually located in Vancouver.'
-  });
+  Vue.component('Link', Link);
+  Vue.component('SEO', SEO);
 
   // Add Google Fonts from CDN to head
   head.link.push({

@@ -1,5 +1,11 @@
 <template>
   <Layout>
+    <SEO
+      :title="entry.title"
+      :description="entry.description"
+      :path="entry.path"
+    />
+
     <Intro
       :title="entry.title"
       :description="entry.date"
@@ -15,6 +21,7 @@
 <page-query>
 query Post ($path: String!) {
   post: blog (path: $path) {
+    path
     title
     description
     content
@@ -35,17 +42,5 @@ export default {
       return this.$page.post;
     }
   },
-  metaInfo() {
-    return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          key: 'description',
-          name: 'description',
-          content: this.entry.description,
-        }
-      ],
-    };
-  }
 };
 </script>
