@@ -48,7 +48,7 @@ query {
     },
     computed: {
       src() {
-        return `${this.$static.metadata.siteUrl}/assets/images/${this.imagePath}`;
+        return `${this.$static.metadata.siteUrl}/images/${this.imagePath}`;
       },
       srcset() {
         return this.transforms
