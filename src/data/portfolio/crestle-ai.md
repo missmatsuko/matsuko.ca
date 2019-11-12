@@ -2,7 +2,7 @@
 title: Crestle.ai
 description: Website for Crestle.ai, a one-click deep learning platform.
 date: 2019-01-01
-thumbnail: thumbnails/crestle-ai-logo.png
+thumbnail: /thumbnails/crestle-ai-logo.png
 colors: {
   primary: '#404040',
   secondary: '#FFFFFF',

@@ -2,7 +2,7 @@
 title: ASL Tab
 description: A browser extension that helps you learn a little American Sign Language (ASL) every time you open a new tab.
 date: 2019-01-16
-thumbnail: thumbnails/asl-tab-icon.png
+thumbnail: /thumbnails/asl-tab-icon.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#000000',

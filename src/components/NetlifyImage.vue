@@ -48,7 +48,7 @@ query {
         return this.transforms.every(transform => transform.width && transform.height) ? 'smartcrop' : 'fit';
       },
       src() {
-        return `${this.$static.metadata.siteUrl}/images/${this.imagePath}`;
+        return `${this.$static.metadata.siteUrl}/images${this.imagePath}`;
       },
       srcset() {
         return this.transforms
