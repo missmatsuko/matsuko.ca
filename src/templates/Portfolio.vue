@@ -9,7 +9,7 @@
     <Intro
       :title="entry.title"
       :description="entry.description"
-      :image="entry.thumbnail"
+      :imagePath="entry.thumbnail"
     >
       <div class="rich-text">
         <h2 class="sr-only">Details</h2>

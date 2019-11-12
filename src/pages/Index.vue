@@ -8,7 +8,7 @@
     <Intro
       title="Matsuko Friedland"
       description="Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver."
-      :image="require('~/assets/images/headshot.jpg')"
+      imagePath="headshot.jpg"
     >
       <div class="rich-text">
 

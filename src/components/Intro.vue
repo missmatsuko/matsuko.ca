@@ -1,10 +1,22 @@
 <template>
   <div class="intro">
     <div class="container container--extra-narrow rich-text">
-      <g-image
-        v-if="image"
-        :src="image"
-        alt=""
+      <NetlifyImage
+        :imagePath="imagePath"
+        :transforms="[
+          {
+            width: 100,
+            height: 100,
+          },
+          {
+            width: 250,
+            height: 250,
+          },
+          {
+            width: 500,
+            height: 500,
+          },
+        ]"
       />
       <h1 v-if="title" v-text="title" />
       <p v-if="description" v-text="description" />
@@ -33,10 +45,10 @@
         default: '',
         type: String,
       },
-      image: {
+      imagePath: {
         required: false,
-        default: () => {},
-        type: [String, Object],
+        default: '',
+        type: String,
       }
     },
   };

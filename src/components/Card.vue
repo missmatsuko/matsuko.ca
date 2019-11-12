@@ -9,10 +9,26 @@
   >
 
     <div class="card-image">
-      <g-image
-        v-if="image"
-        :src="image"
-        alt=""
+      <NetlifyImage
+        :imagePath="imagePath"
+        :transforms="[
+          {
+            width: 100,
+            height: 100,
+          },
+          {
+            width: 250,
+            height: 250,
+          },
+          {
+            width: 500,
+            height: 500,
+          },
+          {
+            width: 800,
+            height: 800,
+          },
+        ]"
       />
     </div>
 
@@ -34,10 +50,10 @@ export default {
       required: true,
       type: String,
     },
-    image: {
+    imagePath: {
       required: false,
       default: '',
-      type: Object,
+      type: String,
     },
     colors: {
       required: false,

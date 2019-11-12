@@ -2,7 +2,7 @@
 title: Where's the Line? Newsletter
 description: Landing page to promote Where's the Line? power line safety newsletter.
 date: 2018-02-16
-thumbnail: ./assets/thumbnails/wheres-the-line-logo.png
+thumbnail: thumbnails/wheres-the-line-logo.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#FF5F00',
