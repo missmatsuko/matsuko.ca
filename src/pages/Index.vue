@@ -11,6 +11,11 @@
       :image="require('~/assets/images/headshot.jpg')"
     >
       <div class="rich-text">
+        <NetlifyImage
+          imagePath="headshot.jpg"
+          alt=""
+        />
+
         <h2 class="sr-only">Details</h2>
 
         <div>
