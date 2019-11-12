@@ -32,14 +32,11 @@ query {
         default: () => [
           {
             width: 100,
-            height: 100,
           },
           {
             width: 500,
-            height: 500,
           },
           {
-            width: 1000,
             width: 1000,
           },
         ],
@@ -47,13 +44,16 @@ query {
       },
     },
     computed: {
+      nfResize() {
+        return this.transforms.every(transform => transform.width && transform.height) ? 'smartcrop' : 'fit';
+      },
       src() {
         return `${this.$static.metadata.siteUrl}/images/${this.imagePath}`;
       },
       srcset() {
         return this.transforms
           .map(transform =>
-            `${this.src}?nf_resize=smartcrop&w=${transform.width || null}&h=${transform.height || null} ${transform.width}w`
+            `${this.src}?nf_resize=${this.nfResize}${transform.width ? `&w=${transform.width}` : ''}${transform.height ? `&h=${transform.height}` : '' } ${transform.width ? `${transform.width}w` : ''}`
           )
           .join(', ');
       },

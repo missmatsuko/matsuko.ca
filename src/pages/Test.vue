@@ -4,6 +4,14 @@
     <NetlifyImage
       imagePath="headshot-b.jpg"
       alt=""
+      :transforms="[{
+        width: 100,
+        height: 100,
+      }]"
+    />
+    <NetlifyImage
+      imagePath="headshot-b.jpg"
+      alt=""
     />
   </Layout>
 </template>
