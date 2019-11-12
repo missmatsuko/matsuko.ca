@@ -17,6 +17,8 @@
             height: 500,
           },
         ]"
+        width="100"
+        height="100"
       />
       <h1 v-if="title" v-text="title" />
       <p v-if="description" v-text="description" />
