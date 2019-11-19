@@ -1,1 +1,14 @@
-static/images/headshot-b.jpg filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/asl-tab-icon.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/change-for-climate-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/explore-edmonton-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/go-transit-etiquette-fail-book.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/logitech-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/vanarts-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/crestle-ai-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/energy-efficiency-alberta-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/go-transit-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/niche-rms-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/sitefinders-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/sky-residences-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/thumbnails/wheres-the-line-logo.png filter=lfs diff=lfs merge=lfs -text
+static/images/headshot.jpg filter=lfs diff=lfs merge=lfs -text
