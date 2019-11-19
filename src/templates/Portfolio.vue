@@ -10,7 +10,7 @@
     <Intro
       :title="entry.title"
       :description="entry.description"
-      :imagePath="entry.image"
+      :imagePath="`/thumbnails${entry.image}`"
     >
       <div class="rich-text">
         <h2 class="sr-only">Details</h2>
