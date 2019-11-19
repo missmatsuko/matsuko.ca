@@ -29,7 +29,7 @@ export default {
     },
     imagePath: {
       required: false,
-      default: '/headshot.jpg',
+      default: '/default-seo.png',
       type: String,
     },
   },
