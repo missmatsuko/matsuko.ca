@@ -9,7 +9,6 @@
     <Intro
       :title="entry.title"
       :description="entry.date"
-      :imagePath="entry.thumbnail"
     />
 
     <div class="container container--narrow">

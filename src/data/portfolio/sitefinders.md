@@ -2,7 +2,7 @@
 title: Sitefinders
 description: Website for Sitefinders, a commercial real estate company.
 date: 2017-07-16
-thumbnail: /thumbnails/sitefinders-logo.png
+image: /sitefinders-logo.png
 colors: {
   primary: '#CC0000',
   secondary: '#FFFFFF',

@@ -4,12 +4,13 @@
       :title="entry.title"
       :description="entry.description"
       :path="entry.path"
+      :imagePath="entry.image"
     />
 
     <Intro
       :title="entry.title"
       :description="entry.description"
-      :imagePath="entry.thumbnail"
+      :imagePath="entry.image"
     >
       <div class="rich-text">
         <h2 class="sr-only">Details</h2>
@@ -46,7 +47,7 @@ query Post ($path: String!) {
     path
     title
     description
-    thumbnail
+    image
     content
     technologies
     links {
