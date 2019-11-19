@@ -7,32 +7,29 @@
       '--color-secondary': colors.secondary,
     }"
   >
-
-    <div class="card-image">
-      <NetlifyImage
-        :imagePath="imagePath"
-        :transforms="[
-          {
-            width: 100,
-            height: 100,
-          },
-          {
-            width: 250,
-            height: 250,
-          },
-          {
-            width: 500,
-            height: 500,
-          },
-          {
-            width: 800,
-            height: 800,
-          },
-        ]"
-        width="300"
-        height="300"
-      />
-    </div>
+    <NetlifyImage
+      :imagePath="imagePath"
+      :transforms="[
+        {
+          width: 100,
+          height: 100,
+        },
+        {
+          width: 250,
+          height: 250,
+        },
+        {
+          width: 500,
+          height: 500,
+        },
+        {
+          width: 800,
+          height: 800,
+        },
+      ]"
+      :width="300"
+      :height="300"
+    />
 
     <div class="card-text">
       <div>
@@ -115,20 +112,6 @@ export default {
   .card:hover::after,
   .card:focus::after {
     max-height: 100%;
-  }
-
-  .card-image {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-  }
-
-  .card-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 
   .card-text {

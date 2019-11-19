@@ -2,6 +2,8 @@
   <div class="intro">
     <div class="container container--extra-narrow rich-text">
       <NetlifyImage
+        class="image"
+        v-if="imagePath"
         :imagePath="imagePath"
         :transforms="[
           {
@@ -17,8 +19,8 @@
             height: 500,
           },
         ]"
-        width="100"
-        height="100"
+        :width="100"
+        :height="100"
       />
       <h1 v-if="title" v-text="title" />
       <p v-if="description" v-text="description" />
@@ -62,11 +64,13 @@
     padding: var(--spacing-xxl) 0;
   }
 
-  img {
+  .image {
     width: 100px;
     border-radius: var(--spacing-xs);
     box-shadow: var(--box-shadow);
     border: 1px solid var(--color-gray-extra-light);
+    overflow: hidden;
+    display: inline-block;
   }
 
   p {

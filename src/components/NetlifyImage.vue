@@ -1,9 +1,18 @@
 <template>
-  <img
-    :src="src"
-    :srcset="srcset"
-    :alt="alt"
-  />
+  <div class="netlify-image">
+    <div
+      class="image-wrapper"
+      :style="{
+        paddingBottom: `${height / width * 100}%`,
+      }"
+    >
+      <img
+        :src="src"
+        :srcset="srcset"
+        :alt="alt"
+      />
+    </div>
+  </div>
 </template>
 
 <static-query>
@@ -26,6 +35,16 @@ query {
       imagePath: {
         required: true,
         type: String,
+      },
+      width: {
+        required: true,
+        default: '',
+        type: Number,
+      },
+      height: {
+        required: true,
+        default: '',
+        type: Number,
       },
       transforms: {
         required: false,
@@ -60,3 +79,18 @@ query {
     },
   };
 </script>
+
+<style scoped>
+  .image-wrapper {
+    position: relative;
+    background-color: var(--color-gray);
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
