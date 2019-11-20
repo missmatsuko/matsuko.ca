@@ -52,6 +52,10 @@
   z-index: 1;
 }
 
+.rich-text {
+  line-height: 180%;
+}
+
 .rich-text > *:not(:last-child) {
   margin-bottom: var(--spacing-md);
 }
