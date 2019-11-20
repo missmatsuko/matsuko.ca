@@ -47,7 +47,6 @@ hr {
 
 a {
   color: inherit;
-  display: inline-block;
   /*
     Don't skip underline for descenders on links by default.
     I think it makes it harder to tell where links start and end.
