@@ -4,6 +4,7 @@ description: A collection of ASL signs where the index and middle fingers repres
 date: 2019-09-23
 image:
   path: /shoes-hanging-off-fingers.jpg
+  alt: High-heeled shoes hanging off index and middle fingers.
   width: 1200
   height: 787
   caption: '<a href="https://unsplash.com/photos/tjvURCarBf0" target="_blank" rel="nofollow noopener">Photo by Andrew Tanglao on Unsplash</a>'

@@ -17,6 +17,7 @@
         <NetlifyImage
           class="cover-image"
           :imagePath="entry.image.path"
+          :alt="entry.image.alt"
           :width="entry.image.width"
           :height="entry.image.height"
         />
@@ -40,6 +41,7 @@ query Post ($path: String!) {
     description
     image {
       path
+      alt
       width
       height
       caption

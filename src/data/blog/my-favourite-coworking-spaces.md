@@ -4,6 +4,7 @@ description: A list of coworking/remote work spaces I've tried and liked.
 date: 2019-11-01
 image:
   path: /coworking-spaces.jpg
+  alt: Neon sign that says 'Coworking'.
   width: 1200
   height: 675
   caption: '<a href="https://unsplash.com/photos/TNJdsXC_wtY" target="_blank" rel="nofollow noopener">Photo by Vladimir Proskurovskiy on Unsplash</a>'

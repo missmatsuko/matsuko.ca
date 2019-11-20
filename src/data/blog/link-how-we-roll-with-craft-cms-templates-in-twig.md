@@ -4,6 +4,7 @@ description: How using macros can help avoid troubles with Twig templating. Orig
 date: 2019-09-03
 image:
   path: /craft-twig.png
+  alt: Craft and Twig logos.
   width: 1200
   height: 630
   caption:
