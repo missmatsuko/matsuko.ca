@@ -7,7 +7,7 @@
       '--color-secondary': colors.secondary,
     }"
   >
-    <NetlifyImage
+    <CloudinaryImage
       :imagePath="imagePath"
       :transforms="[
         {

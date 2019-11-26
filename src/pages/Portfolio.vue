@@ -20,7 +20,7 @@
           <div v-for="item in items" :key="item.id">
             <Card
               :url="item.path"
-              :imagePath="`/thumbnails${item.image}`"
+              :imagePath="`/${item.image}`"
               :colors="item.colors"
               :headline="item.title"
               :subheadline="item.projectType"

@@ -14,7 +14,7 @@
 
     <div class="container container--narrow">
       <figure class="cover" v-if="entry.image.path">
-        <NetlifyImage
+        <CloudinaryImage
           class="cover-image"
           :imagePath="entry.image.path"
           :alt="entry.image.alt"

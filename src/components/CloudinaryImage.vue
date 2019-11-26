@@ -1,5 +1,5 @@
 <template>
-  <div class="netlify-image">
+  <div class="cloudinary-image">
     <div
       class="image-wrapper"
       :style="{
@@ -24,8 +24,10 @@ query {
 </static-query>
 
 <script>
+  import cloudinaryUrl from '~/assets/scripts/cloudinaryUrl.js';
+
   export default {
-    name: 'NetlifyImage',
+    name: 'CloudinaryImage',
     props: {
       alt: {
         required: false,
@@ -63,17 +65,26 @@ query {
       },
     },
     computed: {
-      nfResize() {
-        return this.transforms.every(transform => transform.width && transform.height) ? 'smartcrop' : 'fit';
-      },
       src() {
-        return `${this.$static.metadata.siteUrl}/images${this.imagePath}`;
+        return cloudinaryUrl(
+          this.$static.metadata.siteUrl,
+          this.imagePath,
+          {
+            height: this.height,
+            width: this.width,
+          }
+        );
       },
       srcset() {
         return this.transforms
-          .map(transform =>
-            `${this.src}?nf_resize=${this.nfResize}${transform.width ? `&w=${transform.width}` : ''}${transform.height ? `&h=${transform.height}` : '' } ${transform.width ? `${transform.width}w` : ''}`
-          )
+          .map(transform => `${cloudinaryUrl(
+            this.$static.metadata.siteUrl,
+            this.imagePath,
+            {
+              height: transform.height,
+              width: transform.width || null,
+            }
+          )} ${transform.width ? `${transform.width}w` : ''}`)
           .join(', ');
       },
     },
