@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <div class="container container--extra-narrow rich-text">
-      <NetlifyImage
+      <CloudinaryImage
         class="image"
         v-if="imagePath"
         :imagePath="imagePath"

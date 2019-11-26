@@ -10,6 +10,8 @@ query {
 </static-query>
 
 <script>
+import cloudinaryUrl from '~/assets/scripts/cloudinaryUrl.js';
+
 export default {
   name: 'SEO',
   props: {
@@ -60,7 +62,13 @@ export default {
           property: "og:image",
           // og:image (1200 x 630) for Facebook
           // https://developers.facebook.com/docs/sharing/webmasters/images
-          content: `${this.siteUrl}/images${this.imagePath}?nf_resize=smartcrop&w=1200&h=630`,
+          content: cloudinaryUrl(this.siteUrl,
+            this.imagePath,
+            {
+              width: 1200,
+              height: 630,
+            },
+          ),
         },
         {
           property: "og:url",
@@ -80,7 +88,13 @@ export default {
           name: "twitter:image",
           // aspect ratio of 2:1 with minimum dimensions of 300x157 or maximum of 4096x4096 pixels
           // https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
-          content: `${this.siteUrl}/images${this.imagePath}?nf_resize=smartcrop&w=1200&h=600`,
+          content: cloudinaryUrl(this.siteUrl,
+            this.imagePath,
+            {
+              width: 1200,
+              height: 600,
+            },
+          ),
         },
         {
           name: "twitter:description",
