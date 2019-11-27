@@ -51,6 +51,10 @@ export default {
 
         // Open Graph (Facebook)
         {
+          property: "og:type",
+          content: "website",
+        },
+        {
           property: "og:title",
           content: this.title,
         },
@@ -69,6 +73,14 @@ export default {
               height: 630,
             },
           ),
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+        },
+        {
+          property: "og:image:height",
+          content: "630",
         },
         {
           property: "og:url",
