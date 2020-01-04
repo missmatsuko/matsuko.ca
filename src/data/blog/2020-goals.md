@@ -3,7 +3,7 @@ title: 2020 Goals
 description: My resolutions for 2020.
 date: 2020-01-01
 image:
-  path: /2020.jpg
+  path: /twenty-twenty.jpg
   alt: Paper or maybe felt '2020' and star confetti on a wood tabletop.
   width: 1200
   height: 900
