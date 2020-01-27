@@ -11,7 +11,7 @@ image:
 ---
 
 ## 1. Read 50 books
-[Inspired by Bill Gates](https://www.youtube.com/watch?v=eTFy8RnUkoU), I'm aiming to read 50 books this year to expand my mind and knowledge. I'll try to list them here as I go.
+[Inspired by Bill Gates](https://www.youtube.com/watch?v=eTFy8RnUkoU), I'm aiming to read 50 books this year to expand my mind and knowledge. [Check out my progress on GoodReads](https://www.goodreads.com/user_challenges/21371257).
 
 ## 2. Exercise 50 times
 This might sound really easy, but I'm notoriously terrible at exercising. Growing up, I hated gym and I never participated in sports. I still haven't found anything physically active that I really enjoy doing. Hopefully I'll find something tolerable by the end of 2020, but at the very least I'll try to exercise 50 times this year.
