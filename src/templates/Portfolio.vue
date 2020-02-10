@@ -38,6 +38,14 @@
     <div class="container container--narrow">
       <div class="rich-text" v-html="entry.content"/>
     </div>
+
+    <Banner
+      headline="Get in touch!"
+      subheadline="Want to work together? Have a burning question or thoughtful comment?"
+      body="Send me an email to start the conversation!"
+      url="mailto:info@matsuko.ca"
+      cta="Email me"
+    />
   </Layout>
 </template>
 
@@ -60,9 +68,11 @@ query Post ($path: String!) {
 
 <script>
 import Intro from '~/components/Intro.vue';
+import Banner from '~/components/Banner.vue';
 
 export default {
   components: {
+    Banner,
     Intro,
   },
   computed: {
