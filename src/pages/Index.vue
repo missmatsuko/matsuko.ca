@@ -7,7 +7,7 @@
 
     <Intro
       title="Matsuko Friedland"
-      description="Mostly front-end web developer, sometimes designer. Pretty much always she/her. Usually located in Vancouver."
+      description="Creating experiences with usability and accessibility in mind."
       imagePath="/headshot.jpg"
     >
       <div class="rich-text">

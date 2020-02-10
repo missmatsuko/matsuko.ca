@@ -21,7 +21,7 @@ export default {
     },
     description: {
       required: false,
-      default: 'Front-end web developer, and sometimes designer. Focused on accessibility. Usually located in Vancouver.',
+      default: 'Vancouver-based web specialist focused on usability and accessibility.',
       type: String,
     },
     path: {
