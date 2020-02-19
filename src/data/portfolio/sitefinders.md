@@ -18,6 +18,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://www.sitefinders.ca/'
+featured: false
 ---
 
 ## Summary

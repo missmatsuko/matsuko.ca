@@ -17,6 +17,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://info.logitech.com/srs-decision-tree-en-us.html'
+featured: true
 ---
 
 ## Summary

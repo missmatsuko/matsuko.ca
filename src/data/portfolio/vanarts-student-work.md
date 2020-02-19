@@ -19,6 +19,7 @@ technologies:
 links:
   - text: Source Code
     url: 'https://github.com/missmatsuko/vanarts'
+featured: false
 ---
 
 ## Summary

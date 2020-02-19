@@ -17,6 +17,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://changeforclimate.ca/'
+featured: false
 ---
 
 ## Summary

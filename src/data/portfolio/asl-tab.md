@@ -21,6 +21,7 @@ links:
     url: 'https://github.com/missmatsuko/asl-tab'
   - text: Back-end Repository
     url: 'https://github.com/missmatsuko/asl-tab-api'
+featured: true
 ---
 ## Summary
 

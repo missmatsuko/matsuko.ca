@@ -18,6 +18,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://nicherms.com/'
+featured: false
 ---
 
 ## Summary

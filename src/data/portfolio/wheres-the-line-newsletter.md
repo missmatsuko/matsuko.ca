@@ -15,6 +15,7 @@ technologies:
   - JS
   - Gulp
   - Twig
+featured: false
 ---
 
 ## Summary

@@ -18,4 +18,5 @@ technologies:
 links:
   - text: Live Site
     url: 'https://efficiencyalberta.ca/'
+featured: true
 ---

@@ -19,6 +19,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://exploreedmonton.com/'
+featured: false
 ---
 
 ## Summary

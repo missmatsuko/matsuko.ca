@@ -18,6 +18,7 @@ technologies:
 links:
   - text: Live Site
     url: 'http://liveskycondos.com/'
+featured: false
 ---
 
 ## Summary

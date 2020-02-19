@@ -18,6 +18,7 @@ technologies:
 links:
   - text: Live Site
     url: 'https://crestle.ai/'
+featured: false
 ---
 
 ## Summary
