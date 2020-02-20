@@ -40,7 +40,7 @@ I carefully coded the site to be functional for keyboard users and screen reader
 I configured the CMS to produce both an intuitive authoring experience for content authors, and data that supports the site's layout and design.
 
 ### Complex forms
-I built out a multiple multi-step forms with validation, third-party API integrations, and bespoke form UI elements.
+I built out multi-step forms with validation, third-party API integrations, and bespoke form UI elements.
 
 ### Flexible components
 I built out flexible components that could have multiple variations depending on its content and position in the page.
