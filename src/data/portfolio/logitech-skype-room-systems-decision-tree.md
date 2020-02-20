@@ -21,4 +21,8 @@ featured: true
 ---
 
 ## Summary
-This landing page was built for Logitech Video Collaboration. It provides information about Logitech's Skype Room Systems and an interactive quiz (or "decision tree") to help people choose the appropriate video conferencing set-up for their organization. The landing page is statically built and hosted through Marketo.
+[Logitech Video Collaboration](http://www.logitech.com/VC) is the part of [Logitech](https://www.logitech.com/) dedicated to helping teams collaborate and communicate through video conferencing.
+
+This landing page provides information about Logitech's Skype Room Systems and an interactive quiz (or "decision tree") to help people choose the appropriate video conferencing set-up for their organization.
+
+I developed this landing page and produced static HTML files for hosting on [Marketo](https://www.marketo.com/).
