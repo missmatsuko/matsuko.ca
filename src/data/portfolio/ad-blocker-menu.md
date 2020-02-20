@@ -121,13 +121,11 @@ Based on my previous experience and the limited user feedback I had available, I
 ### Confusing iconography
 Many of the icons look similar to each other. Their small size, low contrast, and lack of clear labels makes them even harder to distinguish from one another.
 
-<!-- TODO add image: sliders, logger, film strip -->
-
-<!-- TODO add image: crossed eye, html -->
+![Similar icons. Sliders, logger, and film strip icons. Crossed eye and HTML tag icon.](./assets/ad-blocker-menu/similar-icons.png)
 
 Some icons that are typically used for other functions have been reused for unrelated functions. For example, the 2 pages icon represents a ‘copy’ function in many existing applications.
 
-<!-- TODO add image: copy, eyedropper, flash -->
+![Familiar icons. Copy, eyedropper, lightning icons.](./assets/ad-blocker-menu/familiar-icons.png)
 
 Many of the icons are otherwise not clearly related to their intended functionality.
 
