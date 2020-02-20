@@ -19,7 +19,9 @@
           <h3>Links</h3>
           <ul class="list-reset">
             <li v-for="link in entry.links">
-              <a :href="link.url">{{ link.text }}</a>
+              <Link :to="link.url">
+                {{ link.text }}
+              </Link>
             </li>
           </ul>
         </div>
