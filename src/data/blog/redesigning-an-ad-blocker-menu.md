@@ -96,7 +96,7 @@ Studying how the menu works brought up many questions in my mind, which I've rec
 - Is it clear how the power button works with ctrl/cmd and clicking?
 
 ### User feedback
-Although I did not perform formal user testing, I did receive user feedback through informal online discussions. Here I have grouped the feedback into themes.
+Although I did not perform formal user research, I did receive user feedback through informal online discussions. Here I have grouped the feedback into themes.
 
 #### Things that users find useful
 - I like seeing the number of requests blocked on the page because I know that the ad blocker has prevented something from loading. It lets me know that the ad blocker is working, and I know that it may be the cause of my problem if the page is not working properly.
@@ -122,56 +122,53 @@ Although I did not perform formal user testing, I did receive user feedback thro
 ## Issues with the existing menu
 Based on my previous experience and the limited user feedback I had available, I've identified the following usability and accessibility issues.
 
-<!-- TODO chunk starts -->
-### Not understandable for newbies
+### Confusing iconography
+Many of the icons look similar to each other. Their small size, low contrast, and lack of clear labels makes them even harder to distinguish from one another.
 
-### Iconography
-Many of the icons are unclear
+<!-- TODO add image: sliders, logger, film strip -->
 
-Several icons look similar to each other:
-- Sliders, logger, settings, film strip
+<!-- TODO add image: crossed eye, html -->
 
-The small icon size and no clear label makes them even harder to distinguish.
+Some icons that are typically used for other functions have been reused for unrelated functions. For example, the 2 pages icon represents a ‘copy’ function in many existing applications.
 
-Familiar icons being re-used for other purposes:
-- 'Copy'
-- '(color) picker'
-- 'thunderbolt'
-- HTML
+<!-- TODO add image: copy, eyedropper, flash -->
 
-Bottom row icons get crossed with red x when activated. Double crossing out eye:
-<!--
-![An eye with a diagonal line across it, and a red X over that.](./assets/redesigning-an-ad-blocker-menu/icon-button-double-crossed-eye.png)
--->
+Many of the icons are otherwise not clearly related to their intended functionality.
 
-### Tooltips
-Takes several seconds to display the tooltip text, which is not always helpful on its own.
-Accessibility issues.
+### Use of tooltips
+It takes several seconds of hovering over an icon to reveal its tooltip. The use of the title attribute as a tooltip also causes a number of mobile and [accessibility issues](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/), especially since the text is not persistent and requires the user to hover with a mouse.
 
-### Complex controls
-- Unclear which settings take priority over others
-- Unclear which settings are tools vs. site-specific
-- Extra information in the middle (requests blocked, domains connected) necessary? Can they be smaller?
-- Even after spending time reading documentation, still don't totally understand.
+### Information overload
+The menu is crowded with a lot of information and buttons, which is overwhelming and difficult to scan for a specific item. Some of the information is repetitive and may not be helpful.
 
-### Unneccessary information
+### Not enough guidance
+While there is a lot of content in the menu, it’s also lacking some important information. It is unclear why there are two sets of icon buttons, and it’s hard to tell which functions take priority over another.
+
+### Complex controls and functions
+Some of the controls are complex, requiring user of a mouse and keyboard.
 
 ## Recommendations
-- Presume all functionality and information in the existing menu is actually important and required?
-- Group and label related items
-- Avoid using similar icons, and icons without text
-- Improve text
-- Reduce complexity of controls (ctrl/cmd + click)
+- **Swap out icons so they are more related to their functionality, and distinct from each other.**
 
-<!-- TODO chunk ends -->
+  This will make it easier for users to understand what functions are available to them, especially new and infrequent users of the menu, and users with some types of visual disabilities.
 
-My first suggestion was to completely redesign the menu. To me, the menu looked like the result of neglect, as it was crowded and not exactly aesthetically-pleasing. I thought it would be a good idea to figure out what users want in the menu (if they want a menu at all), and present it in a clear and understandable way. I was surprised to learn that this solution was not acceptable as it was too drastic of a change.
+- **Add descriptive and persistent text labels for buttons and groups of buttons.**
 
-My second suggestion was a compromise solution. I proposed that we could still make some changes to improve the usability of the menu, while keeping its current layout, information, and functionality. For example, we could swap out some of the icons, improve the tooltip text, and maybe add a couple labels for the 2 rows of icons. This also ended up being unacceptable.
+  This will make it easier for users to understand what functions are available to them, especially for new and infrequent users of the menu, and users with some types of cognitive and visual disabilities.
 
-Well, at least this experience ended up giving me a good topic for my first UX case study!
+- **Remove content that is unnecessary and/or rarely used.**
 
-<!--
-TODO
-[a wireframe/mockup/prototype]
+  This will reduce the amount of information presented on the menu, so that users can find what they’re looking for more quickly and easily.
+
+- **Reduce obfuscation and complexity of controls.**
+
+  This will make it easier for users to understand and access all the functionality that is available to them, especially for new and infrequent users of the menu, and users with some types of cognitive, visual, and motor disabilities.
+
+These changes can be applied either all at once or incrementally. A complete menu redesign would be needed for the changes to be applied all at once, including user testing. On the other hand, applying the changes through a series of small changes would be more acceptable for those users who are already familiar with the menu, and we could get feedback on each change as it is made.
+
+<!-- TODO:
+
+- Research what other ad blocker extensions put in their menu
+- Wireframe/mockup/prototype a complete redesign and/or incremental changes
+
 -->
