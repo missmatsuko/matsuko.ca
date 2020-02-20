@@ -1,21 +1,17 @@
 ---
-title: Redesigning an ad blocker menu for UX and a11y
-description: I take a look at a popular ad blocker extension's menu to see how its usability and accessibility could be improved.
-date: 2020-02-18
-image:
-  path: /twenty-twenty.jpg
-  alt: ''
-  width: 1200
-  height: 900
-  caption: ''
+title: Ad Blocker Menu
+description: A review of a popular ad blocker browser extension's menu.
+date: 2020-02-20
+image: /stop-hand.png
+colors: {
+  primary: '#FFFFFF',
+  secondary: '#A70000',
+}
+projectType: UX Case Study
+technologies:
+links:
+featured: true
 ---
-
-<!-- TODO:
-- replace above image
-- update title and/or file name?
-- should this go in portfolio section instead of blog?
-- add more images to break up long text?
--->
 
 ## Introduction
 In this case study, I will analyze a UI element of a popular ad blocker browser extension. This case study is based on a real browser extension that I am a former user of. The UI element is a menu that is revealed after clicking the browser extension's icon in the browser's navigation bar.
@@ -30,7 +26,7 @@ Enjoy, if you want to!
 First of all, I set off to understand the existing menu. I found the menu confusing at first glance, and didn't find the tooltips very enlightening. I studied the extension's documentation to help me understand how to use the menu, and have recorded my findings below.
 
 ### Structure
-![Ad blocker menu.](./assets/redesigning-an-ad-blocker-menu/existing-menu.png)
+![Ad blocker menu.](./assets/ad-blocker-menu/existing-menu.png)
 
 Looking at the the image of the menu above, there are 5 distinct areas:
 
@@ -57,18 +53,18 @@ Looking at the the image of the menu above, there are 5 distinct areas:
 ### Functions
 I recorded the icon, tooltip text, and functionality for each button in the menu.
 
-| Icon                                                                                                                                                             | Tooltip                                                                                            | Functionality                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Blue line and circle style power symbol.](./assets/redesigning-an-ad-blocker-menu/icon-button-power.png)                                                       | Click to disable [ad blocker] for this site. Ctrl+click to disable [ad blocker] only on this page. | Clicking this button will permanently turn off the extension for the current site. Pressing the ctrl or cmd key while clicking this button will permanently turn off the extension for the current page. |
-| ![Thunderbolt.](./assets/redesigning-an-ad-blocker-menu/icon-button-thunderbolt.png)                                                                             | Enter element zapper mode                                                                          | Clicking this button will activate element zapper mode. While in this mode, clicking on page elements will temporarily remove them from the page.                                                        |
-| ![Eye dropper.](./assets/redesigning-an-ad-blocker-menu/icon-button-eye-dropper.png)                                                                             | Enter element picker mode                                                                          | Clicking this button will open an interactive menu for creating filters which can permanently remove elements from the site.                                                                             |
-| ![A browser window-like rectangle containing 3 rows of a dot and wide line.](./assets/redesigning-an-ad-blocker-menu/icon-button-menu.png)                       | Open the logger                                                                                    | Clicking this button will open a logger, which details technical details about what the extension is doing.                                                                                              |
-| ![3 rows of sliders (horizontal line with a handle).](./assets/redesigning-an-ad-blocker-menu/icon-button-sliders.png)                                           | Open the dashboard                                                                                 | Clicking this button will open the dashboard, where you can edit various extension settings and preferences.                                                                                             |
-| ![2 sheets of paper with their top right corner folded down. One paper is offset over the other.](./assets/redesigning-an-ad-blocker-menu/icon-button-pages.png) | Click to block all popups on this site                                                             | Clicking this button will permanently block all pop-ups for the site.                                                                                                                                    |
-| ![Several rectangles, likely meant to be a film strip.](./assets/redesigning-an-ad-blocker-menu/icon-button-film.png)                                            | Click to block large media elements on this site                                                   | Clicking this button will permanently block large media from loading on the site.                                                                                                                        |
-| ![An eye with a diagonal line across it. There's also 3 dots at the bottom right corner.](./assets/redesigning-an-ad-blocker-menu/icon-button-crossed-eye.png)   | Click to disable cosmetic filtering on this site                                                   | Clicking this button will permanently display removed elements for the site.                                                                                                                             |
-| ![The capital letter 'A' in a serif font.](./assets/redesigning-an-ad-blocker-menu/icon-button-letter-a.png)                                                     | Click to block remote fonts on this site                                                           | Clicking this button will permanently block remote fonts from loading on the site.                                                                                                                       |
-| ![</>](./assets/redesigning-an-ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disable JavaScript on the site.                                                                                                                                    |
+| Icon                                                                                                                                              | Tooltip                                                                                            | Functionality                                                                                                                                                                                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Blue line and circle style power symbol.](./assets/ad-blocker-menu/icon-button-power.png)                                                       | Click to disable [ad blocker] for this site. Ctrl+click to disable [ad blocker] only on this page. | Clicking this button will permanently turn off the extension for the current site. Pressing the ctrl or cmd key while clicking this button will permanently turn off the extension for the current page. |
+| ![Thunderbolt.](./assets/ad-blocker-menu/icon-button-thunderbolt.png)                                                                             | Enter element zapper mode                                                                          | Clicking this button will activate element zapper mode. While in this mode, clicking on page elements will temporarily remove them from the page.                                                        |
+| ![Eye dropper.](./assets/ad-blocker-menu/icon-button-eye-dropper.png)                                                                             | Enter element picker mode                                                                          | Clicking this button will open an interactive menu for creating filters which can permanently remove elements from the site.                                                                             |
+| ![A browser window-like rectangle containing 3 rows of a dot and wide line.](./assets/ad-blocker-menu/icon-button-menu.png)                       | Open the logger                                                                                    | Clicking this button will open a logger, which details technical details about what the extension is doing.                                                                                              |
+| ![3 rows of sliders (horizontal line with a handle).](./assets/ad-blocker-menu/icon-button-sliders.png)                                           | Open the dashboard                                                                                 | Clicking this button will open the dashboard, where you can edit various extension settings and preferences.                                                                                             |
+| ![2 sheets of paper with their top right corner folded down. One paper is offset over the other.](./assets/ad-blocker-menu/icon-button-pages.png) | Click to block all popups on this site                                                             | Clicking this button will permanently block all pop-ups for the site.                                                                                                                                    |
+| ![Several rectangles, likely meant to be a film strip.](./assets/ad-blocker-menu/icon-button-film.png)                                            | Click to block large media elements on this site                                                   | Clicking this button will permanently block large media from loading on the site.                                                                                                                        |
+| ![An eye with a diagonal line across it. There's also 3 dots at the bottom right corner.](./assets/ad-blocker-menu/icon-button-crossed-eye.png)   | Click to disable cosmetic filtering on this site                                                   | Clicking this button will permanently display removed elements for the site.                                                                                                                             |
+| ![The capital letter 'A' in a serif font.](./assets/ad-blocker-menu/icon-button-letter-a.png)                                                     | Click to block remote fonts on this site                                                           | Clicking this button will permanently block remote fonts from loading on the site.                                                                                                                       |
+| ![</>](./assets/ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disable JavaScript on the site.                                                                                                                                    |
 
 ## Reacting to the existing menu
 After understanding the existing menu, I collected my own reaction and the reactions of other users.
@@ -170,5 +166,6 @@ These changes can be applied either all at once or incrementally. A complete men
 
 - Research what other ad blocker extensions put in their menu
 - Wireframe/mockup/prototype a complete redesign and/or incremental changes
+- Add more images to break up long text?
 
 -->
