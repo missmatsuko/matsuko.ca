@@ -2,7 +2,7 @@
 title: Ad Blocker Menu
 description: A review of a popular ad blocker browser extension's menu.
 date: 2020-02-20
-image: /stop-hand.png
+image: stop-hand.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#A70000',
