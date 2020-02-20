@@ -1,7 +1,7 @@
 <template>
   <component
     :is="type"
-    to="to"
+    :to="to"
     class="button"
   >
     <slot />
