@@ -25,7 +25,6 @@ export default {
   },
   computed: {
     isLink() {
-      console.log(this.to);
       return this.to.length;
     },
     type() {
