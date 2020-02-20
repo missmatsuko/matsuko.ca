@@ -13,6 +13,8 @@ image:
 <!-- TODO:
 - replace above image
 - update title and/or file name?
+- should this go in portfolio section instead of blog?
+- add more images to break up long text?
 -->
 
 ## Introduction
@@ -30,22 +32,27 @@ First of all, I set off to understand the existing menu. I found the menu confus
 ### Structure
 ![Ad blocker menu.](./assets/redesigning-an-ad-blocker-menu/existing-menu.png)
 
-Looking at the the image of the menu, there are 5 distinct areas:
+Looking at the the image of the menu above, there are 5 distinct areas:
 
-#### The power button
-This is the big blue power icon at the top of the menu.
+1. **The power button**
 
-#### The tools
-This is the row of 4 icons directly under the power button.
+  This is the big blue power icon at the top of the menu.
 
-#### The number of requests blocked
-This area is labelled 'requests blocked' and shows the number of requests blocked 'on this page' and 'since install' as both a number and a percentage.
+2. **The tools**
 
-#### The number of domains connected
-This area is labelled 'domains connected' as a number 'out of' another number.
+  This is the row of 4 icons directly under the power button.
 
-#### The per-site switches
-This is the row of 5 icons at the bottom of the menu. Some of the icons have small numbers or ellipses on their bottom right.
+3. **The number of requests blocked**
+
+  This area is labelled 'requests blocked' and shows the number of requests blocked 'on this page' and 'since install' as both a number and a percentage.
+
+4. **The number of domains connected**
+
+  This area is labelled 'domains connected' as a number 'out of' another number.
+
+5. **The per-site switches**
+
+  This is the row of 5 icons at the bottom of the menu. Some of the icons have small numbers or ellipses on their bottom right.
 
 ### Functions
 I recorded the icon, tooltip text, and functionality for each button in the menu.
@@ -63,40 +70,30 @@ I recorded the icon, tooltip text, and functionality for each button in the menu
 | ![The capital letter 'A' in a serif font.](./assets/redesigning-an-ad-blocker-menu/icon-button-letter-a.png)                                                     | Click to block remote fonts on this site                                                           | Clicking this button will permanently block remote fonts from loading on the site.                                                                                                                       |
 | ![</>](./assets/redesigning-an-ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disable JavaScript on the site.                                                                                                                                    |
 
-## Identifying the problems
+## Reacting to the existing menu
+After understanding the existing menu, I collected my own reaction and the reactions of other users.
 
 ### Questions
-Studying how the menu works brought up many questions in my mind:
+Studying how the menu works brought up many questions in my mind, which I've recorded below. These questions are mostly left unanswered, but would ideally be further explored through testing and analytics.
 
 #### Is this menu necessary?
-
-Do most users install the ad blocker extension and leave it as-is, or do they make customizations and use its tools?
-
-How many users use this menu, and how frequently do they use it?
+- Do most users install the ad blocker extension and leave it as-is, or do they make customizations and use its tools?
+- How many users use this menu, and how frequently do they use it?
 
 #### Is all the information in the menu necessary?
-
-How many users are interested in the 'requests blocked' and 'domains connected' areas of the menu?
-
-Why are the figures presented in so many different ways?
-
-Should all the figures be presented in the same format?
-
-Does this information belong in this menu, or does it belong in another location?
+- How many users are interested in the 'requests blocked' and 'domains connected' areas of the menu?
+- Why are the figures presented in so many different ways?
+- Should all the figures be presented in the same format?
+- Does this information belong in this menu, or does it belong in another location?
 
 #### Is all the functionality in the menu necessary?
-
-Which functions do users use most?
-
-Are there any functions that are missing?
+- Which functions do users use most?
+- Are there any functions that are missing?
 
 #### Is the menu easily understood?
-
-Do users unstand the difference between the 2 rows of icons?
-
-Do users understand what each icon means?
-
-Is it clear how the power button works with ctrl/cmd and clicking?
+- Do users unstand the difference between the 2 rows of icons?
+- Do users understand what each icon means?
+- Is it clear how the power button works with ctrl/cmd and clicking?
 
 ### User feedback
 Although I did not perform formal user testing, I did receive user feedback through informal online discussions. Here I have grouped the feedback into themes.
@@ -121,6 +118,12 @@ Although I did not perform formal user testing, I did receive user feedback thro
 #### Users familiar with the menu are resistant to it changing
 - I don't need or want the icons to change because I use them through muscle memory.
 - Tens of millions of users, including myself, are familiar with the menu. It is better to keep the menu the same so that existing users don't get confused.
+
+## Issues with the existing menu
+Based on my previous experience and the limited user feedback I had available, I've identified the following usability and accessibility issues.
+
+<!-- TODO chunk starts -->
+### Not understandable for newbies
 
 ### Iconography
 Many of the icons are unclear
@@ -151,14 +154,24 @@ Accessibility issues.
 - Extra information in the middle (requests blocked, domains connected) necessary? Can they be smaller?
 - Even after spending time reading documentation, still don't totally understand.
 
-## Applying the solutions
-- Presume all functionality and information in the existing menu is actually important and required
+### Unneccessary information
+
+## Recommendations
+- Presume all functionality and information in the existing menu is actually important and required?
 - Group and label related items
 - Avoid using similar icons, and icons without text
 - Improve text
 - Reduce complexity of controls (ctrl/cmd + click)
 
+<!-- TODO chunk ends -->
+
+My first suggestion was to completely redesign the menu. To me, the menu looked like the result of neglect, as it was crowded and not exactly aesthetically-pleasing. I thought it would be a good idea to figure out what users want in the menu (if they want a menu at all), and present it in a clear and understandable way. I was surprised to learn that this solution was not acceptable as it was too drastic of a change.
+
+My second suggestion was a compromise solution. I proposed that we could still make some changes to improve the usability of the menu, while keeping its current layout, information, and functionality. For example, we could swap out some of the icons, improve the tooltip text, and maybe add a couple labels for the 2 rows of icons. This also ended up being unacceptable.
+
+Well, at least this experience ended up giving me a good topic for my first UX case study!
+
 <!--
-## Result
+TODO
 [a wireframe/mockup/prototype]
 -->
