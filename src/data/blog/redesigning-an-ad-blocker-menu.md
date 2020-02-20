@@ -25,20 +25,35 @@ It turns out that there are some very vocal users who like the menu exactly the 
 Enjoy, if you want to!
 
 ## Understanding the existing menu
+First of all, I set off to understand the existing menu. I found the menu confusing at first glance, and didn't find the tooltips very enlightening. I studied the extension's documentation to help me understand how to use the menu, and have recorded my findings below.
 
 ### Structure
+![Ad blocker menu.](./assets/redesigning-an-ad-blocker-menu/existing-menu.png)
+
+Looking at the the image of the menu, there are 5 distinct areas:
+
+#### The power button
+This is the big blue power icon at the top of the menu.
+
+#### The tools
+This is the row of 4 icons directly under the power button.
+
+#### The number of requests blocked
+This area is labelled 'requests blocked' and shows the number of requests blocked 'on this page' and 'since install' as both a number and a percentage.
+
+#### The number of domains connected
+This area is labelled 'domains connected' as a number 'out of' another number.
+
+#### The per-site switches
+This is the row of 5 icons at the bottom of the menu. Some of the icons have small numbers or ellipses on their bottom right.
 
 ### Functions
-For each button in the menu, I read the text contained in its hover tooltip, and the description of its intended functionality in the extension's documentation.
-
-Some terminology:
-Permanent: the setting will be preserved until it is disabled
-Temporary: the setting will be preseved until the page is reloaded
+I recorded the icon, tooltip text, and functionality for each button in the menu.
 
 | Icon                                                                                                                                                             | Tooltip                                                                                            | Functionality                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Blue line and circle style power symbol.](./assets/redesigning-an-ad-blocker-menu/icon-button-power.png)                                                       | Click to disable [ad blocker] for this site. Ctrl+click to disable [ad blocker] only on this page. | Clicking this button will permanently turn off the extension for the current site. Pressing the ctrl or cmd key while clicking this button will permanently turn off the extension for the current page. |
-| ![Thunderbolt.](./assets/redesigning-an-ad-blocker-menu/icon-button-thunderbolt.png)                                                                             | Enter element zapper mode                                                                          | Clicking this button will activate element zapper mode. While in this mode, clicking on page elements will temporarily remove it from the page.                                                          |
+| ![Thunderbolt.](./assets/redesigning-an-ad-blocker-menu/icon-button-thunderbolt.png)                                                                             | Enter element zapper mode                                                                          | Clicking this button will activate element zapper mode. While in this mode, clicking on page elements will temporarily remove them from the page.                                                        |
 | ![Eye dropper.](./assets/redesigning-an-ad-blocker-menu/icon-button-eye-dropper.png)                                                                             | Enter element picker mode                                                                          | Clicking this button will open an interactive menu for creating filters which can permanently remove elements from the site.                                                                             |
 | ![A browser window-like rectangle containing 3 rows of a dot and wide line.](./assets/redesigning-an-ad-blocker-menu/icon-button-menu.png)                       | Open the logger                                                                                    | Clicking this button will open a logger, which details technical details about what the extension is doing.                                                                                              |
 | ![3 rows of sliders (horizontal line with a handle).](./assets/redesigning-an-ad-blocker-menu/icon-button-sliders.png)                                           | Open the dashboard                                                                                 | Clicking this button will open the dashboard, where you can edit various extension settings and preferences.                                                                                             |
@@ -46,9 +61,42 @@ Temporary: the setting will be preseved until the page is reloaded
 | ![Several rectangles, likely meant to be a film strip.](./assets/redesigning-an-ad-blocker-menu/icon-button-film.png)                                            | Click to block large media elements on this site                                                   | Clicking this button will permanently block large media from loading on the site.                                                                                                                        |
 | ![An eye with a diagonal line across it. There's also 3 dots at the bottom right corner.](./assets/redesigning-an-ad-blocker-menu/icon-button-crossed-eye.png)   | Click to disable cosmetic filtering on this site                                                   | Clicking this button will permanently display removed elements for the site.                                                                                                                             |
 | ![The capital letter 'A' in a serif font.](./assets/redesigning-an-ad-blocker-menu/icon-button-letter-a.png)                                                     | Click to block remote fonts on this site                                                           | Clicking this button will permanently block remote fonts from loading on the site.                                                                                                                       |
-| ![</>](./assets/redesigning-an-ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disables JavaScript on the site.                                                                                                                                   |
+| ![</>](./assets/redesigning-an-ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disable JavaScript on the site.                                                                                                                                    |
 
 ## Identifying the problems
+
+### Questions
+Studying how the menu works brought up many questions in my mind:
+
+#### Is this menu necessary?
+
+Do most users install the ad blocker extension and leave it as-is, or do they make customizations and use its tools?
+
+How many users use this menu, and how frequently do they use it?
+
+#### Is all the information in the menu necessary?
+
+How many users are interested in the 'requests blocked' and 'domains connected' areas of the menu?
+
+Why are the figures presented in so many different ways?
+
+Should all the figures be presented in the same format?
+
+Does this information belong in this menu, or does it belong in another location?
+
+#### Is all the functionality in the menu necessary?
+
+Which functions do users use most?
+
+Are there any functions that are missing?
+
+#### Is the menu easily understood?
+
+Do users unstand the difference between the 2 rows of icons?
+
+Do users understand what each icon means?
+
+Is it clear how the power button works with ctrl/cmd and clicking?
 
 ### User feedback
 Although I did not perform formal user testing, I did receive user feedback through informal online discussions. Here I have grouped the feedback into themes.
@@ -70,7 +118,7 @@ Although I did not perform formal user testing, I did receive user feedback thro
 - I don't know what any of the buttons on this menu do.
 - I don't know what the percentage means.
 
-#### Users familiar with the menu are resistent to it changing
+#### Users familiar with the menu are resistant to it changing
 - I don't need or want the icons to change because I use them through muscle memory.
 - Tens of millions of users, including myself, are familiar with the menu. It is better to keep the menu the same so that existing users don't get confused.
 
