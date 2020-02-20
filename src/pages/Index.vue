@@ -18,16 +18,16 @@
           <h3>Contact</h3>
           <ul>
             <li>
-              <a href="mailto:info@matsuko.ca">Email</a>
+              <Link to="mailto:info@matsuko.ca">Email</Link>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>
+              <Link to="https://www.linkedin.com/in/matsuko/">LinkedIn</Link>
             </li>
             <li>
-              <a href="https://github.com/missmatsuko/">GitHub</a>
+              <Link to="https://github.com/missmatsuko/">GitHub</Link>
             </li>
             <li>
-              <a href="https://codepen.io/missmatsuko/">CodePen</a>
+              <Link to="https://codepen.io/missmatsuko/">CodePen</Link>
             </li>
           </ul>
         </div>
