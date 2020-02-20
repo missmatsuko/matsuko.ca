@@ -1,6 +1,6 @@
 ---
 title: Redesigning an ad blocker menu for UX and a11y
-description: I take a look at a popular ad blocker extension's menu to see how it can be improved for usability and accessibility.
+description: I take a look at a popular ad blocker extension's menu to see how its usability and accessibility could be improved.
 date: 2020-02-18
 image:
   path: /twenty-twenty.jpg
@@ -16,8 +16,19 @@ image:
 -->
 
 ## Introduction
+In this case study, I will analyze a UI element of a popular ad blocker browser extension. This case study is based on a real browser extension that I am a former user of. The UI element is a menu that is revealed after clicking the browser extension's icon in the browser's navigation bar.
+
+I was inspired to study this UI element when I realized that I used it infrequently and with great difficulty. My thought was that if I, a web professional, found it difficult to use this menu, most other users must feel the same way.
+
+It turns out that there are some very vocal users who like the menu exactly the way it is. I decided to publish this case study even though my recommendations were not accepted, if only to demonstrate my UX thinking and process.
+
+Enjoy, if you want to!
 
 ## Understanding the existing menu
+
+### Structure
+
+### Functions
 For each button in the menu, I read the text contained in its hover tooltip, and the description of its intended functionality in the extension's documentation.
 
 Some terminology:
@@ -38,6 +49,30 @@ Temporary: the setting will be preseved until the page is reloaded
 | ![</>](./assets/redesigning-an-ad-blocker-menu/icon-button-code-tag.png)                                                                                         | Click to disable JavaScript on this site                                                           | Clicking this button will permanently disables JavaScript on the site.                                                                                                                                   |
 
 ## Identifying the problems
+
+### User feedback
+Although I did not perform formal user testing, I did receive user feedback through informal online discussions. Here I have grouped the feedback into themes.
+
+#### Things that users find useful
+- I like seeing the number of requests blocked on the page because I know that the ad blocker has prevented something from loading. It lets me know that the ad blocker is working, and I know that it may be the cause of my problem if the page is not working properly.
+- I can use the tooltip to figure out what the buttons do.
+- I use the power button to turn off ad blocking for the page. I think I've used the settings button to change my settings.
+
+#### Things that users don't find useful
+- I don't know why it would be useful to see the number of requests blocked since I've installed the browser extension.
+- I don't know why it would be useful to see the percentage of requests blocked for either the page or since install.
+- I don't find the number of domains connected useful. Maybe someone else would find it useful.
+- I don't remember ever using this menu.
+
+#### Things that users don't understand
+- Several icons could be replaced with more suitable ones.
+- The power button looks like a logo.
+- I don't know what any of the buttons on this menu do.
+- I don't know what the percentage means.
+
+#### Users familiar with the menu are resistent to it changing
+- I don't need or want the icons to change because I use them through muscle memory.
+- Tens of millions of users, including myself, are familiar with the menu. It is better to keep the menu the same so that existing users don't get confused.
 
 ### Iconography
 Many of the icons are unclear
@@ -75,5 +110,7 @@ Accessibility issues.
 - Improve text
 - Reduce complexity of controls (ctrl/cmd + click)
 
+<!--
 ## Result
 [a wireframe/mockup/prototype]
+-->
