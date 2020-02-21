@@ -87,7 +87,7 @@ Studying how the menu works brought up many questions in my mind, which I've rec
 - Are there any functions that are missing?
 
 #### Is the menu easily understood?
-- Do users unstand the difference between the 2 rows of icons?
+- Do users understand the difference between the 2 rows of icons?
 - Do users understand what each icon means?
 - Is it clear how the power button works with ctrl/cmd and clicking?
 
@@ -139,7 +139,7 @@ The menu is crowded with a lot of information and buttons, which is overwhelming
 While there is a lot of content in the menu, it’s also lacking some important information. It is unclear why there are two sets of icon buttons, and it’s hard to tell which functions take priority over another.
 
 ### Complex controls and functions
-Some of the controls are complex, requiring user of a mouse and keyboard.
+Some of the controls are complex, requiring use of a mouse and keyboard.
 
 ## Recommendations
 - **Swap out icons so they are more related to their functionality, and distinct from each other.**
