@@ -27,3 +27,5 @@ I enjoy singing, but mostly I sing by myself or at karaoke. I'd like to sing mor
 
 ## 6. Learn more American Sign Language (ASL)
 I'd like to continue learning ASL through courses and practice. I'm not sure if I'll get a chance to take a formal course this year, but I'd like to at least work through [ASLU's lessons](https://www.lifeprint.com/asl101/lessons/lessons.htm). I've finished up ASL 1 already, so I'll continue from ASL 2.
+
+**2020/02/21: Finished vocabulary from ASL 2!**
