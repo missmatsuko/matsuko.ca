@@ -12,34 +12,49 @@ image:
 
 <!--
   TODO:
-  - Update image
   - Update date?
   - Add an introduction?
 -->
 
-
 ## What's wrong with Material Design text fields?
-<!-- TODO -->
+Most of the issues with Material Design text fields are the same as any field that uses "floating labels". These are the style of labels that initially look like placeholders, then shrink and "float" up to look more like labels. Nielsen Norman Group has [a great article about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). I'll demonstrate a few of them here.
 
-### Disabled fields don't look disabled
-- Hard to tell what's disabled vs. inactive, until you click into them
-
-### Floating labels suck
-Nielsen Norman Group has [a great article about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Let's take a look at some examples of these with Google Material Design's form fields.
-
-#### Hard to tell which fields are empty
+### Hard to tell which fields are empty
+<!-- TODO-->
 - Hard to tell which fields are empty
 - Auto-fill
 
-#### Limited space for the label
-- Limited space for form label, especially considering localization and custom style sheets
-- Also why you should put your label above the field, rather than to the side of it
-
-#### Hard to read the label
+### The label is hard to read
+<!-- TODO-->
 - The label becomes small and harder to read when floating
 - Again, custom style sheets
 
+### The label is fragile
+It's just too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines", but we can't always control the length of the label's text, and we can't expect that the font size will be the same for every user.
+
+Let's say we have a "Work email address" field. Our Québécois French translator tells us the French label should be "Adresse de courrier électronique professionnelle". The English label fits just fine, but the French one wraps to 3 lines and is extending past the bottom of the text field's outline! When a value is entered into the fields, the value text overlaps the label on the French field, making it even harder to read.
+
+![2 sets of English and French Material Design text fields. The first 2 have labels and the second 2 have labels and values.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-without-and-with-value.png)
+
+The problem is worse for some users, particularly those with low vision, who use custom styles to increase font size. Now we have the same problem for both languages!
+
+![2 English and French Material Design text fields with the font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-large-font-size-with-value.png)
+
+If we'd used a more conventional form field, we'd avoid this problem entirely. Here are text fields with the same labels as before, at default and 200% font sizes. The label is readable in all cases!
+
+![2 sets of English and French Reakit text fields with labels and values. The second set has its font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-reakit-default-and-large-font-size-with-value.png)
+
+### Can't copy label
+<!-- TODO-->
+- Look up definition
+- Troubleshooting
+
+### Disabled fields don't look disabled
+<!-- TODO-->
+- Hard to tell what's disabled vs. inactive, until you click into them
+
 ## But Google uses it!
+<!-- TODO: Break up this wall of text? -->
 So if Google jumped off a cliff, you would, too?
 
 Jokes aside, this is the most common responses I get when I advise people not to use form fields like those in Google's Material Design UI library. It's a good point, of course. Google is a huge company with extensive resources. They **should** be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
@@ -78,3 +93,7 @@ I highly encourage you to do the research when you're less swamped, but here are
 - **Do** put your labels and instructions above their fields.
 - **Do** make sure your labels, inputs, and any help text are associated properly.
 - **Do** make sure all text meets WCAG colour contrast requirements.
+
+<!--
+[Reakit](https://reakit.io/)
+-->
