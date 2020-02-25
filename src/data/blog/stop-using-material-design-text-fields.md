@@ -1,7 +1,7 @@
 ---
 title: Stop using Material Design text fields!
 description: Why you shouldn't use or imitate the text fields from Google's Material Design UI library.
-date: 2020-02-24
+date: 2020-02-25
 image:
   path: /thinking-about-material-design.png
   alt: The thinking face emoji looking at the Material Design logo.
@@ -10,24 +10,34 @@ image:
   caption: ''
 ---
 
-<!--
-  TODO:
-  - Update date?
-  - Add an introduction?
--->
+<!-- TODO: Update date? -->
+
+## Preface
+I've recently been working on an existing project built with [Google's Material Design UI Library](https://material.io/), where I noticed quite a few usability issues. Mostly of these issues were related to text fields. I shared some of these issues with my colleagues and on Twitter ([Tweet 1](https://twitter.com/missmatsuko/status/1230564970800111617), [Tweet 2](https://twitter.com/missmatsuko/status/1231438167007354880)). Since I felt like I've said this many times before, I've decided to make this post for me and anyone else to share whenever it comes up again (and I'm sure it will).
+
+**Note: Although it is commonly seen on the web, and is shown in some of the images below, you should never make visible form fields without a visible label.**
 
 ## What's wrong with Material Design text fields?
-Most of the issues with Material Design text fields are the same as any field that uses "floating labels". These are the style of labels that initially look like placeholders, then shrink and "float" up to look more like labels. Nielsen Norman Group has [a great article about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). I'll demonstrate a few of them here.
+I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are the style of labels that initially look like placeholders, then shrink and "float" up to look more like conventional form field labels. Nielsen Norman Group has [a great article about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/).
 
-### Hard to tell which fields are empty
-<!-- TODO-->
-- Hard to tell which fields are empty
-- Auto-fill
+### Different elements and states are styled similarly, or even identically
 
-### The label is hard to read
-<!-- TODO-->
-- The label becomes small and harder to read when floating
-- Again, custom style sheets
+![2 x 4 grid of Material Design text fields. All are gray-ish with text. The fields' text describes how the field is configured. All the fields in the right column are disabled. From top to bottom: label, placeholder, value, and label and value.](./assets/stop-using-material-design-text-fields/material-design-fields-descriptive-text.png)
+
+All the fields in the image above are configured differently, but the difference is mainly communicated through slighty different shades of gray. They are practically indistinguishable. In fact, a few of the fields actually are styled identically. The user will need to rely on additional clues like content and interaction styles before they can determine the field's functionality.
+
+Labels, placeholders, and value text can all display as text within the field's outline. This makes it hard to tell whether a field is empty or not.
+
+### The label is inconsistent
+The label can look like a value, placeholder, or (tiny) label. It's hard to know exactly where to look for the field's actual label.
+
+![3 Material Design text fields with their labels indicated, and other text indicated as not labels.](./assets/stop-using-material-design-text-fields/material-design-field-label-position-shade.png)
+
+The label moves around and shrinks with animation, which can be distracting. Especially so if you're tabbing through a bunch of fields in a long form or are perhaps a user with some types of cognitive disabilities.
+
+The label text shrinks to 75% of its size when the field is active or has a value. This makes it harder to read and may especially be frustrating after you've deliberately set up your text to be larger.
+
+A user might expect to be able to copy the label text. For example, to look up its definition or a translation. Some users, especially younger users, highlight text online as they read. The label can't easily be copied because of its positioning and because it could move around when you try to highlight it.
 
 ### The label is fragile
 It's just too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines", but we can't always control the length of the label's text, and we can't expect that the font size will be the same for every user.
@@ -43,15 +53,6 @@ The problem is worse for some users, particularly those with low vision, who use
 If we'd used a more conventional form field, we'd avoid this problem entirely. Here are text fields with the same labels as before, at default and 200% font sizes. The label is readable in all cases!
 
 ![2 sets of English and French Reakit text fields with labels and values. The second set has its font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-reakit-default-and-large-font-size-with-value.png)
-
-### Can't copy label
-<!-- TODO-->
-- Look up definition
-- Troubleshooting
-
-### Disabled fields don't look disabled
-<!-- TODO-->
-- Hard to tell what's disabled vs. inactive, until you click into them
 
 ## But Google uses it!
 <!-- TODO: Break up this wall of text? -->
@@ -94,6 +95,4 @@ I highly encourage you to do the research when you're less swamped, but here are
 - **Do** make sure your labels, inputs, and any help text are associated properly.
 - **Do** make sure all text meets WCAG colour contrast requirements.
 
-<!--
-[Reakit](https://reakit.io/)
--->
+<!-- TODO: Mention [Reakit](https://reakit.io/)? Other UI libraries? -->
