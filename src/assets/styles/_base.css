@@ -34,7 +34,6 @@ p {
 
 ol, ul {
   padding: 0;
-  padding-left: 1.2rem; /* magic number :( */
 }
 
 hr {

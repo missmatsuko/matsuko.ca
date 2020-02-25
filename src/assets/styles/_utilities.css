@@ -27,7 +27,6 @@
 }
 
 /* REF: https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html */
-
 .list-reset li {
   list-style-type: none; /* remove bullets */
 }
@@ -76,6 +75,11 @@
 .rich-text img {
   width: 100%;
   height: auto;
+}
+
+.rich-text ol:not([class]),
+.rich-text ul:not([class]) {
+  padding-left: var(--spacing-md);
 }
 
 .rich-text blockquote {
