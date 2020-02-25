@@ -58,7 +58,7 @@ If we'd used a more conventional form field, we'd avoid this problem entirely. H
 <!-- TODO: Break up this wall of text? -->
 So if Google jumped off a cliff, you would, too?
 
-Jokes aside, this is the most common responses I get when I advise people not to use form fields like those in Google's Material Design UI library. It's a good point, of course. Google is a huge company with extensive resources. They **should** be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
+Jokes aside, this is the most common response I get when I advise people not to use form fields like those in Google's Material Design UI library. It's a good point, of course. Google is a huge company with extensive resources. They *should* be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
 
 They are making improvements though... I think. Google's Material Design form fields used to stray even more from conventional form fields. It was updated in 2017 after user testing, as reported in their Google Design blog post, [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03). The article doesn't give much detail about the alternatives they tested, but I am confident that more conventional style form fields would do better in user testing than Material Design form fields.
 
@@ -75,9 +75,11 @@ But if you look at what the settings page for Gmail looks like, it's a much more
 ## So what can I use?
 You really need to become familiar with the characteristics of usable forms before using *any* UI library for them.
 
-As I've shown, you can't rely on UI libraries to get form fields right, even if they are popular and backed by giants. Additionally, most UI libraries, and even browser native form fields, will allow options or combinations of options that you shouldn't use.
+As I've shown, you can't rely on UI libraries to get form fields right, even if they are popular and backed by giants.
 
-Learning about usable form design and form accessibility will enable you to find libraries that work (maybe with a little tweaking), and know how to use them without harming usability and accessibility. It will also help if you end up creating your own UI, should you choose to go down that route.
+Most UI libraries, even browser native form fields, will allow options or combinations of options that you shouldn't use.
+
+Learning about usable form design and form accessibility will enable you to find suitable libraries, and to know how to use them without harming usability and accessibility. It will also help if you end up creating your own UI, should you choose to go down that route.
 
 [Adam Silver's book, Form Design Patterns](https://formdesignpatterns.com/), is a fantastic resource for learning all about usable forms. There's also [an excerpt published on Smashing Magazine](https://www.smashingmagazine.com/2018/10/form-design-patterns-excerpt-a-registration-form/), in case you want to check that out before getting the book. I would say the overarching theme is: make your form fields look like form fields. If they look and behave like browser native form fields, they're probably in better shape than Material Design form fields.
 
