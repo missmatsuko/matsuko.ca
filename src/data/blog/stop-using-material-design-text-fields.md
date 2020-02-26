@@ -18,6 +18,12 @@ I recently started working on a project built with [Google's Material Design UI 
 ## What's wrong with Material Design text fields?
 I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and "float" up to look more like conventional labels. Nielsen Norman Group has [a great article you should read about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Some of these reasons will be mentioned again here.
 
+### Different elements and states are styles similarly, or even identically
+
+![2 x 4 grid of Material Design text fields. All are grey-ish with text. The fields' text describes how the field is configured. All the fields in the right column are disabled. From top to bottom: label, placeholder, value, and label and value.](./assets/stop-using-material-design-text-fields/material-design-fields-descriptive-text.png)
+
+All the fields in the image above are configured differently. This is mainly communicated by using very slightly different shades of grey. The fields are practically indistinguishable. In fact, a few of the fields actually are styled identically. Labels, placeholders, and value text can all display as text within the field's outline. This makes it hard to tell whether a field is empty or not. Users will need to rely on additional clues, like content and interaction styles, before being able to determine the field's functionality.
+
 ### The label is inconsistent
 
 ![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-fields-label-position-shade.png)
@@ -28,20 +34,14 @@ The label can look like a value, placeholder, or (tiny) label, and it can be cen
 
 The label shrinks and moves, which can be especially distracting for users tabbing through a long form, and for users with some types of cognitive disabilities.
 
-The label text shrinks to 75% of its size when the field is active or has a value. The small text size is hard to read, and would especially be frustrating for users who deliberately increased their text size for readability.
+The label text shrinks to 75% of its size when the field is active or has a value. The small text size is hard to read, and would be especially frustrating for users who deliberately increased their text size for readability.
 
-Unfortunately, the label can't easily be highlighted because of its positioning, and because it may move around when trying to highlight it. This makes it hard for users who want to copy the label to look up its definition or a translation. It might also frustrate users that want to highlight text, like the increasing number of [teenagers who highlight text as they read](https://www.nngroup.com/articles/usability-of-websites-for-teenagers/).
-
-### Different elements and states are styles similarly, or even identically
-
-![2 x 4 grid of Material Design text fields. All are grey-ish with text. The fields' text describes how the field is configured. All the fields in the right column are disabled. From top to bottom: label, placeholder, value, and label and value.](./assets/stop-using-material-design-text-fields/material-design-fields-descriptive-text.png)
-
-All the fields in the image above are configured differently. This is mainly communicated by using very slightly different shades of grey. The fields are practically indistinguishable. In fact, a few of the fields actually are styled identically. Labels, placeholders, and value text can all display as text within the field's outline. This makes it hard to tell whether a field is empty or not. Users will need to rely on additional clues, like content and interaction styles, before being able to determine the field's functionality.
+Unfortunately, the label can't easily be highlighted because of its positioning, and because it may move around when trying to highlight it. This makes it hard for users who want to copy the label, perhaps to look up its definition or a translation.
 
 ### The label is fragile
-It's too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines". That's just not realistic. We can't always control the label's character length, and we definitely can't expect every user to have the same font size.
+It's too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines". That's just not realistic. We can't always control the label's character count, and we definitely can't expect every user to have the same font size.
 
-Let's say we have a text field for "Work email address". Our Québécois French translator tells us the French label should be "Adresse de courrier électronique professionnelle". The English label fits just fine, but French label is so long that it wraps to 3 lines and extends past the bottom of the text field's outline. When a value is entered into the fields, the value text overlaps the label, making it even harder to read.
+Let's say we have a text field for "Work email address". Our Québécois French translator tells us the French label should be "Adresse de courrier électronique professionnelle". The English label fits just fine, but the French label is so long that it wraps to 3 lines and extends past the bottom of the text field's outline. When a value is entered into the fields, the value text overlaps the label, making it even harder to read.
 
 ![2 sets of English and French Material Design text fields. The first 2 have labels and the second 2 have labels and values.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-without-and-with-value.png)
 
