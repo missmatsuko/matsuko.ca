@@ -30,7 +30,7 @@ All the fields in the image above are configured differently. This is mainly com
 
 There are many ways in which the label is inconsistent, and doesn't meet users' expectations.
 
-The label can look like a value, placeholder, or (tiny) label, and it can be centered in the field or floated to its top left corner. It's hard to know exactly where to look for the field's actual label.
+The label can look like a value, placeholder, or (tiny) label, and it can be centred in the field or floated to its top left corner. It's hard to know exactly where to look for the field's actual label.
 
 The label shrinks and moves, which can be especially distracting for users tabbing through a long form, and for users with some types of cognitive disabilities.
 
@@ -80,7 +80,7 @@ Here is just a small section of Gmail's settings form, which configures a vacati
 ## So what can I use?
 As I've shown, you can't rely on UI libraries to get form fields right, even if they are popular and backed by giants. Most UI libraries, even browser native form fields, will allow options or combinations of options that you shouldn't use. You really need to become familiar with the characteristics of usable forms before using *any* UI library for them.
 
-Learning about form usablility and accessibility will enable you to find suitable libraries, and know how to use them without harming usability and accessibility. It will also help if you end up creating your own UI, should you choose to go down that route.
+Learning about form usability and accessibility will enable you to find suitable libraries, and know how to use them without harming usability and accessibility. It will also help if you end up creating your own UI, should you choose to go down that route.
 
 [Adam Silver's book, Form Design Patterns](https://formdesignpatterns.com/), is a fantastic resource for learning all about usable forms. There's [an excerpt published on Smashing Magazine](https://www.smashingmagazine.com/2018/10/form-design-patterns-excerpt-a-registration-form/), in case you want to check that out before getting the book. I would say the overarching theme of the book is: make your form fields look like form fields. If they look and behave like browser native form fields, they're probably in better shape than these Material Design form fields.
 
