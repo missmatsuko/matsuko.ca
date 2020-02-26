@@ -11,31 +11,30 @@ image:
 ---
 
 ## Preface
-I recently started working on a project built with [Google's Material Design UI Library](https://material.io/), and noticed quite a few usability and accessibility issues. Most of these issues related to its form fields, particularly its text fields. I shared some of these issues with my colleagues, and on Twitter ([Tweet 1](https://twitter.com/missmatsuko/status/1230564970800111617), [Tweet 2](https://twitter.com/missmatsuko/status/1231438167007354880)). Since I've discouraged the use of text fields like Material Design's many times before, I decided to make this post to share the next time it happens.
+I recently started working on a project built with [Google's Material Design UI Library](https://material.io/), and noticed quite a few usability and accessibility issues. Most of these issues related to its form fields, particularly [its text fields](https://material.io/components/text-fields/). I shared some of these issues with my colleagues, and on Twitter ([Tweet 1](https://twitter.com/missmatsuko/status/1230564970800111617), [Tweet 2](https://twitter.com/missmatsuko/status/1231438167007354880)). Since I've discouraged the use of text fields like Material Design's many times before, I decided to make this post to share the next time it happens.
 
-**Note: Although it is common to seen on the web, and is in some of the images below, you should never make visible form fields without a visible label.**
+**Note: Although it is common on the web, and is in some of the images below, you should never make visible form fields without a visible label.**
 
 ## What's wrong with Material Design text fields?
-I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and "float" up to look more like conventional labels. Nielsen Norman Group has [a great article you should read about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Some of these reasons will be mentioned here as well.
+I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and "float" up to look more like conventional labels. Nielsen Norman Group has [a great article you should read about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Some of these reasons will be mentioned again here.
+
+### The label is inconsistent
+
+![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-field-label-position-shade.png)
+
+The label can look like a value, placeholder, or (tiny) label, and it can be centered in the field or floated to its top left corner. It's hard to know exactly where to look for the field's actual label.
+
+The label shrinks and moves, which can be especially distracting for users tabbing through a long form, and for users with some types of cognitive disabilities.
+
+The label text shrinks to 75% of its size when the field is active or has a value. The small text size is hard to read, and would especially be frustrating for users who deliberately increased their text size for readability.
+
+Users might want to be copy the label to look up its definition or a translation. Some users, especially younger users, highlight text online as they read. Unfortunately, the label can't easily be copied because of its positioning and because it may move around when trying to highlight it.
 
 ### Similar, or even identical, styles for different elements and states
 
 ![2 x 4 grid of Material Design text fields. All are grey-ish with text. The fields' text describes how the field is configured. All the fields in the right column are disabled. From top to bottom: label, placeholder, value, and label and value.](./assets/stop-using-material-design-text-fields/material-design-fields-descriptive-text.png)
 
-All the fields in the image above are configured differently. This is mainly communicated by using slightly different shades of grey. The fields are practically indistinguishable. In fact, a few of the fields are actually styled identically. Users will need to rely on additional clues, like content and interaction styles, before being able to determine the field's functionality.
-
-Labels, placeholders, and value text can all display as text within the field's outline. This makes it hard to tell whether a field is empty or not.
-
-### The label is inconsistent
-The label can look like a value, placeholder, or (tiny) label. It's hard to know exactly where to look for the field's actual label.
-
-![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-field-label-position-shade.png)
-
-This can be especially distracting for users tabbing through a long form, and for users with some types of cognitive disabilities.
-
-The label text shrinks to 75% of its size when the field is active or has a value. The small text size is hard to read, and would especially be frustrating for users who deliberately increased their text size.
-
-A user might expect to be able to copy the label text. For example, to look up its definition or a translation. Some users, especially younger users, highlight text online as they read. The label can't easily be copied because of its positioning and because it could move around when trying to highlight it.
+All the fields in the image above are configured differently. This is mainly communicated by using very slightly different shades of grey. The fields are practically indistinguishable. In fact, a few of the fields actually are styled identically. Labels, placeholders, and value text can all display as text within the field's outline. This makes it hard to tell whether a field is empty or not. Users will need to rely on additional clues, like content and interaction styles, before being able to determine the field's functionality.
 
 ### The label is fragile
 It's too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines". That's just not realistic. We can't always control the label's character length, and we definitely can't expect every user to have the same font size.
@@ -45,7 +44,7 @@ Let's say we have a text field for "Work email address". Our Québécois French 
 ![2 sets of English and French Material Design text fields. The first 2 have labels and the second 2 have labels and values.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-without-and-with-value.png)
 
 
-The problem is worse for users who use custom styles to increase their font size. After resizing the text to 200% ([a WCAG AA success criteria]((https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html))), both the English and French fields have overlapping text.
+The problem is worse for users who use custom styles to increase their font size. After resizing the text to 200%, both the English and French fields have overlapping text. This is a failure of [WCAG AA success criteria 1.4.4 - Resize Text]((https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)).
 
 ![2 English and French Material Design text fields with the font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-large-font-size-with-value.png)
 
@@ -67,9 +66,9 @@ One example where Google is using Material Design text fields is Gmail's login p
 
 ![Gmail login screen which has 1 field: "Email or phone".](./assets/stop-using-material-design-text-fields/gmail-login.png)
 
-But if you look at the settings page for Gmail, it follows a much more conventional form design. And thank goodness because it's a pain to fill out a long form containing a variety of Material Design fields with different states and content.
+The settings page for Gmail, though, follows a much more conventional form design. And thank goodness because it would be such pain to fill out a long form containing a mix of blank and filled Material Design fields.
 
-Here is just a small section of Gmail's settings form, which configures a vacation responder message. The form UI here is much more conventional, with bold, persistent labels and clearly outlined text inputs. So it seems that even Google doesn't find it appropriate to use Material Design form fields for every situation.
+Here is just a small section of Gmail's settings form, which configures a vacation responder message. The form UI here is much more conventional, with bold, persistent labels and clearly outlined text inputs. So it seems that even Google doesn't find it appropriate to use their Material Design form fields for every situation.
 
 ![Gmail's vacation responder settings area. There are several fields. Some are prefilled.](./assets/stop-using-material-design-text-fields/gmail-vacation-responder.png)
 
