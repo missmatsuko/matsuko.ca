@@ -20,7 +20,7 @@ I'll go over the main issues I've found with Material Design text fields. Most o
 
 ### The label is inconsistent
 
-![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-field-label-position-shade.png)
+![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-fields-label-position-shade.png)
 
 The label can look like a value, placeholder, or (tiny) label, and it can be centered in the field or floated to its top left corner. It's hard to know exactly where to look for the field's actual label.
 
@@ -53,12 +53,15 @@ If we'd used a more conventional form field, we'd avoid this problem entirely. H
 ![2 sets of English and French Reakit text fields with labels and values. The second set has its font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-reakit-default-and-large-font-size-with-value.png)
 
 ## But Google uses it!
-<!-- TODO: Break up this wall of text? -->
 So if Google jumped off a cliff, you would, too?
 
 Jokes aside, this is the most common response I get when I advise people not to use form fields like those in Google's Material Design UI library. It's a good point, of course. Google is a huge company with extensive resources. They *should* be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
 
-They are making improvements though... I think. Material Design form fields used to stray even more from conventional form fields. They were updated in 2017 after user testing, as reported in their Google Design blog post, [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03). The article doesn't give much detail about the alternatives they tested, but I am fairly confident that more conventional style form fields would do better in user testing than theirs.
+They are making improvements though... I think. Material Design form fields used to stray even more from conventional form fields. Shown below is the old text field, which looks like underlined text, and the new text field we've been looking at in this article.
+
+![Old and new versions of Google Material Design text fields.](./assets/stop-using-material-design-text-fields/material-design-fields-old-new.png)
+
+They were updated in 2017 after user testing, as reported in their Google Design blog post, [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03). The article doesn't give much detail about the alternatives they tested, but I am fairly confident that more conventional style form fields would do better in user testing than theirs.
 
 Google doesn't use Material Design forms for all their forms. Although they do seem to be expanding its use, I've still mostly been seeing them on very small forms where it's pretty likely that the user already knows what kind of information they will need to provide.
 
