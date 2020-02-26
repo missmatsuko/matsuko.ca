@@ -27,7 +27,7 @@ const cloudinaryUrl = function(siteUrl, imagePath, options) {
     .filter(value => value !== null)
     .join(',');
 
-  return `https://res.cloudinary.com/dcelqcs5j/image/fetch/${optionsString ? `${optionsString},` : ''}c_fill/${siteUrl}/images${imagePath}`;
+  return `https://res.cloudinary.com/dcelqcs5j/image/fetch/${optionsString ? `${optionsString},` : ''}c_fill,f_auto/${siteUrl}/images${imagePath}`;
 };
 
 export default cloudinaryUrl;
