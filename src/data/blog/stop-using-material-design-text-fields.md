@@ -18,7 +18,7 @@ I recently started working on a project built with [Google's Material Design UI 
 ## What's wrong with Material Design text fields?
 I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and "float" up to look more like conventional labels. Nielsen Norman Group has [a great article you should read about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Some of these reasons will be mentioned again here.
 
-### Different elements and states are styles similarly, or even identically
+### Different elements and states are styled similarly, or even identically
 
 ![2 x 4 grid of Material Design text fields. All are grey-ish with text. The fields' text describes how the field is configured. All the fields in the right column are disabled. From top to bottom: label, placeholder, value, and label and value.](./assets/stop-using-material-design-text-fields/material-design-fields-descriptive-text.png)
 
@@ -28,7 +28,7 @@ All the fields in the image above are configured differently. This is mainly com
 
 ![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-fields-label-position-shade.png)
 
-There are many reasons why the label is inconsistent, and doesn't meet users' expectations.
+There are many ways in which the label is inconsistent, and doesn't meet users' expectations.
 
 The label can look like a value, placeholder, or (tiny) label, and it can be centered in the field or floated to its top left corner. It's hard to know exactly where to look for the field's actual label.
 
@@ -36,7 +36,7 @@ The label shrinks and moves, which can be especially distracting for users tabbi
 
 The label text shrinks to 75% of its size when the field is active or has a value. The small text size is hard to read, and would be especially frustrating for users who deliberately increased their text size for readability.
 
-Unfortunately, the label can't easily be highlighted because of its positioning, and because it may move around when trying to highlight it. This makes it hard for users who want to copy the label, perhaps to look up its definition or a translation.
+Unfortunately, the label can't easily be highlighted because of its positioning, and because it may move around when trying to highlight it. This makes it hard for users who want to select and copy the label, perhaps to look up its definition or a translation.
 
 ### The label is fragile
 It's too easy to break the text field's design. Material Design's guidelines say "Label text shouldn’t take up multiple lines". That's just not realistic. We can't always control the label's character count, and we definitely can't expect every user to have the same font size.
@@ -57,7 +57,7 @@ If we'd used a more conventional form field, we'd avoid this problem entirely. H
 ## But Google uses it!
 So if Google jumped off a cliff, you would, too?
 
-Really though, this question is the most common response I get when I advise people not to use form fields like those in Google's Material Design UI library. They have a good point. Google is a huge company with extensive resources. They *should* be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google-land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
+Really, though, this question is the most common response I get when I advise people not to use form fields like those in Google's Material Design UI library. They have a good point. Google is a huge company with extensive resources. They *should* be able to create user interfaces that are accessible, usable, and beautiful. I don't know what's going on over there in Google-land, but I'm guessing this kind of thing just isn't a priority for them. It's a shame that they've published a UI library with components like this, because so many others will use them and reference them for their own UIs.
 
 They are making improvements though... I think. Material Design form fields used to stray even more from conventional form fields. Shown below is the old text field, which looks like underlined text, and the new text field we've been looking at in this article.
 
@@ -65,7 +65,7 @@ They are making improvements though... I think. Material Design form fields used
 
 The text field designs were updated in 2017 after user testing, as reported in the Google Design blog post, [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03). The article doesn't give much detail about the alternative designs they tested, but I am fairly confident that conventional form fields would do better in user testing than their current design.
 
-Google also doesn't use Material Design forms for all their forms. Although they do seem to be expanding its use, I've still mostly been seeing them on very small forms where it's pretty likely that the user already knows what kind of information they will need to provide.
+It's also interesting that Google doesn't use Material Design forms for all their forms. Although they do seem to be expanding its use, I've still mostly been seeing them on very small forms where it's pretty likely that the user already knows what kind of information they will need to provide.
 
 One example where Google is using Material Design text fields is Gmail's login page. The log-in form actually only has a single field to start with, called "Email or phone". Users seeing this form probably got to this page intentionally, have logged in before, and are already expecting to enter their login credentials. All this makes it easier to complete the form, despite the the text field's design.
 
