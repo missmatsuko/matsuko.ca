@@ -16,7 +16,7 @@ I recently started working on a project built with [Google's Material Design UI 
 **Note: Although it is common on the web, and is in some of the images below, you should never make visible form fields without a visible label.**
 
 ## What's wrong with Material Design text fields?
-I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and move up to look more like conventional labels. Nielsen Norman Group has [a great article you should read about why placeholders and floating labels in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/). Some of these reasons will be mentioned again here.
+I'll go over the main issues I've found with Material Design text fields. Most of them are the same as with any field that uses "floating labels". Floating labels are labels that look like placeholders until interaction, when they then shrink and move up to look more like conventional labels. [Nielsen Norman Group's article, Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/), is a great reference for the many reasons why placeholders and floating labels are harmful. Some of those reasons will be mentioned again here.
 
 ### Different elements and states are styled similarly, or even identically
 
@@ -94,7 +94,7 @@ I highly encourage you to do the research when you're less swamped, but here are
 - **Don't** use disabled form fields and buttons, whenever possible.
 - **Don't** make multi-column forms.
 - **Do** make sure labels and instructions are always visible.
-- **Do** put your labels and instructions above their fields.
+- **Do** put your labels and instructions above text fields.
 - **Do** make sure your labels, inputs, and any help text are associated properly.
 - **Do** make sure all text meets [WCAG colour contrast requirements](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).
 
