@@ -16,8 +16,8 @@ export default {
   props: {
     columns: {
       required: false,
-      type: Number,
-      default: 1,
+      type: String, // NOTE: needs to be a string to work in built styles (loading page without JS)
+      default: '1',
     },
     gap: {
       required: false,

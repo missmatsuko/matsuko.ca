@@ -14,7 +14,7 @@
 
       <div class="container">
         <Grid
-          :columns="3"
+          columns="3"
           gap="var(--spacing-lg)"
         >
           <div v-for="item in items" :key="item.id">
