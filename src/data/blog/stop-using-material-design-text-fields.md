@@ -54,6 +54,8 @@ If we use a more conventional form field, we can avoid this problem entirely. He
 
 ![2 sets of English and French Reakit text fields with labels and values. The second set has its font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-reakit-default-and-large-font-size-with-value.png)
 
+**Note: The Material Design field examples in this section were made with [Material UI](https://material-ui.com/). The fields actually behave differently from the ones on the Material Design site when the font size is increased. On the Material Design site, the labels are actually cut off rather than overflowing. The bottom line is, there just isn't a good solution for floating labels with multi-line text (which is more likely to happen with larger font sizes). If the box isn't resized, the label text won't fit into it. If the box is made taller to contain the full label's text, it ends up looking like a multi-line text field. Using regular, non-floating labels prevents this problem altogether.**
+
 ## But Google uses it!
 So if Google jumped off a cliff, you would, too?
 
