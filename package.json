@@ -17,6 +17,7 @@
     "@noxify/gridsome-plugin-remark-embed": "^1.1",
     "autoprefixer": "^9.7",
     "gridsome": "^0.7",
-    "gridsome-plugin-feed": "^1.0.2"
+    "gridsome-plugin-feed": "^1.0.2",
+    "marked": "^0.8.1"
   }
 }

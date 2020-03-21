@@ -5,6 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const autoprefixer = require('autoprefixer');
+const marked = require('marked');
 
 module.exports = {
   siteName: 'Matsuko Friedland',
@@ -77,6 +78,12 @@ module.exports = {
           enabled: true,
           output: '/blog/feed.atom'
         },
+        nodeToFeedItem: node => ({
+          title: node.title,
+          description: node.description,
+          date: new Date(node.date),
+          content: marked(node.content),
+        })
       },
     },
   ],
