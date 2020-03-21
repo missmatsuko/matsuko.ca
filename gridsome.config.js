@@ -61,6 +61,24 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
     },
+    {
+      use: 'gridsome-plugin-feed',
+      options: {
+        contentTypes: ['Blog'],
+        feedOptions: {
+          title: 'Matsuko\'s blog',
+          description: 'UX and accessibility on the web, and other miscellanea.'
+        },
+        rss: {
+          enabled: true,
+          output: '/blog/feed.xml'
+        },
+        atom: {
+          enabled: true,
+          output: '/blog/feed.atom'
+        },
+      },
+    },
   ],
 
   css: {

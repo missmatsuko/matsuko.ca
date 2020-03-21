@@ -117,6 +117,24 @@ export default {
           content: "@missmatsuko",
         },
       ],
+
+      link: [
+        // Blog RSS feed
+        {
+          type: "application/rss+xml",
+          location: `${this.siteUrl}/blog/feed.xml`,
+          rel: "alternate",
+          title: "blog",
+        },
+
+        // Blog Atom feed
+        {
+          type: "application/atom+xml",
+          location: `${this.siteUrl}/blog/feed.atom`,
+          rel: "alternate",
+          title: "blog",
+        },
+      ]
     };
   }
 };
