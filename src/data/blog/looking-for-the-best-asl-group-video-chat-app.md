@@ -50,6 +50,9 @@ If you have any other recommendations, please let me know at info@matsuko.ca
 - Lot of web apps were buggier and/or missing key features in desktop apps
 - Cropping video based on orientation
 - Captions
+- Chat covering videos
+- Can't share screen and ASL on video at same time
+- Order of people
 
 ## The finalists
 
@@ -65,13 +68,14 @@ Open-source and marketed as secure.
 - Hits the processor pretty hard
 
 ### Google Meet
-- Unlike Google Hangout, web version shows tile view. Can host ?# people.
+- Unlike Google Hangout, web version shows tile view. Can show 4-5 people (maybe changing to 15? https://www.theverge.com/2020/4/16/21223778/google-meet-gallery-view-calls-gmail-javier-soltero)
 - Ideal for smaller groups
 
 #### Pros
 - No account required for participants
 - No downloads required
 - Up for 5 participants shown on screen
+- Host needs to stay in hangout?
 
 #### Cons
 - After 5 participants, tile view will still only show 4 videos + your own video. Other layouts show 1 main participant huge and the rest as small videos.
