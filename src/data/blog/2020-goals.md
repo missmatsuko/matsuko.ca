@@ -19,6 +19,8 @@ This might sound really easy, but I'm notoriously terrible at exercising. Growin
 ## 3. Visit a country I haven't been to before
 So far I've only been to Canada, the US, and Japan. I'd like to add another country to this list by the end of 2020!
 
+**2020/04/21: Unfortunately, this goal will be postponed to a later date due to the COVID-19 pandemic.**
+
 ## 4. Make a new friend (or maybe a few)
 I feel like I've been spending too much time socializing online and not enough time with in real life (IRL) friends. I'm hoping to find a good IRL friend (or maybe more than one) who is not a [cishet](https://en.wiktionary.org/wiki/cishet) man.
 
