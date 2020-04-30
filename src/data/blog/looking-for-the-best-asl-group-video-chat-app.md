@@ -1,7 +1,7 @@
 ---
-title: Looking for the best ASL group video chat app
-description: Trying out different video chat apps to find an ideal one for group ASL practice.
-date: 2020-03-27
+title: Hearing-centric design choices in video chat apps
+description: Some of the hearing-centric design choices commonly found in video chat apps, which may make it harder for Deaf and hard-of-hearing to communicate.
+date: 2020-04-30
 image:
   path: /thinking-about-material-design.png
   alt: The thinking face emoji looking at the Material Design logo.
@@ -11,28 +11,21 @@ image:
 ---
 
 <!--
-TODO: change image, date, description
+TODO:
+- change title, image, date, description
+- update heading texts
+- add screenshots to each item in "the list"
+- proofread/edit/grammars
+- rename this file and matching assets folder and its path
 -->
+## The introduction
 
-## The situation
-I'm a hearing American Sign Language (ASL) learner. I've been helping coordinate the only [Meetup](https://www.meetup.com/) group in Vancouver for ASL practice, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Lately we were meeting every other week at the Vancouver Public Library, which has meeting rooms available for free for up to 2 hours. Due to COVID-19, the library closed down and many of the alternative locations we've previously met were starting to shutter as well (e.g. malls, cafes). We typically expect a turnout of 3-10 people, which was under the recommended group size at the time. ASL allows for communication from longer distances than speaking. As more and more places shut down, we were more and more limited for venues. Besides, it was more responsible to avoid in-person contact. So we decided to go online.
+About a month ago, the COVID pandemic started to really affect life here in Vancouver. Within the span of a few days we went from business as usual to shutting down most of the city's public spaces.
 
-There's a lot of group video chats out there. I didn't expect it to be that tricky to find a suitable one for ASL practice. It definitely made me realize that there's a lot of UX choices made based on the hearing world.
+This was a challenge for the ASL (American Sign Language) practice [Meetup](https://www.meetup.com/) I help organize, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Up until this point, we had been meeting in-person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be possible to move our Meetup online.
 
-We tested out a bunch of video chat apps to find the most suitable ones for our use-case. To be clear, these are not necessarily the best video chat apps for group ASL conversations in general, and certainly not the best video chat apps for a mix of hearing and Deaf conversations.
-
-## The search
-
-### Initial criteria
-- Prefer browser apps, especially those that don't require sign-in
-- Easy to get started
-- Can display up to 12 people
-- Participants displayed in a tile/grid view, all at more or less the same size
-- Ideally, easy to break into smaller video chats if the conversation naturally breaks apart (same as IRL)
-- Video needs to be clear, barring user's hardware and connectivity issues. Not necessarily high-def, but enough def. and not laggy or blurry. and not too small.
-- A way to get someone's attention
-
-### What we tried
+<!-- Keep?
+Three of us tested out the following video chat apps:
 - [Discord](https://discordapp.com/)
 - [Google Hangouts](https://hangouts.google.com/)
 - [Google Meet](https://meet.google.com/)
@@ -41,53 +34,70 @@ We tested out a bunch of video chat apps to find the most suitable ones for our 
 - [Skype](https://www.skype.com/)
 - [Zoom](https://zoom.us/)
 
-If you have any other recommendations, please let me know at info@matsuko.ca
+We ended up settling on Jitsi Meet for now, although Google Meet is quickly becoming a good contender with the features they've recently been rolling out.
+-->
 
-### Discoveries
-- Kind of surprised by some things that were very hearing-centric
-- Focusing on sound
-- Hiding videos after some # of participants
-- Lot of web apps were buggier and/or missing key features in desktop apps
-- Cropping video based on orientation
-- Captions
-- Chat covering videos
-- Can't share screen and ASL on video at same time
-- Order of people
+Communicating in ASL through video chat is not optimal, since it's a 3D language presented in a 2D format. There are some aspects of the language that cannot be fully preserved through video. On top of this, we found additional challenges to signed communication caused by design choices that did not fully consider non-auditory communication such as sign language and lip-reading.
 
-## The finalists
+<!-- TODO: add segue? -->
 
-### Jitsi Meet
-Open-source and marketed as secure.
+## The list
 
-#### Pros
-- No account required
-- No downloads required
-- All participants videos shown on screen (up to how many??)
+### Text chat interface obstructs videos
+- Get screenshot from Jitsi
+- May use text chat to share links/media/text, or to clarify something (especially for ASL practice)
+- Deaf/HOH may use text chat to communicate to hearing person
+- Text chat obstructs some users' videos, can't see if they are seeing/understanding. Would work ok if speaking/hearing.
 
-#### Cons
-- Hits the processor pretty hard
+### Limited number of videos shown in one screen
+- Get screenshot from Google Meet (need 4 or 5+ particpants? If still maxes out)
+- Cannot see everyone at once, some people may be trying to commicate by sign but they are not on screen
+- If person is speaking to communicate, it doesn't really matter if they're visible, can still hear them
 
-### Google Meet
-- Unlike Google Hangout, web version shows tile view. Can show 4-5 people (maybe changing to 15? https://www.theverge.com/2020/4/16/21223778/google-meet-gallery-view-calls-gmail-javier-soltero)
-- Ideal for smaller groups
+### Videos are too small
+- Get screenshot from Google Meet (need 4 or 5+ participants? If still maxes out)
+- Video too small to see signing
+- Again, for speaking communication it doesn't really matter the size of the video since that doesn't affect audio
 
-#### Pros
-- No account required for participants
-- No downloads required
-- Up for 5 participants shown on screen
-- Host needs to stay in hangout?
+### Captioning availability and quality
+- Get screenshot from Jitsi...?
+- Some apps don't have captioning at all (Houseparty?)
+- Beneficial for literate(?) Deaf/HOH observer w/ speaking presenter, and no interpreter
+- Actually, can any apps show interpreter as picture-picture? **
+- Some apps don't attribute captions to specific people (Google Meet is ok, try a diff one)? In this case, might not be able to tell who is speaking.
+- Accuracy can vary, especially with auto-captions
 
-#### Cons
-- After 5 participants, tile view will still only show 4 videos + your own video. Other layouts show 1 main participant huge and the rest as small videos.
-- Host required a GSuite account
+### Video cropping
+- Get screenshot from Houseparty...?
+- If video displayed is cropped differently from what the presenter sees, they can't tell their true signing space.
+- Doesn't really affect lip-reading because the face is probably still in view
 
-### Skype
-- Not much different from Zoom. Actually Zoom is better in that it doesn't require participants to have accounts (?), but we were kind of wary about it after a bunch of recent security and creepy issues...
+### Video quality
+- Get screenshot from Discord...?
+- Video quality (choppiness, freezing, blurriness). Probably blurriness is the worst case since you can't distinguish any partial signs, maybe just some movement/direction.
+- Again, for speaking communication it doesn't really matter the video since that doesn't affect audio
 
-#### Pros
-- All participants videos shown on screen (up to how many??)
-- Easy to break into smaller chats
+### Getting someone's attention
+- Get screenshot...? Of what?
+- Usually would wave at someone
+- Maybe can use text chat, or some way to ping specific people (like reactions but only between 2 people)
 
-#### Cons
-- Account required
-- Download required (tile view doesn't work on web app)
+### Referring to someone else
+- Get screenshot...? Of what?
+- Would usually point at someone, but cannot; need to sign or fingerspell name
+- Maybe if order of every video is same, and you're placed in there, can point to people around your video
+- Maybe can use text chat
+
+### Featuring videos based on audio
+- Get screenshot from Google Meet?
+- Featured video based on sounds/who is speaking
+- Communicating in sign language, perhaps focus on who is moving the most
+- People may make sounds without speaking, e.g. laughter, hitting table, misc. sounds
+
+### Screensharing disables presenter's video
+![Screenshot of a message above a disabled button containing a camera/video icon, reading: "Your video has been disabled because you started screensharing."](./assets/looking-for-the-best-asl-group-video-chat-app/skype-video-disabled-when-screensharing.png)
+- Screenshot from Skype, presenter's perspective (if they go to Skype rather than the shared screen)
+- Audience will see only the shared screen, no video from presenter or others in audience
+- Presenter cannot sign; may not be able to speak, probably awkward to type in text chat, especially while sharing a different app and only 1 monitor/screen
+- Audience cannot lip-read or watch signing
+- Captions may be available
