@@ -22,7 +22,7 @@ TODO:
 
 About a month ago, the COVID pandemic started to really affect life here in Vancouver. Within the span of a few days we went from business as usual to shutting down most of the city's public spaces.
 
-This was a challenge for the ASL (American Sign Language) practice [Meetup](https://www.meetup.com/) I help organize, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Up until this point, we had been meeting in-person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be possible to move our Meetup online.
+This was a challenge for the ASL (American Sign Language) practice [Meetup](https://www.meetup.com/) I help organize, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Up until this point, we had been meeting in person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be possible to move our Meetup online.
 
 <!-- Keep?
 Three of us tested out the following video chat apps:
