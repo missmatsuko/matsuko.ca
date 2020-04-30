@@ -37,6 +37,12 @@ Three of us tested out the following video chat apps:
 We ended up settling on Jitsi Meet for now, although Google Meet is quickly becoming a good contender with the features they've recently been rolling out.
 -->
 
+<!-- Add?
+- For hearing comparison: speaking, but only in monotone?
+- Something about... how most things are designed for hearing?
+- Something about... surprising but not surprising that such a visual format (video) is not optimal.
+-->
+
 Communicating in ASL through video chat is not optimal, since it's a 3D language presented in a 2D format. There are some aspects of the language that cannot be fully preserved through video. On top of this, we found additional challenges to signed communication caused by design choices that did not fully consider non-auditory communication such as sign language and lip-reading.
 
 <!-- TODO: add segue? -->
