@@ -11,6 +11,13 @@ image:
 ---
 
 <!--
+Some rough title ideas...
+- audist-visual communication
+- video sounds like a visual medium
+- video is second-class to audio
+-->
+
+<!--
 TODO:
 - change title, image, date, description
 - update heading texts
@@ -100,10 +107,15 @@ Communicating in ASL through video chat is not optimal, since it's a 3D language
 - Communicating in sign language, perhaps focus on who is moving the most
 - People may make sounds without speaking, e.g. laughter, hitting table, misc. sounds
 
-### Screensharing disables presenter's video
-![Screenshot of a message above a disabled button containing a camera/video icon, reading: "Your video has been disabled because you started screensharing."](./assets/looking-for-the-best-asl-group-video-chat-app/skype-video-disabled-when-screensharing.png)
-- Screenshot from Skype, presenter's perspective (if they go to Skype rather than the shared screen)
-- Audience will see only the shared screen, no video from presenter or others in audience
-- Presenter cannot sign; may not be able to speak, probably awkward to type in text chat, especially while sharing a different app and only 1 monitor/screen
-- Audience cannot lip-read or watch signing
-- Captions may be available
+### Screensharing disables video
+![Screenshot of a message above a disabled camera button, reading: "Your video has been disabled because you started screensharing."](./assets/looking-for-the-best-asl-group-video-chat-app/skype-video-disabled-when-screensharing.png)
+
+People share their screen in a video meeting for a number of reasons. For example: to present a slide deck, to share a video, or to demonstrate how an application works.
+
+In some video chat apps, when someone shares their screen, their camera is forced to be disabled. That means nobody in the video meeting can see the presenter. In some cases, the shared screen will take over the whole video meeting, disabling everyone's cameras.
+
+This design choice assumes that the presenter is speaking, and the audience is hearing.
+
+What if the presenter were non-speaking? They wouldn't be able to communicate by signing, since nobody can see them. An interpreter may be able to speak for them, but since the presenter's video is not visible, the interpreter would have to physically be with the presenter. The presenter may be able to communicate to their audience via a text chat. This is not a very practical solution, since the presenter will have to go back and forth between their shared screen and the text chat. It would be especially difficult if the presenter has a lot to talk about, like when presenting a slide deck.
+
+What if the audience were not hearing? They would not be able to watch the presenter for lip-reading or signing, since their camera has been disabled. If everyone's cameras have been disabled, they would not be able see them for lip-reading or signing, either. If the presenter is speaking, captions may be helpful.
