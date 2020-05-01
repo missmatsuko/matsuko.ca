@@ -108,7 +108,7 @@ Communicating in ASL through video chat is not optimal, since it's a 3D language
 - People may make sounds without speaking, e.g. laughter, hitting table, misc. sounds
 
 ### Screensharing disables video
-![Screenshot of a message above a disabled camera button, reading: "Your video has been disabled because you started screensharing."](./assets/hearing-centric-design-choices-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
+![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-choices-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
 People share their screen in a video meeting for a number of reasons. For example: to present a slide deck, to share a video, or to demonstrate how an application works.
 
