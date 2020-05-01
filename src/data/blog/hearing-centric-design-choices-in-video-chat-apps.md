@@ -24,6 +24,7 @@ TODO:
 - add screenshots to each item in "the list"
 - proofread/edit/grammars
 - rename this file and matching assets folder and its path
+- expand first use of Deaf & HOH
 -->
 ## The introduction
 
@@ -56,58 +57,19 @@ Communicating in ASL through video chat is not optimal, since it's a 3D language
 
 ## The list
 
-### Text chat interface obstructs videos
-- Get screenshot from Jitsi
-- May use text chat to share links/media/text, or to clarify something (especially for ASL practice)
-- Deaf/HOH may use text chat to communicate to hearing person
-- Text chat obstructs some users' videos, can't see if they are seeing/understanding. Would work ok if speaking/hearing.
+### Text chat interface obstructs video
 
-### Limited number of videos shown in one screen
-- Get screenshot from Google Meet (need 4 or 5+ particpants? If still maxes out)
-- Cannot see everyone at once, some people may be trying to commicate by sign but they are not on screen
-- If person is speaking to communicate, it doesn't really matter if they're visible, can still hear them
+<!--
+  Get screenshot from... Google Meet?
+  Jitsi also does this but their chat background is semi-transparent so not as good (bad) example.
+-->
 
-### Videos are too small
-- Get screenshot from Google Meet (need 4 or 5+ participants? If still maxes out)
-- Video too small to see signing
-- Again, for speaking communication it doesn't really matter the size of the video since that doesn't affect audio
+Many video chat applications have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one tool DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we have difficulty communicating through signing alone.
 
-### Captioning availability and quality
-- Get screenshot from Jitsi...?
-- Some apps don't have captioning at all (Houseparty?)
-- Beneficial for literate(?) Deaf/HOH observer w/ speaking presenter, and no interpreter
-- Actually, can any apps show interpreter as picture-picture? **
-- Some apps don't attribute captions to specific people (Google Meet is ok, try a diff one)? In this case, might not be able to tell who is speaking.
-- Accuracy can vary, especially with auto-captions
-
-### Video cropping
-- Get screenshot from Houseparty...?
-- If video displayed is cropped differently from what the presenter sees, they can't tell their true signing space.
-- Doesn't really affect lip-reading because the face is probably still in view
-
-### Video quality
-- Get screenshot from Discord...?
-- Video quality (choppiness, freezing, blurriness). Probably blurriness is the worst case since you can't distinguish any partial signs, maybe just some movement/direction.
-- Again, for speaking communication it doesn't really matter the video since that doesn't affect audio
-
-### Getting someone's attention
-- Get screenshot...? Of what?
-- Usually would wave at someone
-- Maybe can use text chat, or some way to ping specific people (like reactions but only between 2 people)
-
-### Referring to someone else
-- Get screenshot...? Of what?
-- Would usually point at someone, but cannot; need to sign or fingerspell name
-- Maybe if order of every video is same, and you're placed in there, can point to people around your video
-- Maybe can use text chat
-
-### Featuring videos based on audio
-- Get screenshot from Google Meet?
-- Featured video based on sounds/who is speaking
-- Communicating in sign language, perhaps focus on who is moving the most
-- People may make sounds without speaking, e.g. laughter, hitting table, misc. sounds
+Unfortunately, the text chat interface often obstructs videos when in use. This makes it difficult, or even impossible, to see someone's reaction to messages. This kind of visual feedback can be critical when communicating without sound to know if a message has been understood.
 
 ### Screensharing disables video
+
 ![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-choices-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
 People share their screen in a video meeting for a number of reasons. For example: to present a slide deck, to share a video, or to demonstrate how an application works.
@@ -116,6 +78,86 @@ In some video chat apps, when someone shares their screen, their camera is force
 
 This design choice assumes that the presenter is speaking, and the audience is hearing.
 
+<!--
+  Maybe add another image here?
+  An illustration maybe?
+-->
+
 What if the presenter were non-speaking? They wouldn't be able to communicate by signing, since nobody can see them. An interpreter may be able to speak for them, but since the presenter's video is not visible, the interpreter would have to physically be with the presenter. The presenter may be able to communicate to their audience via a text chat. This is not a very practical solution, since the presenter will have to go back and forth between their shared screen and the text chat. It would be especially difficult if the presenter has a lot to talk about, like when presenting a slide deck.
 
 What if the audience were not hearing? They would not be able to watch the presenter for lip-reading or signing, since their camera has been disabled. If everyone's cameras have been disabled, they would not be able see them for lip-reading or signing, either. If the presenter is speaking, captions may be helpful.
+
+<!--
+  Maybe next 3 issues all go together?
+  Screenshot can be same.
+-->
+
+### Video too small for signing or lip-reading
+
+<!--
+  Get screenshot from Google Meet?
+  Need 4+ or 5+ participants (if still maxes out)?
+-->
+
+In some video chat layouts, one video is "featured" and shown at a large size, while the rest are shown at smaller sizes. This does not have much of an effect on speaking-hearing conversations, since video dimensions don't have any affect on audio quality. However, if the videos are too small to clearly see signing, facial expressions, and mouth shapes, it can make signing and lip-reading impossible. This is essentially the hearing equivalent of muting everyone's microphones except for the one featured person's microphone.
+
+### Featuring video based on audio
+
+<!--
+  Get screenshot from Google Meet?
+  Need 4+ or 5+ participants (if still maxes out)?
+-->
+
+This issue is related to the previous one in that it also involves the one large featured video layout. Typically, the featured participant is the one that is making the most noise. This works so-so for speaking-hearing conversations, since participants can see and listen to the current speaker. It doesn't work that well when more than one person is speaking at a time, or if there's background noises. Additionally, when communicating in sign language, focusing on the person that is making the most noise might swap out someone that is actively signing for someone that is passively watching and happens to be audibly reacting to them. It might be nice to have an option to feature the video that has the most movement.
+
+### Limiting video
+
+<!--
+  Get screenshot from Google Meet?
+  Need 4+ or 5+ participants (if still maxes out)?
+-->
+
+Some apps will display a subset of videos at a time, even if more videos could potentially fit on the screen. This doesn't affect hearing-speaking communication much, since a person's audio can still be heard even when their video is not visible. For signing or lip-reading, though, hiding videos off-screen is essentially the equivalent or muting them.
+
+### Video cropping
+
+<!--
+  Get screenshot from Houseparty...?
+-->
+
+The captured video's dimensions will be different for every camera. Video meeting apps will generally crop the displayed videos so they all display at the same aspect ratio and lay out nicely. The crop can also vary depending on the type of device it's displayed on, so what someone sees on their video may not match what is shown to another person. This doesn't affect lip-reading much, since people's faces will likely be centered and in-view regardless of the crop. It can have a huge impact on signing, though. A signer will use up the space available to them, and a lot of their signing could end up being hidden from others. The most extreme example would be cropping a horizontal video (e.g. from a desktop) to a vertical video (e.g. to a smartphone).
+
+### Video quality issues
+
+<!--
+  Get screenshot from Discord...?
+-->
+
+We've all been annoyed by video quality issues like freezing, lagging, blurring, and pixellation. These types of issues have a significant impact on non-auditory communication. While hearing-speaking conversations can still continue (so long as audio isn't also affected), lip-reading and signing can be severely hampered. These types of issues can't all be fixed by the app, but some apps tend to have fewer issues than others.
+
+### Captioning availability and quality
+
+<!--
+  Get screenshot from Jitsi...?
+  - Some apps don't attribute captions to specific people (Google Meet is ok, try a diff one)? In this case, might not be able to tell who is speaking.
+-->
+
+Some video chat apps don't have a captioning feature at all. Many do now have captioning, but the captions quality can vary. Some apps will allow manual captioning, which is generally more accurate (and costly) than automatic captioning. Captions are beneficial for DHH observing a speaking presenter. In some cases, an interpreter may be more beneficial, especially if there is 2-way communication.
+
+### Getting someone's attention
+
+<!--
+  Get screenshot... of what?
+  TODO: expand this more...?
+-->
+
+There are [a number of ways to get a Deaf person's attention](https://www.lifeprint.com/asl101/topics/attention_getting_techniques.htm), and most of these don't work well in a video format. Flailing on video might get their attention, but they may be too focused on another video to notice, or they may not realize it's meant to grab their attention specifically. Pinging them through text chat might work. It would be nice if there were some way to highlight a video for specific people.
+
+### Referring to someone else
+
+<!--
+  Get screenshot... of what?
+  TODO: expand this more...?
+-->
+
+When we refer to someone that is present in sign language, we can usually just point at them. In a video chat, pointing is pretty meaningless. There's no way to tell who someone is pointing at, especially if everyone's video order is different. We can adjust our communication style to use people's names, but many beginner's names can be a hassle to spell out.
