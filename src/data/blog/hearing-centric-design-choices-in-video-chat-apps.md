@@ -85,24 +85,20 @@ What if the presenter were non-speaking? They wouldn't be able to communicate by
 What if the audience were not hearing? They would not be able to watch the presenter for lip-reading or signing, since their camera has been disabled. If everyone's cameras have been disabled, they would not be able see them for lip-reading or signing, either. If the presenter is speaking, captions may be helpful.
 
 <!--
-  Maybe next 3 issues all go together?
-  Screenshot can be same.
+  Combine next 2?
 -->
 
 ### Video too small for signing or lip-reading
 
-<!--
-  Get screenshot from Google Meet?
-  Need 4+ or 5+ participants (if still maxes out)?
--->
+![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-design-choices-in-video-chat-apps/discord-one-featured-video-rest-small.png)
 
 In some video chat layouts, one video is "featured" and shown at a large size, while the rest are shown at smaller sizes. This does not have much of an effect on speaking-hearing conversations, since video dimensions don't have any affect on audio quality. However, if the videos are too small to clearly see signing, facial expressions, and mouth shapes, it can make signing and lip-reading impossible. This is essentially the hearing equivalent of muting everyone's microphones except for the one featured person's microphone.
 
 ### Featuring video based on audio
 
 <!--
-  Get screenshot from Google Meet?
-  Need 4+ or 5+ participants (if still maxes out)?
+  Add screenshot?
+  Could be same as previous.
 -->
 
 This issue is related to the previous one in that it also involves the one large featured video layout. Typically, the featured participant is the one that is making the most noise. This works so-so for speaking-hearing conversations, since participants can see and listen to the current speaker. It doesn't work that well when more than one person is speaking at a time, or if there's background noises. Additionally, when communicating in sign language, focusing on the person that is making the most noise might swap out someone that is actively signing for someone that is passively watching and happens to be audibly reacting to them. It might be nice to have an option to feature the video that has the most movement.
@@ -110,8 +106,7 @@ This issue is related to the previous one in that it also involves the one large
 ### Limiting video
 
 <!--
-  Get screenshot from Google Meet?
-  Need 4+ or 5+ participants (if still maxes out)?
+  Get screenshot from...?
 -->
 
 Some apps will display a subset of videos at a time, even if more videos could potentially fit on the screen. This doesn't affect hearing-speaking communication much, since a person's audio can still be heard even when their video is not visible. For signing or lip-reading, though, hiding videos off-screen is essentially the equivalent or muting them.
