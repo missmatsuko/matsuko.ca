@@ -59,10 +59,7 @@ Communicating in ASL through video chat is not optimal, since it's a 3D language
 
 ### Text chat interface obstructs video
 
-<!--
-  Get screenshot from... Google Meet?
-  Jitsi also does this but their chat background is semi-transparent so not as good (bad) example.
--->
+![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-choices-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
 
 Many video chat applications have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one tool DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we have difficulty communicating through signing alone.
 
