@@ -113,9 +113,7 @@ Some apps will display a subset of videos at a time, even if more videos could p
 
 ### Video cropping
 
-<!--
-  Get screenshot from Houseparty...?
--->
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-choices-in-video-chat-apps/houseparty-cropped-videos.png)
 
 The captured video's dimensions will be different for every camera. Video meeting apps will generally crop the displayed videos so they all display at the same aspect ratio and lay out nicely. The crop can also vary depending on the type of device it's displayed on, so what someone sees on their video may not match what is shown to another person. This doesn't affect lip-reading much, since people's faces will likely be centered and in-view regardless of the crop. It can have a huge impact on signing, though. A signer will use up the space available to them, and a lot of their signing could end up being hidden from others. The most extreme example would be cropping a horizontal video (e.g. from a desktop) to a vertical video (e.g. to a smartphone).
 
