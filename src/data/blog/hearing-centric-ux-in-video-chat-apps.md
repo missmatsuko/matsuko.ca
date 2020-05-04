@@ -1,7 +1,7 @@
 ---
-title: Hearing-centric design choices in video chat apps
-description: Some of the hearing-centric design choices commonly found in video chat apps, which may make it harder for Deaf and hard-of-hearing to communicate.
-date: 2020-04-30
+title: Hearing-centric UX in video chat apps
+description: Some of the hearing-centric design choices in video chat apps that make it harder to use unless relying on auditory communication.
+date: 2020-05-03
 image:
   path: /laptop-talking-hands.jpg
   alt: Man with tattooed arms balancing a laptop on his lap with one hand, with his other hand slightly raised. His face is hidden.
@@ -11,24 +11,16 @@ image:
 ---
 
 <!--
-Some rough title ideas...
-- audist-visual communication
-- video sounds like a visual medium
-- video is second-class to audio
--->
-
-<!--
 TODO:
-- change title, image, date, description
+- change date
 - update heading texts
 - add screenshots to each item in "the list"
 - proofread/edit/grammars
-- rename this file and matching assets folder and its path
 - expand first use of Deaf & HOH
 -->
 ## The introduction
 
-About a month ago, the COVID pandemic started to really affect life here in Vancouver. Within the span of a few days we went from business as usual to shutting down most of the city's public spaces.
+Around mid-March, the COVID pandemic started to really affect life here in Vancouver. Within the span of a few days we went from business as usual to shutting down most of the city's public spaces.
 
 This was a challenge for the ASL (American Sign Language) practice [Meetup](https://www.meetup.com/) I help organize, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Up until this point, we had been meeting in person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be possible to move our Meetup online.
 
@@ -59,7 +51,7 @@ Communicating in ASL through video chat is not optimal, since it's a 3D language
 
 ### Text chat interface obstructs video
 
-![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-choices-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
+![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-ux-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
 
 Many video chat applications have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one tool DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we have difficulty communicating through signing alone.
 
@@ -67,7 +59,7 @@ Unfortunately, the text chat interface often obstructs videos when in use. This 
 
 ### Screensharing disables video
 
-![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-choices-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
+![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-ux-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
 People share their screen in a video meeting for a number of reasons. For example: to present a slide deck, to share a video, or to demonstrate how an application works.
 
@@ -90,7 +82,7 @@ What if the audience were not hearing? They would not be able to watch the prese
 
 ### Video too small for signing or lip-reading
 
-![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-design-choices-in-video-chat-apps/discord-one-featured-video-rest-small.png)
+![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-ux-in-video-chat-apps/discord-one-featured-video-rest-small.png)
 
 In some video chat layouts, one video is "featured" and shown at a large size, while the rest are shown at smaller sizes. This does not have much of an effect on speaking-hearing conversations, since video dimensions don't have any affect on audio quality. However, if the videos are too small to clearly see signing, facial expressions, and mouth shapes, it can make signing and lip-reading impossible. This is essentially the hearing equivalent of muting everyone's microphones except for the one featured person's microphone.
 
@@ -113,7 +105,7 @@ Some apps will display a subset of videos at a time, even if more videos could p
 
 ### Video cropping
 
-![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-choices-in-video-chat-apps/houseparty-cropped-videos.png)
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-ux-in-video-chat-apps/houseparty-cropped-videos.png)
 
 The captured video's dimensions will be different for every camera. Video meeting apps will generally crop the displayed videos so they all display at the same aspect ratio and lay out nicely. The crop can also vary depending on the type of device it's displayed on, so what someone sees on their video may not match what is shown to another person. This doesn't affect lip-reading much, since people's faces will likely be centered and in-view regardless of the crop. It can have a huge impact on signing, though. A signer will use up the space available to them, and a lot of their signing could end up being hidden from others. The most extreme example would be cropping a horizontal video (e.g. from a desktop) to a vertical video (e.g. to a smartphone).
 
