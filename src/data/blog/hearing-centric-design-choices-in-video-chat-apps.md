@@ -3,11 +3,11 @@ title: Hearing-centric design choices in video chat apps
 description: Some of the hearing-centric design choices commonly found in video chat apps, which may make it harder for Deaf and hard-of-hearing to communicate.
 date: 2020-04-30
 image:
-  path: /thinking-about-material-design.png
-  alt: The thinking face emoji looking at the Material Design logo.
+  path: /laptop-talking-hands.jpg
+  alt: Man with tattooed arms balancing a laptop on his lap with one hand, with his other hand slightly raised. His face is hidden.
   width: 1200
-  height: 745
-  caption: ''
+  height: 800
+  caption: '<a href="https://unsplash.com/photos/Rx_ItZAek_Q" target="_blank" rel="nofollow noopener">Photo by Oleg Ivanov on Unsplash</a>'
 ---
 
 <!--
