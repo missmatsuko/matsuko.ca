@@ -1,5 +1,5 @@
 ---
-title: Hearing-centric UX in video chat apps
+title: Hearing-centric design in video chat apps
 description: Some hearing-centric design choices in video chat apps that make it harder to use unless relying on auditory communication.
 date: 2020-05-03
 image:
@@ -51,7 +51,7 @@ By the way, we ended up settling on Jitsi Meet for now, although Google Meet is 
 
 ### Screensharing disables video
 
-![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-ux-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
+![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
 In some video chat apps, when someone shares their screen, their camera is forced to be disabled. That means nobody in the video meeting can see the presenter. In some cases, the shared screen will take over the whole video meeting so it's impossible to see anyone's video.
 
@@ -63,7 +63,7 @@ In some video chat apps, when someone shares their screen, their camera is force
 
 ### Text chat interface obstructs video
 
-![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-ux-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
+![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
 
 Pretty much all video chat applications also have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one of the tools DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we are unable to get something across using sign language.
 
@@ -73,7 +73,7 @@ Unfortunately, in many cases, the text chat interface obstructs videos when in u
 
 Video meeting apps will generally crop videos to lay out nicely. In some cases, the crop varies depending on the type of device it's displayed on. So, how someone sees themselves on their own device does not necessarily match what is shown to anyone else in the video chat.
 
-![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-ux-in-video-chat-apps/houseparty-cropped-videos.png)
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
 
 This can have a huge impact on signing. If someone sees themselves on video with plenty of room around them, they would think they have all that room to use for signing. In actuality, their video could be cropped so much that only their face is visible, hiding their signing from others in the video chat.
 
@@ -85,7 +85,7 @@ This can have a huge impact on signing. If someone sees themselves on video with
 
 ### One large featured video
 
-![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-ux-in-video-chat-apps/discord-one-featured-video-rest-small.png)
+![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-design-in-video-chat-apps/discord-one-featured-video-rest-small.png)
 
 There are a few issues with this very common video layout, which displays one featured video at a large size. In some variants of this layout, the featured video is all that's visible. In others, everyone else's videos are shown at a much smaller size. In both cases, more videos could be shown on the screen if the featured video weren't so large.
 
