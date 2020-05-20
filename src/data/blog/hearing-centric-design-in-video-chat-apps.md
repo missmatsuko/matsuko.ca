@@ -1,7 +1,7 @@
 ---
 title: Hearing-centric design in video chat apps
-description: Some hearing-centric design choices in video chat apps that make it harder to use unless relying on auditory communication.
-date: 2020-05-03
+description: Designs common in video chat apps that make it harder to use without relying on auditory communication.
+date: 2020-05-19
 image:
   path: /laptop-talking-hands.jpg
   alt: Man with tattooed arms balancing a laptop on his lap with one hand, with his other hand slightly raised. His face is hidden.
@@ -13,12 +13,10 @@ image:
 <!--
 TODO:
 - change date
-- update heading texts
-- add screenshots to items in "the list"
 - proofread/edit/grammars
 -->
 
-**Note: If you are not familiar with Deaf and hard of hearing (DHH) culture, you may want to read [Deaf 101 by the Hearing, Speech & Deaf Center (HSDC)](https://www.hsdc.org/services/deaf-101/) first.**
+**Note: If you are not familiar with Deaf and hard of hearing (DHH) culture, I recommend reading [Deaf 101 by the Hearing, Speech & Deaf Center (HSDC)](https://www.hsdc.org/services/deaf-101/) first.**
 
 ## Introduction
 
@@ -39,51 +37,17 @@ With this in mind, three of us from the ASL practice group tested out the follow
 
 As expected, we did experience more difficulties communicating in sign language through video than in person. For example, it was tricky to get a particular person's attention, which we typically do by waving towards them and making eye contact. It's just not possible on video since there's no way to position ourselves in relation to others (unless everyone's got their own [MVPD](https://bigbangtheory.fandom.com/wiki/Mobile_Virtual_Presence_Device), that is).
 
-While some issues were unavoidable due to the nature of the video format, there were additional difficulties stemming from the apps' designs. Like most things in the world, video chat apps were created for the hearing. If DHH been considered while designing the app, these issues would likely not exist.
+While some issues were unavoidable due to the nature of the video format, there were additional difficulties caused by the apps' designs. Like most things in the world, video chat apps were created for the hearing. If DHH been considered while designing the app, these issues would not be so common.
 
-<!-- TODO: work on this bit? -->
-For the remainder of this blog post, I will list and describe UX patterns commonly found in video chat apps that make it more difficult to communicate without relying on audio. It is important to note that these issues were discovered during ASL practice with mostly hearing participants, and do not represent the DHH experience. At the same time, many of these design choices would have an impact on communicating with signing, lip reading, or when there's audio quality issues.
+For the remainder of this blog post, I will list and describe the designs commonly found in video chat apps that make it more difficult to communicate without relying on audio. It is important to note that most of these issues were discovered during ASL practice with mostly hearing participants, and are not a representation of the DHH experience. At the same time, it's clear that many of these design choices would have an impact on communicating with signing, lip reading, or when there's audio quality issues.
 
-By the way, we ended up settling on Jitsi Meet for now, although Google Meet is quickly becoming a good contender with all the features they've started rolling out.
+<!-- TODO: Include or not? Seems out of place? -->
+By the way, we ended up settling on Jitsi Meet for now, although Google Meet is quickly becoming a good contender with all the features they've been rolling out.
 
 <!-- TODO: more descriptive heading...? -->
-## UX patterns
+## Designs
 
-### Screensharing disables video
-
-![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
-
-In some video chat apps, when someone shares their screen, their camera is forced to be disabled. That means nobody in the video meeting can see the presenter. In some cases, the shared screen will take over the whole video meeting so it's impossible to see anyone's video.
-
-**This design assumes that the presenter is speaking, and the audience is hearing.**
-
-**What if the presenter were DHH?** The presenter cannot sign, since their camera is disabled. If there is an interpreter for a hearing audience, the interpreter would need to physically be with the presenter. The presenter may be able to communicate to their audience via text chat, but that means the presenter will have to go back and forth between their shared screen and the text chat.
-
-**What if the audience were DHH?** They would not be able to watch the presenter for lip reading or signing, since their camera has been disabled. If everyone's cameras have been disabled, they would not be able see them for lip reading or signing, either. If the presenter is speaking, captions may be helpful.
-
-### Text chat interface obstructs video
-
-![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
-
-Pretty much all video chat applications also have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one of the tools DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we are unable to get something across using sign language.
-
-Unfortunately, in many cases, the text chat interface obstructs videos when in use. This makes it difficult, or even impossible, to see someone's reaction to messages. This kind of visual feedback can be critical to know if someone is understanding or responding to a message.
-
-### Videos cropped differently
-
-Video meeting apps will generally crop videos to lay out nicely. In some cases, the crop varies depending on the type of device it's displayed on. So, how someone sees themselves on their own device does not necessarily match what is shown to anyone else in the video chat.
-
-![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
-
-This can have a huge impact on signing. If someone sees themselves on video with plenty of room around them, they would think they have all that room to use for signing. In actuality, their video could be cropped so much that only their face is visible, hiding their signing from others in the video chat.
-
-
-
-<!--
-  Combine next 2?
--->
-
-### One large featured video
+### The one large featured video layout
 
 ![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-design-in-video-chat-apps/discord-one-featured-video-rest-small.png)
 
@@ -101,48 +65,34 @@ Video dimensions don't have much of an effect on speaking-hearing conversations,
 
 With a large group video chat, it makes sense to limit the number of videos shown at a time so they don't display at tiny sizes. In this layout, though, more videos could fit on one screen at reasonable sizes if the featured video didn't take up so much room. While there is a balance to maintain, there is no way to lip read or receive signing from a hidden video. The hearing equivalent could be muting the microphones for all those with hidden videos.
 
-### // TODO
-<!-- TODO: edit next -->
+### Videos cropped differently
 
-### Video quality issues
+Video meeting apps will generally crop videos to lay out nicely. In some cases, the crop varies depending on the type of device it's displayed on. So, how someone sees themselves on their own device does not necessarily match what is shown to anyone else in the video chat.
 
-<!--
-  Get screenshot from Discord...?
--->
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
 
-We've all been annoyed by video quality issues like freezing, lagging, blurring, and pixellation. These types of issues have a significant impact on non-auditory communication. While hearing-speaking conversations can still continue (so long as audio isn't also affected), lip reading and signing can be severely hampered. These types of issues can't all be fixed by the app, but some apps tend to have fewer issues than others.
+This can have a huge impact on signing. If someone sees themselves on video with plenty of room around them, they would think they have all that room to use for signing. In actuality, their video could be cropped so much that only their face is visible, hiding their signing from others in the video chat.
 
-### Captioning availability and quality
+### Lack of good captions
 
-<!--
-  Get screenshot from Jitsi...?
-  - Some apps don't attribute captions to specific people (Google Meet is ok, try a diff one)? In this case, might not be able to tell who is speaking.
--->
+Some video chat apps don't have a captioning feature at all. Many do now have captioning, but the quality can vary. Some apps will allow manual captioning, which is generally more accurate (and costly) than automatic captioning. Captions are beneficial for DHH observing a speaking presenter. In some cases, an interpreter would be more beneficial, especially if there is 2-way communication.
 
-Some video chat apps don't have a captioning feature at all. Many do now have captioning, but the captions quality can vary. Some apps will allow manual captioning, which is generally more accurate (and costly) than automatic captioning. Captions are beneficial for DHH observing a speaking presenter. In some cases, an interpreter may be more beneficial, especially if there is 2-way communication.
+### Text chat interface obstructs video
 
-### Wishlist
+![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
 
-#### Picture-in-picture for interpreter
+Pretty much all video chat applications also have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio-video issues, and having side conversations. It's one of the tools DHH can use to communicate with the hearing. In our ASL practice Meetup, it's also been useful for explaining things when we are unable to get something across using sign language.
 
-#### Layout customizations
+Unfortunately, in many cases, the text chat interface obstructs videos when in use. This makes it difficult, or even impossible, to see someone's reaction to messages. This kind of visual feedback can be critical to know if someone is understanding or responding to a message.
 
-#### Feature the video that has the most movement.
+### Screensharing disables video
 
-#### Getting someone's attention
+![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
-<!--
-  Get screenshot... of what?
-  TODO: expand this more...?
--->
+In some video chat apps, when someone shares their screen, their camera is forced to be disabled. That means nobody in the video meeting can see the presenter. In some cases, the shared screen will take over the whole video meeting so it's impossible to see anyone's video.
 
-There are [a number of ways to get a Deaf person's attention](https://www.lifeprint.com/asl101/topics/attention_getting_techniques.htm), and most of these don't work well in a video format. Flailing on video might get their attention, but they may be too focused on another video to notice, or they may not realize it's meant to grab their attention specifically. Pinging them through text chat might work. It would be nice if there were some way to highlight a video for specific people.
+**This design assumes that the presenter is speaking, and the audience is hearing.**
 
-#### Referring to someone else
+**What if the presenter were DHH?** The presenter cannot sign, since their camera is disabled. If there is an interpreter for a hearing audience, the interpreter would need to physically be with the presenter. The presenter may be able to communicate to their audience via text chat, but that means the presenter will have to go back and forth between their shared screen and the text chat.
 
-<!--
-  Get screenshot... of what?
-  TODO: expand this more...?
--->
-
-When we refer to someone that is present in sign language, we can usually just point at them. In a video chat, pointing is pretty meaningless. There's no way to tell who someone is pointing at, especially if everyone's video order is different. We can adjust our communication style to use people's names, but many beginner's names can be a hassle to spell out.
+**What if the audience were DHH?** The audience would not be able to watch the presenter for lip reading or signing, since the presenter's camera has been disabled. If everyone's cameras have been disabled, including an interpreter's, they would not be able see them for lip reading or signing, either. If the presenter is speaking, captions may be helpful.
