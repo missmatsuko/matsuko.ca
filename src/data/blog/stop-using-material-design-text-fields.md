@@ -26,7 +26,7 @@ All the fields in the image above are configured differently. This is mainly com
 
 ### The label is inconsistent
 
-![3 Material Design text fields with their labels indicated as "label", and other text indicated as "not label".](./assets/stop-using-material-design-text-fields/material-design-fields-label-position-shade.png)
+![3 Material Design text fields with their labels indicated as 'label', and other text indicated as 'not label'.](./assets/stop-using-material-design-text-fields/material-design-fields-label-position-shade.png)
 
 There are many ways in which the label is inconsistent, and doesn't meet users' expectations.
 
@@ -71,7 +71,7 @@ It's also worth noting that Google doesn't use Material Design for all their for
 
 One example where Google is using Material Design text fields is Gmail's login page. The log-in form actually only has a single field to start with, called "Email or phone". Users seeing this form probably got to this page intentionally, have logged in before, and are already expecting to enter their login credentials. All this makes it easier to complete the form, despite the text field's design.
 
-![Gmail login screen which has 1 field: "Email or phone".](./assets/stop-using-material-design-text-fields/gmail-login.png)
+![Gmail login screen which has 1 field: 'Email or phone'.](./assets/stop-using-material-design-text-fields/gmail-login.png)
 
 The settings page for Gmail, though, sticks to a much more conventional form design. And thank goodness, because it would be such pain to fill out a long form containing a mix of blank and filled Material Design fields.
 
