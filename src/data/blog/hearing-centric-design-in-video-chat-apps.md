@@ -10,12 +10,6 @@ image:
   caption: '<a href="https://unsplash.com/photos/Rx_ItZAek_Q" target="_blank" rel="nofollow noopener">Photo by Oleg Ivanov on Unsplash</a>'
 ---
 
-<!--
-TODO:
-- change date?
-- proofread/edit/grammars?
--->
-
 **Note: If you are not familiar with Deaf and hard of hearing (DHH) culture, I recommend reading [Deaf 101 by the Hearing, Speech & Deaf Center (HSDC)](https://www.hsdc.org/services/deaf-101/) first.**
 
 ## Introduction
