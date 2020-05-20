@@ -39,7 +39,7 @@ As expected, we did experience more difficulties communicating in sign language 
 
 While some issues were unavoidable due to the nature of the video format, there were additional difficulties caused by the apps' designs. Like most things in the world, video chat apps were created for the hearing. If DHH had been considered while designing the app, these issues would not be so common.
 
-For the remainder of this blog post, I will list and describe the designs commonly found in video chat apps that make it more difficult to communicate without relying on audio. It is important to note that most of these issues were discovered during ASL practice with mostly hearing participants, and are not a representation of the DHH experience. At the same time, it's clear that many of these design choices would have an impact on communication with signing, lip reading, or when there are audio quality issues.
+For the remainder of this blog post, I will list and describe the designs commonly found in video chat apps that make it more difficult to communicate without relying on audio. It is important to note that most of these issues were discovered during ASL practice with mostly hearing participants, and are not a representation of the DHH experience. At the same time, it's clear that many of these design choices would have an impact on communication with signing, lip-reading, or when there are audio quality issues.
 
 This isn't a comparison or critique of specific platforms, especially since these issues are so common. In case it's useful to know, though, we did end up settling on Jitsi Meet for now. Google Meet is quickly becoming a good contender with all the features they've been rolling out.
 
@@ -57,11 +57,11 @@ Typically, the featured video is selected based on who is making the most noise.
 
 #### Videos too small to see details
 
-Video dimensions don't have much of an effect on speaking-hearing conversations, since there is no impact on audio quality. However, if the videos are too small to clearly see hand shapes and facial expressions, it can make signing and lip reading difficult or even impossible. If the app treated hearing-speaking conversations the same way, it would muffle everyone's microphones except for the one featured person's.
+Video dimensions don't have much of an effect on speaking-hearing conversations, since there is no impact on audio quality. However, if the videos are too small to clearly see hand shapes and facial expressions, it can make signing and lip-reading difficult or even impossible. If the app treated hearing-speaking conversations the same way, it would muffle everyone's microphones except for the one featured person's.
 
 #### Hiding more videos than necessary
 
-With a large group video chat, it makes sense to limit the number of videos shown at a time so they don't display at tiny sizes. In this layout, though, more videos could fit on one screen at reasonable sizes if the featured video didn't take up so much room. While there is a balance to maintain, there is no way to lip read or receive signing from a hidden video. If the app treated hearing-speaking conversations the same way, it would mute everyone's microphones unless they were shown on-screen.
+With a large group video chat, it makes sense to limit the number of videos shown at a time so they don't display at tiny sizes. In this layout, though, more videos could fit on one screen at reasonable sizes if the featured video didn't take up so much room. While there is a balance to maintain, there is no way to lip-read or receive signing from a hidden video. If the app treated hearing-speaking conversations the same way, it would mute everyone's microphones unless they were shown on-screen.
 
 ### Not showing your own video
 
@@ -97,4 +97,4 @@ In some video chat apps, when someone shares their screen, their camera is force
 
 **What if the presenter were DHH?** The presenter cannot sign, since their camera is disabled. If there is an interpreter for a hearing audience, the interpreter would need to physically be with the presenter. The presenter may be able to communicate to their audience via text chat, but that means the presenter will have to go back and forth between their shared screen and the text chat.
 
-**What if the audience were DHH?** The audience would not be able to watch the presenter for lip reading or signing, since the presenter's camera has been disabled. If everyone's cameras have been disabled, including an interpreter's, they would not be able see them for lip reading or signing, either. If the presenter is speaking, captions may be helpful.
+**What if the audience were DHH?** The audience would not be able to lip-read or see the presenter signing, since the presenter's camera has been disabled. If everyone's cameras have been disabled, including an interpreter's, they would not be able to lip-read or see them signing either. If the presenter is speaking, captions may be helpful.
