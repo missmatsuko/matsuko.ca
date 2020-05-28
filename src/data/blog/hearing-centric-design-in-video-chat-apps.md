@@ -4,7 +4,7 @@ description: Designs common in video chat apps that make them harder to use with
 date: 2020-05-20
 image:
   path: /laptop-talking-hands.jpg
-  alt: Man with tattooed arms balancing a laptop on his lap with one hand, with his other hand slightly raised. His face is hidden.
+  alt: A masculine-presenting person with tattooed arms balancing a laptop on their lap with one hand, with their other hand slightly raised. Their face is hidden.
   width: 1200
   height: 800
   caption: '<a href="https://unsplash.com/photos/Rx_ItZAek_Q" target="_blank" rel="nofollow noopener">Photo by Oleg Ivanov on Unsplash</a>'
@@ -65,7 +65,7 @@ While some video chat apps show your own video in the same manner as everyone el
 
 Even if you can see your own video and think you're using your space correctly, it may not be enough: video meeting apps will generally crop videos to lay out nicely. In some cases, the crop varies depending on the type of device it's displayed on. This means that how someone sees themselves on their own device does not necessarily match what is shown to anyone else in the video chat.
 
-![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there are 3 equal-width videos. On mobile, the woman in the bottom, wider video can be seen holding her hands up next to her. On desktop, her arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there are 3 equal-width videos. On mobile, the person in the bottom, wider video can be seen holding their hands up next to them. On desktop, their arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
 
 This can have a huge impact on signing. If someone sees themselves on video with plenty of room around them, they would think they have all that room to use for signing. In actuality, their video could be cropped so much that only their face is visible, hiding their signing from others in the video chat.
 
