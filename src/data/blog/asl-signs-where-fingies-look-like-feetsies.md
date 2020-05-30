@@ -131,3 +131,6 @@ Source: ["arisen" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/a
 https://youtu.be/Hkev0UWG4xA?start=150&end=156
 
 Source: [ASL Sex/Reproduction Signs by Jennifer Jambe on YouTube](https://youtu.be/Hkev0UWG4xA)
+
+## Swing (as in sit on a swing and swing)
+Source: ["swing" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/swing.htm)
