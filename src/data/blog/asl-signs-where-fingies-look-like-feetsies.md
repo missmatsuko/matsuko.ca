@@ -134,3 +134,10 @@ Source: [ASL Sex/Reproduction Signs by Jennifer Jambe on YouTube](https://youtu.
 
 ## Swing (as in sit on a swing and swing)
 Source: ["swing" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/swing.htm)
+
+## Join
+https://www.youtube.com/watch?v=D3mLq8Gchvs
+
+> Memory aid:  Think of the "H" hand as representing your legs and you are "jumping" into something with both feet.
+
+Source: ["join" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/j/join.htm)
