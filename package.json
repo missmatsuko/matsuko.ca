@@ -11,13 +11,13 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/plugin-sitemap": "^0.2",
+    "@gridsome/plugin-sitemap": "^0.3",
     "@gridsome/source-filesystem": "^0.6",
-    "@gridsome/transformer-remark": "^0.5",
-    "@noxify/gridsome-plugin-remark-embed": "^1.1",
-    "autoprefixer": "^9.7",
+    "@gridsome/transformer-remark": "^0.6",
+    "@noxify/gridsome-plugin-remark-embed": "^1.2",
+    "autoprefixer": "^9.8",
     "gridsome": "^0.7",
-    "gridsome-plugin-feed": "^1.0.2",
-    "marked": "^0.8.1"
+    "gridsome-plugin-feed": "^1.0",
+    "marked": "^1.1"
   }
 }
