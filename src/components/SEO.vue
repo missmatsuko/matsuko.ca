@@ -21,7 +21,7 @@ export default {
     },
     description: {
       required: false,
-      default: 'Vancouver-based web specialist focused on usability and accessibility.',
+      default: 'Web specialist focused on usability and accessibility.',
       type: String,
     },
     path: {
