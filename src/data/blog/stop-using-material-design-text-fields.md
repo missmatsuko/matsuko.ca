@@ -46,7 +46,7 @@ Let's say we have a text field for "Work email address". Our Québécois French 
 ![2 sets of English and French Material Design text fields. The first 2 have labels and the second 2 have labels and values.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-without-and-with-value.png)
 
 
-The problem is worse for users who use custom styles to increase their font size. After resizing the text to 200%, both the English and French fields have overlapping text. This is a failure of [WCAG AA success criteria 1.4.4 - Resize Text]((https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)).
+The problem is worse for users who use custom styles to increase their font size. After resizing the text to 200%, both the English and French fields have overlapping text. This is a failure of [WCAG AA success criteria 1.4.4 - Resize Text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html).
 
 ![2 English and French Material Design text fields with the font size increased.](./assets/stop-using-material-design-text-fields/translated-fields-material-design-large-font-size-with-value.png)
 
