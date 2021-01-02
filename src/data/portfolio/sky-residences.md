@@ -15,9 +15,6 @@ technologies:
   - JS
   - WordPress
   - Gulp
-links:
-  - text: Live Site
-    url: 'http://liveskycondos.com/'
 featured: false
 ---
 
