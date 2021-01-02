@@ -44,3 +44,7 @@ I built out multi-step forms with validation, third-party API integrations, and 
 
 ### Flexible components
 I built out flexible components that could have multiple variations depending on its content and position in the page.
+
+## Screenshots
+
+![Energy Efficiency Alberta's simplified home page.](./assets/energy-efficiency-alberta/simple-home.png)

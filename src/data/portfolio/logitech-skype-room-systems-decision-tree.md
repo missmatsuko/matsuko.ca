@@ -26,3 +26,11 @@ featured: true
 This landing page provides information about Logitech's Skype Room Systems and an interactive quiz (or "decision tree") to help people choose the appropriate video conferencing set-up for their organization.
 
 I developed this landing page and produced static HTML files for hosting on [Marketo](https://www.marketo.com/).
+
+## Screenshots
+
+![Home page.](./assets/logitech-skype-room-systems-decision-tree/1-home-laptop.png)
+
+![Question page.](./assets/logitech-skype-room-systems-decision-tree/2-question-laptop.png)
+
+![Solution page.](./assets/logitech-skype-room-systems-decision-tree/3-solution-laptop.png)
