@@ -34,7 +34,13 @@
 
 <page-query>
 query Posts {
-  posts: allPortfolio(sortBy: "date", order: DESC) {
+  posts: allPortfolio(
+      sortBy: "date",
+      order: DESC,
+      filter: {
+        featured: { eq: true },
+      }
+    ) {
     edges {
       node {
         id
