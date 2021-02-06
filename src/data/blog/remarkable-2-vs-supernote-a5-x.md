@@ -1,10 +1,10 @@
 ---
-title: reMarkable 2 vs. Supernote A5X
+title: reMarkable 2 vs. Supernote A5 X
 description: I compare some of the features between these two popular digital note devices.
 date: 2021-02-05
 image:
   path: /remarkable-supernote-heart-stack.jpg
-  alt: reMarkable 2 and Supernote A5X with their covers closes, stacked and arranged into a heart shape.
+  alt: reMarkable 2 and Supernote A5 X with their covers closes, stacked and arranged into a heart shape.
   width: 1250
   height: 960
   caption: ''
@@ -14,9 +14,9 @@ image:
   TODO: Update frontmatter
 -->
 
-![reMarkable 2 and Supernote A5X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5x/open.jpg)
+![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5-x/open.jpg)
 
-![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5X. The glyphs are highlighted in red and display properly on the A5X but not the RM2.](./assets/remarkable-2-vs-supernote-a5x/glyphs.jpg)
+![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
 
 
 ## Intro
@@ -25,8 +25,12 @@ image:
 - Similarities: paper feel, e-ink display, limitations
 - Final decision and why?
 - Comparing: Supernote A5 X w/ base packages vs. reMarkable 2 w/ gray polymer weave book folio and marker plus
-- Overall, prefer hardware of RM2 and software of A5X
+- Overall, prefer hardware of RM2 and software of A5 X
 - Lot of theology people
+
+https://remarkable.com/store/remarkable-2
+
+https://www.supernote.com/#/product?type=SN-A5-X
 
 ## Contents
 
@@ -44,6 +48,13 @@ image:
 
 
 ### Hardware
+
+The reMarkable 2 is a sleek device with a metal spine. I thought it was a nice touch that they chose to match their bezel colour to the screen.
+
+The Supernote A5 X feels like a cheaper device. Supernote claims their screen "never breaks", so it may be a better choice for clumsier folks.
+
+Both devices are about the same size and weight, although Supernote offers a smaller version called the [Supernote A6 X](https://www.supernote.com/#/product?type=SN-A6-X).
+
 - Both USB-C charging, size and weight similar
 - reMarkable: sleek, prefer the gray bezel, more fragile?
 - Supernote: cheaper feel, more resilient to falls? side bar functionality, glossier
@@ -73,7 +84,7 @@ image:
 
 #### Pen
 
-![Top: reMarkable 2 Marker Plus. Bottom: Supernote A5X Standard Pen with its cap off.](./assets/remarkable-2-vs-supernote-a5x/pens.jpg)
+![Top: reMarkable 2 Marker Plus. Bottom: Supernote A5 X Standard Pen with its cap off.](./assets/remarkable-2-vs-supernote-a5-x/pens.jpg)
 
 I opted for the [reMarkable 2's Marker Plus](https://remarkable.com/store/remarkable-2/markers), which has a digital eraser on the end for quick erasing. The Marker (not Marker Plus) is more comparable with the [Supernote's Standard Pen](https://www.supernote.com/#/part?id=SP-03) since neither of them have erasers.
 
@@ -87,20 +98,20 @@ Supernote's Standard Pen feels heavier than the Marker Plus, and has been harder
 
 A unique feature of Supernote's Standard Pen is that it is nib-less and, according to Supernote, "never wears out". I was excited by the idea of never needing to buy replacement nibs until I found out that it's recommended to replace the ceramic core after "6 months of constant use".
 
-I experimented with using the reMarkable's Marker Plus to write on the Supernote A5X, and found that the writing experience felt a lot more paper-like. I think the ceramic nib moves more smoothly, so it feels more like writing on a digital tablet.
+I experimented with using the reMarkable's Marker Plus to write on the Supernote A5 X, and found that the writing experience felt a lot more paper-like. I think the ceramic nib moves more smoothly, so it feels more like writing on a digital tablet.
 
-Supernote has a few other pens available, but I think I'll try compatible third-party Electro-Magnetic Resonance (EMR) pens with quality nibs to use with the Supernote A5X for a more paper-like writing experience.
+Supernote has a few other pens available, but I think I'll try compatible third-party Electro-Magnetic Resonance (EMR) pens with quality nibs to use with the Supernote A5 X for a more paper-like writing experience.
 
 
 #### Cover
 
-![reMarkable 2 and Supernote A5X, with their covers closed.](./assets/remarkable-2-vs-supernote-a5x/closed.jpg)
+![reMarkable 2 and Supernote A5 X, with their covers closed.](./assets/remarkable-2-vs-supernote-a5-x/closed.jpg)
 
-I opted for the [reMarkable 2's Book Folio with the grey polymer weave material](https://remarkable.com/store/remarkable-2/folios), which is pretty comparable to the [Supernote A5X's Canvas Folio](https://www.supernote.com/#/part?id=FC).
+I opted for the [reMarkable 2's Book Folio with the grey polymer weave material](https://remarkable.com/store/remarkable-2/folios), which is pretty comparable to the [Supernote A5 X's Canvas Folio](https://www.supernote.com/#/part?id=FC).
 
 The reMarkable 2's Book Folio attaches to the device with magnets. As with the pen, it feels gimmicky and I'm not super confident about the attachment strength.
 
-The Supernote A5X's Canvas Folio attaches to the device using a physical rail. The attachment feels pretty sturdy.
+The Supernote A5 X's Canvas Folio attaches to the device using a physical rail. The attachment feels pretty sturdy.
 
 In terms of the material, I much prefer reMarkable's cover. It feels sturdier and the material feels like it's of a higher quality than Supernote's.
 
