@@ -93,7 +93,7 @@ With the exception of a screensaver image, none of these are currently possible 
 
 #### Language support
 
-[The reMarkable supports a long list of handwriting conversion langes, and only 2 keyboard languages.](https://support.remarkable.com/hc/en-us/articles/360007012598-Which-languages-do-you-support-), and they are all European languages. You can only choose 1 language for each, so it's not very useful for users who want to write and convert text in multiple languages on the same device.
+[The reMarkable supports a long list of handwriting conversion languages, but only 2 keyboard languages](https://support.remarkable.com/hc/en-us/articles/360007012598-Which-languages-do-you-support-), and they are all European languages. You can only choose 1 language for each, so it's not very useful for users who want to write and convert text in multiple languages on the same device.
 
 The Supernote currently only supports 3-4 languages: English, Japanese, Simplified Chinese, and Traditional Chinese. However, you can select multiple keyboards and allow auto-detecting of handwriting language. Handwriting conversion seems to be more reliable in Japanese and Chinese than in English.
 
