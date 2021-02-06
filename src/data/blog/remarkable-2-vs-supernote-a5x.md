@@ -26,13 +26,22 @@ image:
 - Final decision and why?
 - Comparing: Supernote A5 X w/ base packages vs. reMarkable 2 w/ gray polymer weave book folio and marker plus
 - Overall, prefer hardware of RM2 and software of A5X
+- Lot of theology people
 
-## Comparison
+## Contents
 
-### Price
-- Bundling?
-- reMarkable: starting at $517 USD for lowest model pen and cover (sleeve-style folio, not book folio). $597 USD for my bundle.
-- Supernote: starting at $499 USD
+- [Hardware](#hardware)
+  - []()
+- [Software](#software)
+  - []()
+- [Accessories](#accessories)
+  - [Pen](#pen)
+  - [Cover](#cover)
+- [Other](#other)
+  - [Price](#price)
+  - [Returns](#returns)
+  - [Community and Support](#community-and-support)
+
 
 ### Hardware
 - Both USB-C charging, size and weight similar
@@ -40,6 +49,10 @@ image:
 - Supernote: cheaper feel, more resilient to falls? side bar functionality, glossier
 
 ### Software
+
+#### Set-up
+
+#### Multi-lingual
 
 #### OS (Operating System)
 - Hackability?
@@ -54,6 +67,7 @@ image:
 - Similarities? File transfer?
 - reMarkable:
 - Supernote: better ePub support, custom templates, custom fonts, recent files navigation, more colours, annotations, search handwritten notes, doesn't hide writing area, additional formats, kindle support, seems to get more features and updates, kindle
+
 
 ### Accessories
 
@@ -95,7 +109,21 @@ I wish that Supernote's pen loop were made from an elastic material so that diff
 A major plus for me with the Supernote's cover is that it is a sleep cover. That is, the device is put to sleep when the cover is closed, and wakes when the cover is opened.
 
 
-### Community and Support
+### Other
+
+#### Price
+
+The pricing of the Supernote and reMarkable are fairly similar, although the Supernote is a bit cheaper.
+
+Supernote offers a convenient Standard Set priced at $499 USD, which includes: the device, a denim blue folio cover, and their Standard Pen. You also have the option of buying them separately. I ended up paying around $800 CAD for the Standard Set, which is including a surprise additional duty fee of about $95 CAD.
+
+The reMarkable device and accessories are all sold separately, so you need to decide which cover and pen you'd like, if any. The Book Folio with the grey polymer weave and the Marker options would be most comparable with Supernote's Standard Set. This combination is priced at $517 USD. I opted for the Marker Plus, and ended up paying $897 CAD.
+
+#### Returns
+
+reMarkable's return policy is pretty generous, with a 30-day satisfaction guarantee. Supernote is only refundable if unopened.
+
+#### Community and Support
 
 reMarkable's website and social media are, much like their product, sleek. However, I found their support pretty unsubstantial. The community seems to be more technical people.
 
