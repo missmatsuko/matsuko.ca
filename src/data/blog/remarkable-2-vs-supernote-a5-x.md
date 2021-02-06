@@ -1,6 +1,6 @@
 ---
 title: reMarkable 2 vs. Supernote A5 X
-description: I compare some of the features between these two popular digital note devices.
+description: I compare some of the features between these two popular E Ink tablets, and share why I ended up choosing the Supernote A5 X.
 date: 2021-02-05
 image:
   path: /remarkable-supernote-heart-stack.jpg
@@ -14,29 +14,31 @@ image:
   TODO: Update frontmatter
 -->
 
-![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5-x/open.jpg)
-
-![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
-
-
 ## Intro
-- Recco view <https://twitter.com/shelbyspees>
-- Name? eNote, ePaper, digital paper, e-ink tablet...
-- Similarities: paper feel, e-ink display, limitations
-- Final decision and why?
-- Comparing: Supernote A5 X w/ base packages vs. reMarkable 2 w/ gray polymer weave book folio and marker plus
-- Overall, prefer hardware of RM2 and software of A5 X
-- Lot of theology people
 
-https://remarkable.com/store/remarkable-2
+I first learned about these devices when [Shelby Spees](https://twitter.com/shelbyspees) tweeted about annotating PDFs on a reMarkable.
 
-https://www.supernote.com/#/product?type=SN-A5-X
+I often found myself printing out pages of PDFs to write on, so this seems like a great device for me. I was also hoping it would replace my [Kobo Aura Edition 2 eReader](https://ca.kobobooks.com/products/kobo-aura), which I found kind of clunky to use.
+
+I did some research, and wasn't able to find a preferred name for this type of device. Some of the names I've seen are: eNote, ePaper, digital note, digital paper, and E Ink tablet.
+
+There are a few of these types of devices out there, but they share some key features:
+- E Ink display
+- Paper feel
+- Limited functionality in comparison with a regular digital tablet (e.g. iPad)
+- Surprisingly (to me, anyways) pretty popular among theologists
+
+I was convinced, and purchased a [reMarkable 2](https://remarkable.com/store/remarkable-2) pretty much immediately. After a couple weeks of use, I ended up wishing for more functionality than the device provided. That's when I discovered the [Supernote A5 X](https://www.supernote.com/#/product?type=SN-A5-X). It's a similar device that has more popularity in east Asia.
+
+Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#epub) and [annotations](#annotations). They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
+
+I've written about some of the features of these 2 devices here. I hope this helps with your purchasing decisions!
 
 ## Contents
 
 - [Hardware](#hardware)
 - [Software](#software)
-  - []()
+  - []() <!-- TODO -->
 - [Accessories](#accessories)
   - [Pen](#pen)
   - [Cover](#cover)
@@ -47,6 +49,8 @@ https://www.supernote.com/#/product?type=SN-A5-X
 
 
 ### Hardware
+
+![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5-x/open.jpg)
 
 The reMarkable 2 is a sleek device with a metal spine. I thought it was a nice touch that they chose to match their bezel colour to the screen.
 
@@ -61,6 +65,7 @@ Both devices charge via USB-C, which is pretty convenient for me since I can use
 #### Set-up
 
 #### Multi-lingual
+![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
 
 #### OS (Operating System)
 - Hackability?
