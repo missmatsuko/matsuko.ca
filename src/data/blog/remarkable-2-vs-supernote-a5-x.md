@@ -35,7 +35,6 @@ https://www.supernote.com/#/product?type=SN-A5-X
 ## Contents
 
 - [Hardware](#hardware)
-  - []()
 - [Software](#software)
   - []()
 - [Accessories](#accessories)
@@ -51,13 +50,11 @@ https://www.supernote.com/#/product?type=SN-A5-X
 
 The reMarkable 2 is a sleek device with a metal spine. I thought it was a nice touch that they chose to match their bezel colour to the screen.
 
-The Supernote A5 X feels like a cheaper device. Supernote claims their screen "never breaks", so it may be a better choice for clumsier folks.
+The Supernote A5 X feels like a cheaper device. Supernote claims their screen "never breaks", so it may be a better choice for clumsier folks. Their screen might be a touch glossier then the reMarkable 2. The A5 X has a convenient "slidebar" along the right side of the screen, which can be swiped down to activate a toolbar and swiped up to force refresh the screen.
 
-Both devices are about the same size and weight, although Supernote offers a smaller version called the [Supernote A6 X](https://www.supernote.com/#/product?type=SN-A6-X).
+Both devices are about the same size and weight, although Supernote offers a smaller version of their device, the [Supernote A6 X](https://www.supernote.com/#/product?type=SN-A6-X).
 
-- Both USB-C charging, size and weight similar
-- reMarkable: sleek, prefer the gray bezel, more fragile?
-- Supernote: cheaper feel, more resilient to falls? side bar functionality, glossier
+Both devices charge via USB-C, which is pretty convenient for me since I can use the same cable for all of my devices.
 
 ### Software
 
