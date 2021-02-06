@@ -14,8 +14,7 @@ image:
   TODO: Update frontmatter
 -->
 
-![reMarkable 2 and Supernote A5X, with their covers closed.](./assets/remarkable-2-vs-supernote-a5x/open.jpg)
-![reMarkable 2 and Supernote A5X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5x/closed.jpg)
+![reMarkable 2 and Supernote A5X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5x/open.jpg)
 
 ![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5X. The glyphs are highlighted in red and display properly on the A5X but not the RM2.](./assets/remarkable-2-vs-supernote-a5x/glyphs.jpg)
 
@@ -74,9 +73,18 @@ I experimented with using the reMarkable's Marker Plus to write on the Supernote
 Supernote has a few other pens available, but I think I'll try compatible third-party Electro-Magnetic Resonance (EMR) pens with quality nibs to use with the Supernote A5X for a more satisfying writing experience.
 
 
-### Community and customer service
-
 ### Cover
-- reMarkable: magnetic
-- Supernote: fits with "clip", sleep cover functionality, cheaper feel, pen floppy in loop
 
+![reMarkable 2 and Supernote A5X, with their covers closed.](./assets/remarkable-2-vs-supernote-a5x/closed.jpg)
+
+I opted for the [reMarkable 2's Book Folio with the grey polymer weave material](https://remarkable.com/store/remarkable-2/folios), which is pretty comparable to the [Supernote A5X's Canvas Folio](https://www.supernote.com/#/part?id=FC).
+
+The reMarkable 2's Book Folio attaches to the device with magnets. As with the pen, it feels gimmicky and I'm not super confident about the attachment strength.
+
+The Supernote A5X's Canvas Folio attaches to the device using a physical rail. The attachment feels pretty sturdy.
+
+In terms of the material, I much prefer reMarkable's cover. It feels sturdier and the material feels like it's of a higher quality than Supernote's.
+
+I wish that Supernote's pen loop were made from an elastic material so that different pens could fit snugly in it. As it is, the pen flops around quite a bit, and I'm not confident that the pen won't fall out of the cap which hooks over the fabric pen loop. Using an elasticated loop probably would've avoided [a problem Supernote had with pens they sold not being able to fit into the pen loop](https://supernote.com/#/blog/detail?id=97).
+
+A major plus for me with the Supernote's cover is that it is a sleep cover. That is, the device is put to sleep when the cover is closed, and wakes when the cover is opened.
