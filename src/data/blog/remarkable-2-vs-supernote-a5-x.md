@@ -38,7 +38,9 @@ I've written about some of the features of these 2 devices here. I hope this hel
 
 - [Hardware](#hardware)
 - [Software](#software)
-  - []() <!-- TODO -->
+<!-- TODO -->
+  - [Operating system (OS) and extendability](#operating-system-os-and-extendability)
+  - [File transfer](#file-transfer)
 - [Accessories](#accessories)
   - [Pen](#pen)
   - [Cover](#cover)
@@ -67,20 +69,34 @@ Both devices charge via USB-C, which is pretty convenient for me since I can use
 #### Multi-lingual
 ![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
 
-#### OS (Operating System)
-- Hackability?
-- reMarkable: Linux
-- Supernote: Android
+#### Operating system (OS) and extendability
+The reMarkable is Linux-based and the Supernote is Android-based. There are some open-source hacks out there for the reMarkable, but I'd rather not deal with that, especially for basic functionality, and especially since it invalidates reMarkable's end-user license agreement (EULA).
 
-#### Security
-- reMarkable: their cloud
-- Supernote: their cloud, dropbox, USB transfer, email*
+Supernote has started adding third-party apps, beginning with Kindle. More apps and developer support are in the works, so I'm hopeful for officially sanctioned extendability through the form of apps.
+
+#### File transfer
+
+File transfer with the reMarkable is pretty much only possible through their own cloud storage system, the [reMarkable Cloud](https://support.remarkable.com/hc/en-us/articles/360002648297-Connecting-to-the-reMarkable-cloud). I'm pretty sure you can't use the device without at least logging into their cloud. [They are experimenting with USB file transfer](https://support.remarkable.com/hc/en-us/articles/360002661337-Transferring-files-using-a-USB-cable), so it may be easier to file transfer without using their cloud storage in the future. I'm not a security expert, but I would definitely recommend looking into this further if you are concerned about security, and especially if you are working with sensitive documents.
+
+Supernote, on the other hand, offers a variety of file transfer methods, including:
+- [Supernote Cloud](https://cloud.supernote.com.cn/#/login)
+- [Supernote Partner App](https://play.google.com/store/apps/details?id=com.ratta.supernote)
+- [DropBox](https://www.dropbox.com/)
+- Email
+- USB
+
+I haven't use their cloud storage at all, so I'm not sure how it compares to reMarkable's, which was pretty easy to use.
+
+So far I've been transfering files primarily by USB cable and by sending emails with attachments to an email address I created just for file transfer purposes.
 
 #### Features
 - Similarities? File transfer?
 - reMarkable:
 - Supernote: better ePub support, custom templates, custom fonts, recent files navigation, more colours, annotations, search handwritten notes, doesn't hide writing area, additional formats, kindle support, seems to get more features and updates, kindle
 
+
+Storage?
+Battery life?
 
 ### Accessories
 
