@@ -37,9 +37,14 @@ I've written about some of the features of these 2 devices here. I hope this hel
 ## Contents
 
 - [Hardware](#hardware)
+  - [Body](#body)
+  - [Storage](#storage)
+  - [Battery life](#battery-life)
 - [Software](#software)
-<!-- TODO -->
+  <!-- TODO -->
   - [Operating system (OS) and extendability](#operating-system-os-and-extendability)
+  - [Customizability](#customizability)
+  - [Language support](#language-support)
   - [File transfer](#file-transfer)
 - [Accessories](#accessories)
   - [Pen](#pen)
@@ -47,10 +52,12 @@ I've written about some of the features of these 2 devices here. I hope this hel
 - [Other](#other)
   - [Price](#price)
   - [Returns](#returns)
-  - [Community and Support](#community-and-support)
+  - [Community and customer support](#community-and-customer-support)
 
 
 ### Hardware
+
+#### Body
 
 ![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5-x/open.jpg)
 
@@ -62,17 +69,40 @@ Both devices are about the same size and weight, although Supernote offers a sma
 
 Both devices charge via USB-C, which is pretty convenient for me since I can use the same cable for all of my devices.
 
+#### Storage
+
+The reMarkable 2 comes with 8GB of internal storage, while the A5 X comes with a whopping 32GB of internal storage.
+
+#### Battery life
+
+E Ink displays only require power to change what is shown on the screen, so the battery life should be pretty long. Remarkable claims "up to 2 weeks" of battery life, but I found this to be pretty unrealistic when you have to have the Wi-Fi on most of the time for syncing files. I couldn't find any claims of battery life on Supernote's site, but it does seem to last much longer than the reMarkable 2.
+
 ### Software
 
-#### Set-up
-
-#### Multi-lingual
-![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
-
 #### Operating system (OS) and extendability
-The reMarkable is Linux-based and the Supernote is Android-based. There are some open-source hacks out there for the reMarkable, but I'd rather not deal with that, especially for basic functionality, and especially since it invalidates reMarkable's end-user license agreement (EULA).
+
+The reMarkable is Linux-based and the Supernote is Android-based. There are some open-source hacks out there for the reMarkable, but I'd rather not deal with that, especially for basic functionality, and even more especially since it invalidates reMarkable's end-user license agreement (EULA).
 
 Supernote has started adding third-party apps, beginning with Kindle. More apps and developer support are in the works, so I'm hopeful for officially sanctioned extendability through the form of apps.
+
+#### Customizability
+
+The Supernote offers much more customizability built-in, including the ability to add your own:
+- Screensaver
+- Fonts
+- Templates
+
+With the exception of a screensaver image, none of these are currently possible on the reMarkable without hacks.
+
+#### Language support
+
+[The reMarkable supports a long list of handwriting conversion langes, and only 2 keyboard languages.](https://support.remarkable.com/hc/en-us/articles/360007012598-Which-languages-do-you-support-), and they are all European languages. You can only choose 1 language for each, so it's not very useful for users who want to write and convert text in multiple languages on the same device.
+
+The Supernote currently only supports 3-4 languages: English, Japanese, Simplified Chinese, and Traditional Chinese. However, you can select multiple keyboards and allow auto-detecting of handwriting language. Handwriting conversion seems to be more reliable in Japanese and Chinese than in English.
+
+![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
+
+I found that non-Roman glyphs that didn't render on the reMarkable 2 did display properly on the Supernote A5 X.
 
 #### File transfer
 
@@ -90,13 +120,9 @@ I haven't use their cloud storage at all, so I'm not sure how it compares to reM
 So far I've been transfering files primarily by USB cable and by sending emails with attachments to an email address I created just for file transfer purposes.
 
 #### Features
-- Similarities? File transfer?
-- reMarkable:
-- Supernote: better ePub support, custom templates, custom fonts, recent files navigation, more colours, annotations, search handwritten notes, doesn't hide writing area, additional formats, kindle support, seems to get more features and updates, kindle
-
-
-Storage?
-Battery life?
+- slidebar, quick links, real annotations, additional formats, colours
+- Supernote: better ePub support,  recent files navigation, more colours, annotations, search handwritten notes, additional formats,seems to get more features and updates,
+- Set-up?
 
 ### Accessories
 
@@ -152,7 +178,7 @@ The reMarkable device and accessories are all sold separately, so you need to de
 
 reMarkable's return policy is pretty generous, with a 30-day satisfaction guarantee. Supernote is only refundable if unopened.
 
-#### Community and Support
+#### Community and customer support
 
 reMarkable's website and social media are, much like their product, sleek. However, I found their support pretty unsubstantial. The community seems to be more technical people.
 
