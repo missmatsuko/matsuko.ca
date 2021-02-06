@@ -30,7 +30,7 @@ There are a few of these types of devices out there, but they share some key fea
 
 I was convinced, and purchased a [reMarkable 2](https://remarkable.com/store/remarkable-2) pretty much immediately. After a couple weeks of use, I ended up wishing for more functionality than the device provided. That's when I discovered the [Supernote A5 X](https://www.supernote.com/#/product?type=SN-A5-X). It's a similar device that has more popularity in east Asia.
 
-Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#epub) and [annotations](#annotations). They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
+Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#supported-file-formats) and annotations. They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
 
 I've written about some of the features of these 2 devices here. I hope this helps with your purchasing decisions!
 
@@ -45,6 +45,7 @@ I've written about some of the features of these 2 devices here. I hope this hel
   - [Operating system (OS) and extendability](#operating-system-os-and-extendability)
   - [Customizability](#customizability)
   - [Language support](#language-support)
+  - [Supported file formats](#supported-file-formats)
   - [File transfer](#file-transfer)
 - [Accessories](#accessories)
   - [Pen](#pen)
@@ -103,6 +104,12 @@ The Supernote currently only supports 3-4 languages: English, Japanese, Simplifi
 ![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
 
 I found that non-Roman glyphs that didn't render on the reMarkable 2 did display properly on the Supernote A5 X.
+
+#### Supported file formats
+
+reMarkable claims to support ePub and PDF documents, but what they actually do is convert ePubs to PDF. This is a very slow process, and changing ePub display settings is a huge pain. The table of contents navigation is also slow.
+
+Supernote supports ePub, PDF, and Word documents, as well as PNG and JPG image formats.
 
 #### File transfer
 
