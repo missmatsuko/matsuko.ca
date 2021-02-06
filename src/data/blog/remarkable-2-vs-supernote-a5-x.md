@@ -126,11 +126,6 @@ I haven't use their cloud storage at all, so I'm not sure how it compares to reM
 
 So far I've been transfering files primarily by USB cable and by sending emails with attachments to an email address I created just for file transfer purposes.
 
-#### Features
-- slidebar, quick links, real annotations, additional formats, colours
-- Supernote: better ePub support,  recent files navigation, more colours, annotations, search handwritten notes, additional formats,seems to get more features and updates,
-- Set-up?
-
 ### Accessories
 
 #### Pen
