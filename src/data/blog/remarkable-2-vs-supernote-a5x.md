@@ -95,5 +95,8 @@ I wish that Supernote's pen loop were made from an elastic material so that diff
 A major plus for me with the Supernote's cover is that it is a sleep cover. That is, the device is put to sleep when the cover is closed, and wakes when the cover is opened.
 
 
-### Community and customer service
-- prefer Supernote
+### Community and Support
+
+reMarkable's website and social media are, much like their product, sleek. However, I found their support pretty unsubstantial. The community seems to be more technical people.
+
+Supernote has active communities on Facebook and Reddit, which are frequented by Supernote employees that actually respond to posts! The community seems to be friendly. I do think their website and documentation aren't as good as reMarkable's, partly due to inaccessible coding and partly due to translation weirdness.
