@@ -4,7 +4,7 @@ description: I compare some of the features between these two popular E Ink tabl
 date: 2021-02-05
 image:
   path: /remarkable-supernote-heart-stack.jpg
-  alt: reMarkable 2 and Supernote A5 X with their covers closes, stacked and arranged into a heart shape.
+  alt: reMarkable 2 and Supernote A5 X with their covers closed, stacked and arranged into a heart shape.
   width: 1250
   height: 960
   caption: ''
