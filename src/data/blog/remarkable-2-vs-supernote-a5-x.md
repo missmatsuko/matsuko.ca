@@ -10,11 +10,7 @@ image:
   caption: ''
 ---
 
-<!--
-  TODO: Update frontmatter
--->
-
-## Intro
+## Introduction
 
 I first learned about these devices when [Shelby Spees](https://twitter.com/shelbyspees) tweeted about annotating PDFs on a reMarkable.
 
@@ -41,7 +37,6 @@ I've written about some of the features of these 2 devices here. I hope this hel
   - [Storage](#storage)
   - [Battery life](#battery-life)
 - [Software](#software)
-  <!-- TODO -->
   - [Operating system (OS) and extendability](#operating-system-os-and-extendability)
   - [Customizability](#customizability)
   - [Language support](#language-support)
@@ -54,6 +49,7 @@ I've written about some of the features of these 2 devices here. I hope this hel
   - [Price](#price)
   - [Returns](#returns)
   - [Community and customer support](#community-and-customer-support)
+  - [Ease of use](#ease-of-use)
 
 
 ### Hardware
@@ -64,7 +60,7 @@ I've written about some of the features of these 2 devices here. I hope this hel
 
 The reMarkable 2 is a sleek device with a metal spine. I thought it was a nice touch that they chose to match their bezel colour to the screen.
 
-The Supernote A5 X feels like a cheaper device. Supernote claims their screen "never breaks", so it may be a better choice for clumsier folks. Their screen might be a touch glossier then the reMarkable 2. The A5 X has a convenient "slidebar" along the right side of the screen, which can be swiped down to activate a toolbar and swiped up to force refresh the screen.
+The Supernote A5 X feels like a cheaper device. Supernote claims their screen "never breaks", so it may be a better choice for clumsier folks. Their screen might be a touch glossier than the reMarkable 2. The A5 X has a convenient "slidebar" along the right side of the screen, which can be swiped down to activate a toolbar and swiped up to force refresh the screen.
 
 Both devices are about the same size and weight, although Supernote offers a smaller version of their device, the [Supernote A6 X](https://www.supernote.com/#/product?type=SN-A6-X).
 
@@ -185,3 +181,7 @@ reMarkable's return policy is pretty generous, with a 30-day satisfaction guaran
 reMarkable's website and social media are, much like their product, sleek. However, I found their support pretty unsubstantial. The community seems to be more technical people.
 
 Supernote has active communities on Facebook and Reddit, which are frequented by Supernote employees that actually respond to posts! The community seems to be friendly. I do think their website and documentation aren't as good as reMarkable's, partly due to inaccessible coding and partly due to translation weirdness.
+
+#### Ease of use
+
+I do think it's much easier/quicker to get up and running with the reMarkable 2, but that may be due to it having fewer and less frequently updated features and options.
