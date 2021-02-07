@@ -26,6 +26,10 @@ I've never been very physically active, which is something I've been wanting to 
 
 I'm also thinking this might be a good time to start regular therapy sessions. Although I'm feeling much better these days, I think that regular check-ins with a therapist might prevent future dips in my mood before they get too serious.
 
+**Progress**
+- Still not eating Twix!
+- Found the split challenge to intense, so started using [movr](https://movewithmovr.com/) and am aiming to get 1 5-minute movr mini done most days.
+
 ## Foster creativity
 
 I want to continue exploring creative activities and maybe find something I want to continue long-term.
@@ -33,6 +37,10 @@ I want to continue exploring creative activities and maybe find something I want
 I've already started online singing lessons, and have signed up for ceramics classes at a local recreation centre.
 
 I'm also curious about [the maker culture](https://en.wikipedia.org/wiki/Maker_culture), and hope to get some more insight into that this year.
+
+**Progress**
+- Starting weekly online singing lessons with Felicia at [Sing IT Studio](https://www.singitstudio.com/).
+- Rec centre ceramics classes were cancelled, so waiting for another creative opportunity.
 
 ## Continue learning
 
@@ -45,3 +53,7 @@ I'm now working at [Craft CMS](https://craftcms.com/) as their lead accessibilit
 I'm planning to keep reading, but I won't be aiming for a certain number of books like last year. Instead, I want to focus on interesting books, along with other formats like articles, podcasts, and videos.
 
 I'd like to improve my American Sign Language (ASL) and French as well. Since I much prefer learning languages in-person, I'll wait and see if any such opportunities open up this year.
+
+**Progress**
+- Taking part-time courses at UVic, and am aiming to complete 2 courses each semester.
+- Reading interesting books, which can be tracked on [my GoodReads 2021 challenge page](https://www.goodreads.com/user_challenges/25662614).
