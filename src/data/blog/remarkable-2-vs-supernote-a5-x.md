@@ -138,11 +138,11 @@ The Marker Plus attaches to the reMarkable 2 magnetically. I find this kind of g
 
 Supernote's Standard Pen feels heavier than the Marker Plus, and has been harder on my hands. It looks more like a regular pen, and has a removable cap. I dislike both of these design choices since I feel like I'll lose the cap and mix it up with a regular pen.
 
-A unique feature of Supernote's Standard Pen is that it is nib-less and, according to Supernote, "never wears out". I was excited by the idea of never needing to buy replacement nibs until I found out that it's recommended to replace the ceramic core after "6 months of constant use".
+A unique feature of Supernote's Standard Pen is that it is nib-less, so there's no need to buy replacement nibs as they wear out.
 
 I experimented with using the reMarkable's Marker Plus to write on the Supernote A5 X, and found that the writing experience felt a lot more paper-like. I think the ceramic nib moves more smoothly, so it feels more like writing on a digital tablet.
 
-Supernote has a few other pens available, but I think I'll try compatible third-party Electro-Magnetic Resonance (EMR) pens with quality nibs to use with the Supernote A5 X for a more paper-like writing experience.
+Supernote has a few other pens available, but I think I'll try compatible third-party Electro-Magnetic Resonance (EMR) pens with quality nibs to use with the Supernote A5 X for a more satisfying writing experience.
 
 
 #### Cover
@@ -153,7 +153,7 @@ I opted for the [reMarkable 2's Book Folio with the grey polymer weave material]
 
 The reMarkable 2's Book Folio attaches to the device with magnets. As with the pen, it feels gimmicky and I'm not super confident about the attachment strength.
 
-The Supernote A5 X's Canvas Folio attaches to the device using a physical rail. The attachment feels pretty sturdy.
+The Supernote A5 X's Canvas Folio attaches to the device using a physical rail. The attachment feels secure.
 
 In terms of the material, I much prefer reMarkable's cover. It feels sturdier and the material feels like it's of a higher quality than Supernote's.
 
