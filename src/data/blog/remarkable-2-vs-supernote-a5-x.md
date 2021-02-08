@@ -26,7 +26,7 @@ There are a few of these types of devices out there, but they share some key fea
 
 I was convinced, and purchased a [reMarkable 2](https://remarkable.com/store/remarkable-2) pretty much immediately. After a couple weeks of use, I ended up wishing for more functionality than the device provided. That's when I discovered the [Supernote A5 X](https://www.supernote.com/#/product?type=SN-A5-X). It's a similar device that has more popularity in east Asia.
 
-Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#supported-file-formats) and annotations. They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
+Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#supported-file-formats) and [annotations](#annotations). They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
 
 I've written about some of the features of these 2 devices here. I hope this helps with your purchasing decisions!
 
@@ -42,6 +42,7 @@ I've written about some of the features of these 2 devices here. I hope this hel
   - [Language support](#language-support)
   - [Supported file formats](#supported-file-formats)
   - [File transfer](#file-transfer)
+  - [Annotations](#annotations)
 - [Accessories](#accessories)
   - [Pen](#pen)
   - [Cover](#cover)
@@ -121,6 +122,10 @@ Supernote, on the other hand, offers a variety of file transfer methods, includi
 I haven't use their cloud storage at all, so I'm not sure how it compares to reMarkable's, which was pretty easy to use.
 
 So far I've been transfering files primarily by USB cable and by sending emails with attachments to an email address I created just for file transfer purposes.
+
+#### Annotations
+
+reMarkable's version of annotations is essentially drawing on a layer on top of PDFs. Supernote's annotations include actual text extraction.
 
 ### Accessories
 
