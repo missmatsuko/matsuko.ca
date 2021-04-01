@@ -29,6 +29,7 @@ I'm also thinking this might be a good time to start regular therapy sessions. A
 **Progress**
 - Still not eating Twix!
 - Found the split challenge to intense, so started using [movr](https://movewithmovr.com/) and am aiming to get 1 5-minute movr mini done most days.
+- Started online therapy sessions every 2 weeks with a registered counsellor.
 
 ## Foster creativity
 
@@ -40,7 +41,7 @@ I'm also curious about [the maker culture](https://en.wikipedia.org/wiki/Maker_c
 
 **Progress**
 - Starting weekly online singing lessons with Felicia at [Sing IT Studio](https://www.singitstudio.com/).
-- Rec centre ceramics classes were cancelled, so waiting for another creative opportunity.
+- Rec centre ceramics classes were cancelled (twice!), so waiting for another creative opportunity.
 
 ## Continue learning
 
