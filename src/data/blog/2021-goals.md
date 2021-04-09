@@ -28,8 +28,9 @@ I'm also thinking this might be a good time to start regular therapy sessions. A
 
 **Progress**
 - Still not eating Twix!
-- Found the split challenge to intense, so started using [movr](https://movewithmovr.com/) and am aiming to get 1 5-minute movr mini done most days.
+- Found the split challenge too intense, so started using [movr](https://movewithmovr.com/) and am aiming to get 1 5-minute movr mini done most days. Haven't been very consistent with it so far.
 - Started online therapy sessions every 2 weeks with a registered counsellor.
+- Got a more comfortable bike and started cruising around the neighbourhood on sunny days.
 
 ## Foster creativity
 
