@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <small>made by matsuko (<Link to="mailto:info@matsuko.ca">info@matsuko.ca</Link>)</small>
+      <small>made by matsuko (<Link to="mailto:hello@matsuko.ca">hello@matsuko.ca</Link>)</small>
     </div>
   </footer>
 </template>

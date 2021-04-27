@@ -45,7 +45,7 @@
       headline="Get in touch!"
       subheadline="Want to work together? Have a burning question or thoughtful comment?"
       body="Send me an email to start the conversation!"
-      url="mailto:info@matsuko.ca"
+      url="mailto:hello@matsuko.ca"
       cta="Email me"
     />
   </Layout>

@@ -18,7 +18,7 @@
           <h3>Contact</h3>
           <ul>
             <li>
-              <Link to="mailto:info@matsuko.ca">Email</Link>
+              <Link to="mailto:hello@matsuko.ca">Email</Link>
             </li>
             <li>
               <Link to="https://www.linkedin.com/in/matsuko/">LinkedIn</Link>
