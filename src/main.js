@@ -19,4 +19,10 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap',
   });
+
+  // Verify site for IndieLogin.com (used for webmention.io)
+  head.link.push({
+    rel: 'me',
+    href: 'https://github.com/missmatsuko',
+  });
 }
