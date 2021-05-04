@@ -15,6 +15,7 @@
     "@gridsome/source-filesystem": "^0.6",
     "@gridsome/transformer-remark": "^0.6",
     "@noxify/gridsome-plugin-remark-embed": "^1.3",
+    "@zefman/gridsome-source-webmention": "^0.1.4",
     "autoprefixer": "^10.0",
     "gridsome": "^0.7",
     "gridsome-plugin-feed": "^1.0",
