@@ -23,7 +23,7 @@ export default function (Vue, { router, head, isClient }) {
   // Verify site for IndieLogin.com (used for webmention.io)
   head.link.push({
     rel: 'me',
-    href: 'https://github.com/missmatsuko',
+    href: 'https://twitter.com/missmatsuko',
   });
 
   // Accept webmentions with webmention.io
