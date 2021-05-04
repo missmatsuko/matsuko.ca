@@ -25,4 +25,15 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'me',
     href: 'https://github.com/missmatsuko',
   });
+
+  // Accept webmentions with webmention.io
+  head.link.push({
+    rel: 'webmention',
+    href: 'https://webmention.io/www.matsuko.ca/webmention',
+  });
+
+  head.link.push({
+    rel: 'pingback',
+    href: 'https://webmention.io/www.matsuko.ca/xmlrpc',
+  });
 }
