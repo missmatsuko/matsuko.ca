@@ -1,30 +1,23 @@
 <template>
-  <HeadRoom>
-    <header class="header">
-      <div class="container">
-        <Link to="/" class="logo">
-          m<span class="sr-only">atsuko</span>.<span class="sr-only">ca</span>
-        </Link>
+  <header class="header">
+    <div class="container">
+      <Link to="/" class="logo">
+        m<span class="sr-only">atsuko</span>.<span class="sr-only">ca</span>
+      </Link>
 
-        <nav class="nav">
-          <ul class="nav-list">
-            <li v-for="item in items">
-              <Link :to="item.to" v-text="item.text" />
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  </HeadRoom>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li v-for="item in items">
+            <Link :to="item.to" v-text="item.text" />
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </template>
 
 <script>
-  import { headroom as HeadRoom } from 'vue-headroom';
-
   export default {
-    components: {
-      HeadRoom,
-    },
     data: () => ({
       items: [
         {
@@ -48,7 +41,10 @@
   .header {
     background: var(--color-secondary);
     border-bottom: 1px solid var(--color-gray-extra-light);
+    position: sticky;
+    top: 0;
     width: 100%;
+    z-index: 5;
   }
   .container {
     display: flex;
