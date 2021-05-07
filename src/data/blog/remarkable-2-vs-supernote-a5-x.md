@@ -26,7 +26,7 @@ There are a few of these types of devices out there, but they share some key fea
 
 I was convinced, and purchased a [reMarkable 2](https://remarkable.com/store/remarkable-2) pretty much immediately. After a couple weeks of use, I ended up wishing for more functionality than the device provided. That's when I discovered the [Supernote A5 X](https://www.supernote.com/#/product?type=SN-A5-X). It's a similar device that has more popularity in east Asia.
 
-Overall, I preferred Remarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other based what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#supported-file-formats) and [annotations](#annotations). They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
+Overall, I preferred reMarkable 2's hardware and Supernote A5 X's software. They both have pros and cons, and one may be better than the other depending on what you want to accomplish with it. I was primarily looking for distraction-free reading and note-taking, and ended up choosing the Supernote mainly because of [how much better they handle ePubs](#supported-file-formats) and [annotations](#annotations). They also have a much more responsive team, so I have higher hopes of them adding features I'm missing than for reMarkable.
 
 I've written about some of the features of these 2 devices here. I hope this helps with your purchasing decisions!
 
@@ -73,7 +73,7 @@ The reMarkable 2 comes with 8GB of internal storage, while the A5 X comes with a
 
 #### Battery life
 
-E Ink displays only require power to change what is shown on the screen, so the battery life should be pretty long. Remarkable claims "up to 2 weeks" of battery life, but I found this to be pretty unrealistic when you have to have the Wi-Fi on most of the time for syncing files. I couldn't find any claims of battery life on Supernote's site, but it does seem to last much longer than the reMarkable 2.
+E Ink displays only require power to change what is shown on the screen, so the battery life should be pretty long. reMarkable claims "up to 2 weeks" of battery life, but I found this to be pretty unrealistic when you have to have the Wi-Fi on most of the time for syncing files. I couldn't find any claims of battery life on Supernote's site, but it does seem to last much longer than the reMarkable 2.
 
 ### Software
 
@@ -119,7 +119,7 @@ Supernote, on the other hand, offers a variety of file transfer methods, includi
 - Email
 - USB
 
-I haven't use their cloud storage at all, so I'm not sure how it compares to reMarkable's, which was pretty easy to use.
+I haven't used their cloud storage at all, so I'm not sure how it compares to reMarkable's, which was pretty easy to use.
 
 So far I've been transfering files primarily by USB cable and by sending emails with attachments to an email address I created just for file transfer purposes.
 
