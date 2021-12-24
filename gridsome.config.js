@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const autoprefixer = require('autoprefixer');
-const marked = require('marked');
+const { marked } = require('marked');
 
 module.exports = {
   siteName: 'Matsuko Friedland',
