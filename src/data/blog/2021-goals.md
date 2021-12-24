@@ -31,6 +31,8 @@ I'm also thinking this might be a good time to start regular therapy sessions. A
 - Found the split challenge too intense, so started using [movr](https://movewithmovr.com/) and am aiming to get 1 5-minute movr mini done most days. Haven't been very consistent with it so far.
 - Started online therapy sessions every 2 weeks with a registered counsellor.
 - Got a more comfortable bike and started cruising around the neighbourhood on sunny days.
+- Took an intro to aerials course and hope to continue aerial hammock next year.
+- Tried to get into a regular gym habit over winter break, but provincial COVID restrictions put an end to that pretty quick.
 
 ## Foster creativity
 
@@ -43,6 +45,7 @@ I'm also curious about [the maker culture](https://en.wikipedia.org/wiki/Maker_c
 **Progress**
 - Starting weekly online singing lessons with Felicia at [Sing IT Studio](https://www.singitstudio.com/).
 - Rec centre ceramics classes were cancelled (twice!), so waiting for another creative opportunity.
+- Started monthly [Maker Crates from KiwiCo](https://www.kiwico.com/maker) to try out different crafts. [Use my referral link for $10 off](https://www.kiwico.com/Refer?i=MatsukoF)!
 
 ## Continue learning
 
