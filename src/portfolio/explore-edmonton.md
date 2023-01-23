@@ -20,6 +20,7 @@ links:
   - text: Live Site
     url: 'https://exploreedmonton.com/'
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

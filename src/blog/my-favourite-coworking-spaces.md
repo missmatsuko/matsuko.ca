@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 675
   caption: '<a href="https://unsplash.com/photos/TNJdsXC_wtY" target="_blank" rel="nofollow noopener">Photo by Vladimir Proskurovskiy on Unsplash</a>'
+layout: layouts/blogPost.njk
 ---
 
 ## Montreal

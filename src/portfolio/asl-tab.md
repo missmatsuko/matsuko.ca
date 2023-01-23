@@ -22,6 +22,7 @@ links:
   - text: Back-end Repository
     url: 'https://github.com/missmatsuko/asl-tab-api'
 featured: true
+layout: layouts/portfolioItem.njk
 ---
 ## Summary
 

@@ -8,6 +8,7 @@ image:
   width: 1250
   height: 960
   caption: ''
+layout: layouts/blogPost.njk
 ---
 
 ## Introduction

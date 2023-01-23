@@ -19,6 +19,7 @@ links:
   - text: Live Site
     url: 'https://www.sitefinders.ca/'
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

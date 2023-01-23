@@ -19,6 +19,7 @@ links:
   - text: Live Site
     url: 'https://efficiencyalberta.ca/'
 featured: true
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

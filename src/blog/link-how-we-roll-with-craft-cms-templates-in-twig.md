@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 630
   caption:
+layout: layouts/blogPost.njk
 ---
 
 [Read this article over on the Zaengle blog.](https://zaengle.com/blog/how-we-roll-with-craft-cms-templates-in-twig)

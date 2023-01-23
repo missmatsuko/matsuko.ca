@@ -19,6 +19,7 @@ links:
   - text: Live Site
     url: 'https://crestle.ai/'
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

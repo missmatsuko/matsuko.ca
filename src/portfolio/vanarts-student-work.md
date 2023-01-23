@@ -20,6 +20,7 @@ links:
   - text: Source Code
     url: 'https://github.com/missmatsuko/vanarts'
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

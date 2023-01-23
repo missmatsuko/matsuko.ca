@@ -18,6 +18,7 @@ links:
   - text: Live Site
     url: 'https://changeforclimate.ca/'
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

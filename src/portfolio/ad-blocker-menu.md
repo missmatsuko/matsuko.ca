@@ -11,6 +11,7 @@ projectType: UX Case Study
 technologies:
 links:
 featured: true
+layout: layouts/portfolioItem.njk
 ---
 
 ## Introduction

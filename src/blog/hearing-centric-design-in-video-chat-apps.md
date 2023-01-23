@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 800
   caption: '<a href="https://unsplash.com/photos/Rx_ItZAek_Q" target="_blank" rel="nofollow noopener">Photo by Oleg Ivanov on Unsplash</a>'
+layout: layouts/blogPost.njk
 ---
 
 **Note: If you are not familiar with Deaf and hard of hearing (DHH) culture, I recommend reading [Deaf 101 by the Hearing, Speech & Deaf Center (HSDC)](https://www.hsdc.org/services/deaf-101/) first.**

@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 745
   caption: ''
+layout: layouts/blogPost.njk
 ---
 
 ## Preface

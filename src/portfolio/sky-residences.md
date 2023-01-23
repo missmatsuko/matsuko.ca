@@ -16,6 +16,7 @@ technologies:
   - WordPress
   - Gulp
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

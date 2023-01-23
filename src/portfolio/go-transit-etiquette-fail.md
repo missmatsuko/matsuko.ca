@@ -21,6 +21,7 @@ links:
   - text: Site Live - en Français
     url: 'https://www.gotransit.com/manquedebienseance/'
 featured: true
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

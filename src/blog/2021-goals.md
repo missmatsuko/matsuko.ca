@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 800
   caption: '<a href="https://unsplash.com/photos/-PzyGU3QPJU" target="_blank" rel="nofollow noopener">Photo by Jude Beck on Unsplash</a>'
+layout: layouts/blogPost.njk
 ---
 
 I didn't quite achieve most of [my 2020 goals](/blog/2020-goals), but I still made progress based on my intentions behind these goals.

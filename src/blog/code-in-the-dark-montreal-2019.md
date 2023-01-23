@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 819
   caption: ''
+layout: layouts/blogPost.njk
 ---
 
 ## What exactly is "Code in the Dark"?

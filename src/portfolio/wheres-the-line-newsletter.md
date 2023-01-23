@@ -16,6 +16,7 @@ technologies:
   - Gulp
   - Twig
 featured: false
+layout: layouts/portfolioItem.njk
 ---
 
 ## Summary

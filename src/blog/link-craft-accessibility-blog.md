@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 630
   caption:
+layout: layouts/blogPost.njk
 ---
 
 [Check out Craft's accessibility blog.](https://craftcms.com/accessibility)

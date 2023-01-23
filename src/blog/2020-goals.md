@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 900
   caption: '<a href="https://unsplash.com/photos/-d6kTMGXV6E" target="_blank" rel="nofollow noopener">Photo by Jamie Street on Unsplash</a>'
+layout: layouts/blogPost.njk
 ---
 
 ## 1. Read 50 books

@@ -8,6 +8,7 @@ image:
   width: 1200
   height: 787
   caption: '<a href="https://unsplash.com/photos/tjvURCarBf0" target="_blank" rel="nofollow noopener">Photo by Andrew Tanglao on Unsplash</a>'
+layout: layouts/blogPost.njk
 ---
 
 I'm learning American Sign Language (ASL), and I'm making a list of signs where the index and middle fingers represent legs. I find these signs are especially intuitive, and pretty cute, too. Let me know if you have any additions (or corrections) for this list.
