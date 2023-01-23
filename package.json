@@ -5,7 +5,12 @@
   "author": "Matsuko Friedland <info@matsuko.ca>",
   "private": true,
   "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "develop": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "dependencies": {
+    "@11ty/eleventy": "^1.0",
+    "@11ty/eleventy-plugin-vue": "^0.7"
   }
 }
