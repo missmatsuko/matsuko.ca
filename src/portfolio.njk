@@ -16,3 +16,12 @@ layout: layouts/default.njk
 } %}
 
 {{ components.render('intro', props) }}
+
+{% for portfolioItem in collections.portfolioItems %}
+  {{ components.render('card', {
+    headline: portfolioItem.data.title,
+    subheadline: portfolioItem.data.subheadline,
+    url: portfolioItem.url,
+    src: portfolioItem.data.image
+  }) }}
+{% endfor %}

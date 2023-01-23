@@ -16,3 +16,12 @@ layout: layouts/default.njk
 } %}
 
 {{ components.render('intro', props) }}
+
+{% for blogPost in collections.blogPosts %}
+  {{ components.render('card', {
+    headline: blogPost.data.title,
+    subheadline: blogPost.data.subheadline,
+    url: blogPost.url,
+    src: blogPost.data.image.path
+  }) }}
+{% endfor %}

@@ -1,0 +1,31 @@
+{% import 'components/index.njk' as components %}
+
+{% set headline = props.headline or '' %}
+{% set subheadline = props.subheadline or '' %}
+{% set src = props.src or '' %}
+{% set url = props.url or '' %}
+
+<a
+    class="card"
+    href="{{ url }}"
+    style="{
+      '--color-primary': colors.primary,
+      '--color-secondary': colors.secondary,
+    }"
+  >
+    {{ components.render('cloudinaryImage', {
+      src: src,
+      width: 300,
+      height: 300
+    }) }}
+
+    <div class="card-text">
+      <div>
+        <h2>{{ headline }}</h2>
+        {% if subheadline %}
+          <p>{{ subheadline }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+  </a>
