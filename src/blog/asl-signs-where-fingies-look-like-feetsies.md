@@ -14,21 +14,24 @@ layout: layouts/blogPost.njk
 I'm learning American Sign Language (ASL), and I'm making a list of signs where the index and middle fingers represent legs. I find these signs are especially intuitive, and pretty cute, too. Let me know if you have any additions (or corrections) for this list.
 
 ## Anxious / restless / squirmy
-https://www.youtube.com/embed/nVDFsl5hR44
+
+@[youtube](nVDFsl5hR44)
 
 > The sign "SIT" can be modified to show someone squirming in their chair. This can be used to mean "anxiety" and similar concepts. This sign doesn't exactly mean nervous, it means "restless" or perhaps "ants in the pants."
 
 Source: ["anxious" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/anxious.htm)
 
 ## Dance
-https://www.youtube.com/embed/p3UKhedGeTA
+
+@[youtube](p3UKhedGeTA)
 
 > Memory aid: Think of your feet gliding across the dance floor.
 
 Source: ["dance" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/d/dance.htm)
 
 ## Jump
-https://www.youtube.com/embed/_CMXWiZJDPM
+
+@[youtube](_CMXWiZJDPM)
 
 > The generic sign for jump is to use an upside down "V" to represent what it looks like when a person jumps
 
@@ -44,19 +47,22 @@ Source: ["crawl" at HandSpeak](https://www.handspeak.com/word/search/index.php?i
 Source: ["kneel" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=1202)
 
 ## Sit
-https://www.youtube.com/embed/ZvzKTn4qWfA
+
+@[youtube](ZvzKTn4qWfA)
 
 > The sign for "sit" uses a single motion. This is part of a noun/verb pair. If you use a double motion it means "chair."
 
 Source: ["sit" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/s/sit.htm)
 
 ## Stand
-https://www.youtube.com/embed/KhhowNO7Ywk
+
+@[youtube](KhhowNO7Ywk)
 
 Source: ["stand" at LifePrint](http://www.lifeprint.com/asl101/pages-signs/s/stand.htm)
 
 ## Go to bed
-https://www.youtube.com/embed/opGSFLEio9E
+
+@[youtube](opGSFLEio9E)
 
 Source: ["go-to-bed" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/g/go-to-bed.htm)
 
@@ -64,17 +70,20 @@ Source: ["go-to-bed" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/
 Source: ["get up" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=903)
 
 ## Gymnastics
-https://www.youtube.com/embed/eIjsa-MRaoo
+
+@[youtube](eIjsa-MRaoo)
 
 ## Seizure (medical)
-https://www.youtube.com/embed/D3DZClWcxt4
+
+@[youtube](D3DZClWcxt4)
 
 > The sign "seizure" when referring to a person having a seizure, would generally be done using the lexicalized classifier: "SEIZURE." The handshape starts with the bent-V and rolls on the palm twice.
 
 Source: ["seizure" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/seizure.htm)
 
 ## Walk to / walk up / hike to
-https://www.youtube.com/watch?v=B36qDOOtm20
+
+@[youtube](B36qDOOtm20)
 
 Source: ["walk" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/w/walk.htm)
 
@@ -86,7 +95,8 @@ Source: ["walk" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/w/wal
 Source: ["elevator" at HandSpeak](https://www.handspeak.com/word/search/index.php?id=2363)
 
 ## Go up/down stairs
-https://www.youtube.com/watch?v=TFtn8OyCGj4
+
+@[youtube](TFtn8OyCGj4)
 
 Source: ["stairs" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/stairs.htm)
 
@@ -129,7 +139,8 @@ Source: ["arisen" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/a
 Source: ["arisen" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/a/arisen.htm)
 
 ## Sleep together
-https://youtu.be/Hkev0UWG4xA?start=150&end=156
+
+@[youtube](Hkev0UWG4xA?start=150&end=156)
 
 Source: [ASL Sex/Reproduction Signs by Jennifer Jambe on YouTube](https://youtu.be/Hkev0UWG4xA)
 
@@ -137,7 +148,8 @@ Source: [ASL Sex/Reproduction Signs by Jennifer Jambe on YouTube](https://youtu.
 Source: ["swing" at LifePrint](https://www.lifeprint.com/asl101/pages-signs/s/swing.htm)
 
 ## Join
-https://www.youtube.com/watch?v=D3mLq8Gchvs
+
+@[youtube](D3mLq8Gchvs)
 
 > Memory aid:  Think of the "H" hand as representing your legs and you are "jumping" into something with both feet.
 

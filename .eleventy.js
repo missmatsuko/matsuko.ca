@@ -1,3 +1,7 @@
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+const markdownItBlockEmbed = require("markdown-it-block-embed");
+
 module.exports = function(eleventyConfig) {
   /* TODO: sort and filter blog and portfolio items better? */
 
@@ -24,6 +28,16 @@ module.exports = function(eleventyConfig) {
 
   // Define passthrough copy files
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  // Markdown
+  let markdownLibrary = markdownIt({
+  })
+  .use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.headerLink(),
+  })
+  .use(markdownItBlockEmbed);
+
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Eleventy configuration
   return {
