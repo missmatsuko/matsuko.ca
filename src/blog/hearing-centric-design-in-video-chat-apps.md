@@ -42,7 +42,7 @@ This isn't a comparison or critique of specific platforms, especially since thes
 
 ### The one large featured video layout
 
-![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](./assets/hearing-centric-design-in-video-chat-apps/discord-one-featured-video-rest-small.png)
+![Screenshot of a video chat where there's one large video at the top and several small videos below it.'](/assets/blog/hearing-centric-design-in-video-chat-apps/discord-one-featured-video-rest-small.png)
 
 There are a few issues with this very common video layout, which displays one featured video at a large size. In some variants of this layout, the featured video is all that's visible. In others, the other people's videos are shown at the same time but at a much smaller size. In both cases, more videos could be shown on the screen if the featured video weren't so large.
 
@@ -66,7 +66,7 @@ While some video chat apps show your own video in the same manner as everyone el
 
 Even if you can see your own video and think you're using your space correctly, it may not be enough: video meeting apps will generally crop videos to lay out nicely. In some cases, the crop varies depending on the type of device it's displayed on. This means that how someone sees themselves on their own device does not necessarily match what is shown to anyone else in the video chat.
 
-![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there are 3 equal-width videos. On mobile, the person in the bottom, wider video can be seen holding their hands up next to them. On desktop, their arms are not visible.](./assets/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
+![Mobile and desktop screenshots of a video meeting with 3 participants. The mobile layout has 2 equal-width videos on top, and 1 full-width video at the bottom. On desktop, there are 3 equal-width videos. On mobile, the person in the bottom, wider video can be seen holding their hands up next to them. On desktop, their arms are not visible.](/assets/blog/hearing-centric-design-in-video-chat-apps/houseparty-cropped-videos.png)
 
 This can have a huge impact on signing. If someone sees themselves on video with plenty of room around them, they would think they have all that room to use for signing. In actuality, their video could be cropped so much that only their face is visible, hiding their signing from others in the video chat.
 
@@ -76,7 +76,7 @@ Some video chat apps don't have a captioning feature at all. Many do now have ca
 
 ### Text chat interface obstructs video
 
-![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey, can you see me?' and a reply: 'Not with the text chat open!'](./assets/hearing-centric-design-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
+![Screenshot of a text chat interface covering up a video. In the video, only some hair and part of a headset is visible. The text chat reads: 'Hey, can you see me?' and a reply: 'Not with the text chat open!'](/assets/blog/hearing-centric-design-in-video-chat-apps/google-meet-text-chat-obstructs-video.png)
 
 Pretty much all video chat applications also have a basic text chat feature participants can use to converse through text-based messages. This can be handy for sharing links, troubleshooting audio/video issues, and having side conversations. It's one of the tools DHH can use to communicate with the hearing. In our ASL practice meetup, it's also been useful for explaining things when we are unable to get something across using sign language.
 
@@ -84,7 +84,7 @@ Unfortunately, in many cases the text chat interface obstructs videos when in us
 
 ### Screensharing disables video
 
-![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](./assets/hearing-centric-design-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
+![Screenshot of a message above a disabled camera button, reading: 'Your video has been disabled because you started screensharing.'](/assets/blog/hearing-centric-design-in-video-chat-apps/skype-video-disabled-when-screensharing.png)
 
 In some video chat apps, when someone shares their screen, their camera is forced to be disabled. That means nobody in the video meeting can see the presenter. In some cases, the shared screen will take over the whole video meeting so it's impossible to see anyone's video.
 

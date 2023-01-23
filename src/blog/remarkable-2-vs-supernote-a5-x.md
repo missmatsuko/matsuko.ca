@@ -58,7 +58,7 @@ I've written about some of the features of these 2 devices here. I hope this hel
 
 #### Body
 
-![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](./assets/remarkable-2-vs-supernote-a5-x/open.jpg)
+![reMarkable 2 and Supernote A5 X, with their covers open and displaying their folder systems.](/assets/blog/remarkable-2-vs-supernote-a5-x/open.jpg)
 
 The reMarkable 2 is a sleek device with a metal spine. I thought it was a nice touch that they chose to match their bezel colour to the screen.
 
@@ -99,7 +99,7 @@ With the exception of a screensaver image, none of these are currently possible 
 
 The Supernote currently only supports 3-4 languages: English, Japanese, Simplified Chinese, and Traditional Chinese. However, you can select multiple keyboards and allow auto-detecting of handwriting language. Handwriting conversion seems to be more reliable in Japanese and Chinese than in English.
 
-![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](./assets/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
+![The same block of text containing unusual glyphs displayed on a reMarkable 2 and Supernote A5 X. The glyphs are highlighted in red and display properly on the A5 X but not the RM2.](/assets/blog/remarkable-2-vs-supernote-a5-x/glyphs.jpg)
 
 I found that non-Roman glyphs that didn't render on the reMarkable 2 did display properly on the Supernote A5 X.
 
@@ -132,7 +132,7 @@ reMarkable's version of annotations is essentially drawing on a layer on top of 
 
 #### Pen
 
-![Top: reMarkable 2 Marker Plus. Bottom: Supernote A5 X Standard Pen with its cap off.](./assets/remarkable-2-vs-supernote-a5-x/pens.jpg)
+![Top: reMarkable 2 Marker Plus. Bottom: Supernote A5 X Standard Pen with its cap off.](/assets/blog/remarkable-2-vs-supernote-a5-x/pens.jpg)
 
 I opted for the [reMarkable 2's Marker Plus](https://remarkable.com/store/remarkable-2/markers), which has a digital eraser on the end for quick erasing. The Marker (not Marker Plus) is more comparable with the [Supernote's Standard Pen](https://www.supernote.com/#/part?id=SP-03) since neither of them have erasers.
 
@@ -153,7 +153,7 @@ Supernote has a few other pens available, but I think I'll try compatible third-
 
 #### Cover
 
-![reMarkable 2 and Supernote A5 X, with their covers closed.](./assets/remarkable-2-vs-supernote-a5-x/closed.jpg)
+![reMarkable 2 and Supernote A5 X, with their covers closed.](/assets/blog/remarkable-2-vs-supernote-a5-x/closed.jpg)
 
 I opted for the [reMarkable 2's Book Folio with the grey polymer weave material](https://remarkable.com/store/remarkable-2/folios), which is pretty comparable to the [Supernote A5 X's Canvas Folio](https://www.supernote.com/#/part?id=FC).
 

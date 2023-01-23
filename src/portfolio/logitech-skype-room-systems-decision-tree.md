@@ -30,8 +30,8 @@ I developed this landing page and produced static HTML files for hosting on [Mar
 
 ## Screenshots
 
-![Home page.](./assets/logitech-skype-room-systems-decision-tree/1-home-laptop.png)
+![Home page.](/assets/portfolio/logitech-skype-room-systems-decision-tree/1-home-laptop.png)
 
-![Question page.](./assets/logitech-skype-room-systems-decision-tree/2-question-laptop.png)
+![Question page.](/assets/portfolio/logitech-skype-room-systems-decision-tree/2-question-laptop.png)
 
-![Solution page.](./assets/logitech-skype-room-systems-decision-tree/3-solution-laptop.png)
+![Solution page.](/assets/portfolio/logitech-skype-room-systems-decision-tree/3-solution-laptop.png)

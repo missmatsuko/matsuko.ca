@@ -16,13 +16,13 @@ layout: layouts/blogPost.njk
 
 The concept reminds me of [blind contour drawing](https://en.wikipedia.org/wiki/Blind_contour_drawing), which is when an artist attempts to draw an image from a reference without looking at their drawing. The results can be pretty amusing and unexpected. The premise of this competition is not practical at all, but it's pretty funny to see how different your page turned out from what you had in mind.
 
-![Design target screenshot, and screenshots of 4 submissions. The fidelity varies quite a lot.](./assets/code-in-the-dark-montreal-2019/results-sample.png)
+![Design target screenshot, and screenshots of 4 submissions. The fidelity varies quite a lot.](/assets/blog/code-in-the-dark-montreal-2019/results-sample.png)
 
 ## What was Code in the Dark Montreal like?
 
 [Code in the Dark Montreal](https://codeinthedarkmtl.dev/) took place in a nightclub-like environment. In addition to free beverages (including alcoholic ones) and food (with vegetarian options) common to tech events, there were also DJs, strobe lights, disco balls, blacklight markers, light-up cups, and a center stage with a giant screen.
 
-![Crowd in a dark nightclub-like environment at Code in the Dark Montreal 2019.](./assets/code-in-the-dark-montreal-2019/crowd.jpg)
+![Crowd in a dark nightclub-like environment at Code in the Dark Montreal 2019.](/assets/blog/code-in-the-dark-montreal-2019/crowd.jpg)
 
 The competition itself has 3 rounds. Starting with around 200 competitors, and ending with a single grand prize winner of a $3000 cash prize.
 

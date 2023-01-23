@@ -36,7 +36,7 @@ I was the lead developer on this project, which involved setting up a [Gulp](htt
 ### Fully responsive
 I carefully coded the markup and styles so the page content displays well at common screen sizes, and in-between, too.
 
-![Above-fold screenshots of the #EtiquetteFail landing page at desktop, tablet, and mobile sizes.](./assets/go-transit-etiquette-fail/responsive.png)
+![Above-fold screenshots of the #EtiquetteFail landing page at desktop, tablet, and mobile sizes.](/assets/portfolio/go-transit-etiquette-fail/responsive.png)
 
 ### Translatable
 I set up the build process to handle any number of languages, although only two were needed for this particular project.
@@ -45,9 +45,9 @@ Since the client didn't expect content changes after launch, the content is edit
 
 I carefully coded the page so variations in text length would not break its layout and design.
 
-![Food, noise, and share sections of the #EtiquetteFail landing page in English and French.](./assets/go-transit-etiquette-fail/translatable.png)
+![Food, noise, and share sections of the #EtiquetteFail landing page in English and French.](/assets/portfolio/go-transit-etiquette-fail/translatable.png)
 
 ### Sharable
 The page contains several social share buttons, which prompt the user to share the #EtiquetteFail landing page on their Twitter or Facebook accounts. It was requested that each share button share different content, based on the content in its section. I managed to find a way to make that functionality happen for Twitter while respecting their policies and APIs.
 
-![A Twitter share card for the #EtiquetteFail landing page.](./assets/go-transit-etiquette-fail/sharable.png)
+![A Twitter share card for the #EtiquetteFail landing page.](/assets/portfolio/go-transit-etiquette-fail/sharable.png)

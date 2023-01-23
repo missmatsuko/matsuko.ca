@@ -48,4 +48,4 @@ I built out flexible components that could have multiple variations depending on
 
 ## Screenshots
 
-![Energy Efficiency Alberta's simplified home page.](./assets/energy-efficiency-alberta/simple-home.png)
+![Energy Efficiency Alberta's simplified home page.](/assets/portfolio/energy-efficiency-alberta/simple-home.png)
