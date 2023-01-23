@@ -1,13 +1,23 @@
 {% set src = props.src or '' %}
-{% set srcSet = props.srcSet or '' %}
 {% set alt = props.alt or '' %}
 {% set height = props.height or 0 %}
 {% set width = props.width or 0 %}
 {% set aspectRatio = (height/width or 0)*100 %}
 {% set class = props.class or '' %}
 
-{# TODO: Image transforms #}
+{%- set optionsString -%}
+  {%- if height -%}
+    h_{{ height }},
+  {%- endif -%}
+  {%- if width -%}
+    w_{{ width }},
+  {%- endif -%}
+{%- endset -%}
 
+{{site.url}}
+
+{# TODO: srcset #}
+{# TODO: use site.url #}
 <div class="cloudinary-image image {{ class }}">
   <div
     class="image-wrapper"
@@ -16,9 +26,14 @@
     "
   >
     <img
-      src="{{ src }}"
-      srcSet="{{ srcSet }}"
+      src="https://res.cloudinary.com/dcelqcs5j/image/fetch/{{- optionsString if optionsString else '' -}}f_auto,c_fill/https://www.matsuko.ca/assets{{ src }}"
       alt="{{ alt }}"
+      {%- if width -%}
+        width="{{ width }}"
+      {%- endif -%}
+      {%- if height -%}
+        height="{{ height }}"
+      {%- endif -%}
     />
   </div>
 </div>

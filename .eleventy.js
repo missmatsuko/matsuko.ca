@@ -20,7 +20,7 @@ module.exports = function(eleventyConfig) {
   // Define blog posts collection
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/blog/**/*.md")
+      .getFilteredByGlob(`${inputDir}/blog/**/*.md`)
       .map((blogPost) => {
         blogPost.data['formattedDate'] = formatDate(blogPost.data.date);
         return blogPost;
@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
   // Define portfolio items collection
   eleventyConfig.addCollection("portfolioItems", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/portfolio/**/*.md")
+      .getFilteredByGlob(`${inputDir}/portfolio/**/*.md`)
       .filter((portfolioItem) => {
         return portfolioItem.data.featured;
       })
@@ -47,7 +47,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Define passthrough copy files
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy(`${inputDir}/assets`);
 
   // Markdown plugins
   let markdownLibrary = markdownIt({
