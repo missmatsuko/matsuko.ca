@@ -5,23 +5,30 @@ layout: layouts/default.njk
 
 {% import 'components/index.njk' as components %}
 
-{% set details %}
-  <p>Portfolio items will go here</p>
+{% set content %}
+  {% for portfolioItem in collections.portfolioItems %}
+    {{ components.render('card', {
+      headline: portfolioItem.data.title,
+      subheadline: portfolioItem.data.subheadline,
+      url: portfolioItem.url,
+      src: '/assets/' + portfolioItem.data.image,
+      colors: portfolioItem.data.colors
+    }) }}
+  {% endfor %}
 {% endset %}
 
 {% set props = {
   title: title,
   description: 'Things I\'ve made.',
-  details: details
+  content: content,
+  columns: 3,
+  gap: 'var(--spacing-lg)'
 } %}
 
-{{ components.render('intro', props) }}
+<section>
+  {{ components.render('intro', props) }}
 
-{% for portfolioItem in collections.portfolioItems %}
-  {{ components.render('card', {
-    headline: portfolioItem.data.title,
-    subheadline: portfolioItem.data.subheadline,
-    url: portfolioItem.url,
-    src: '/assets/' + portfolioItem.data.image
-  }) }}
-{% endfor %}
+  <div class="container">
+    {{ components.render('grid', props) }}
+  </div>
+</section>

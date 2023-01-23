@@ -5,11 +5,13 @@
 {% set width = props.width or 0 %}
 {% set aspectRatio = (height/width or 0)*100 %}
 
+{# TODO: Image transforms #}
+
 <div class="cloudinary-image image">
   <div
     class="image-wrapper"
     style="
-      paddingBottom: {{ aspectRatio }}%
+      padding-bottom: {{ aspectRatio }}%
     "
   >
     <img

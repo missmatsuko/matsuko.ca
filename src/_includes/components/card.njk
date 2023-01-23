@@ -4,14 +4,19 @@
 {% set subheadline = props.subheadline or '' %}
 {% set src = props.src or '' %}
 {% set url = props.url or '' %}
+{% set colors = props.colors or '' %}
 
 <a
     class="card"
     href="{{ url }}"
-    style="{
-      '--color-primary': colors.primary,
-      '--color-secondary': colors.secondary,
-    }"
+    style="
+      {% if colors.primary %}
+        --color-primary: {{ colors.primary }};
+      {% endif %}
+      {% if colors.secondary %}
+        --color-secondary: {{ colors.secondary }};
+      {% endif %}
+    "
   >
     {{ components.render('cloudinaryImage', {
       src: src,

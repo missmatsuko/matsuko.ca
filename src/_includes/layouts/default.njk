@@ -2,12 +2,14 @@
 <html lang="en">
   {% include "components/head.njk" %}
   <body>
-    {% include "components/header.njk" %}
+    <div class="layout">
+      {% include "components/header.njk" %}
 
-    <main>
-     {{ content|safe }}
-    </main>
+      <main class="main">
+      {{ content|safe }}
+      </main>
 
-    {% include "components/footer.njk" %}
+      {% include "components/footer.njk" %}
+    </div>
   </body>
 </html>

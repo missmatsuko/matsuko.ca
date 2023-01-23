@@ -1,4 +1,6 @@
 module.exports = function(eleventyConfig) {
+  /* TODO: sort and filter blog and portfolio items */
+
   // Define blog posts collection
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/blog/**/*.md");

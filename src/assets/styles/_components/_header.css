@@ -1,0 +1,45 @@
+.header {
+  background: var(--color-secondary);
+  border-bottom: 1px solid var(--color-gray-extra-light);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 250%;
+  line-height: 1;
+  font-weight: bold;
+}
+.nav {
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav a {
+  display: block;
+  padding: var(--spacing-md);
+  font-weight: bold;
+  text-transform: lowercase;
+  display: flex;
+  border: 4px solid transparent;
+  border-left: none;
+  border-right: none;
+}
+.nav a.active {
+  border-bottom-color: var(--color-gray-light);
+}
+.nav a[href="/"].active:not(.active--exact) {
+  border-color: transparent;
+}
+.header a {
+  text-decoration: none;
+}

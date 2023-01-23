@@ -5,23 +5,29 @@ layout: layouts/default.njk
 
 {% import 'components/index.njk' as components %}
 
-{% set details %}
-  <p>Blog posts will go here</p>
+{% set content %}
+  {# TODO: format date #}
+  {% for blogPost in collections.blogPosts %}
+    {{ components.render('excerpt', {
+      headline: blogPost.data.title,
+      subheadline: blogPost.data.date,
+      body: blogPost.data.description,
+      url: blogPost.url
+    }) }}
+  {% endfor %}
 {% endset %}
 
 {% set props = {
   title: title,
   description: 'Things I\'ve written.',
-  details: details
+  content: content,
+  gap: 'var(--spacing-lg)'
 } %}
 
-{{ components.render('intro', props) }}
+<section>
+  {{ components.render('intro', props) }}
 
-{% for blogPost in collections.blogPosts %}
-  {{ components.render('card', {
-    headline: blogPost.data.title,
-    subheadline: blogPost.data.subheadline,
-    url: blogPost.url,
-    src: blogPost.data.image.path
-  }) }}
-{% endfor %}
+  <div class="container">
+    {{ components.render('grid', props) }}
+  </div>
+</section>

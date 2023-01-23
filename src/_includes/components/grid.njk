@@ -4,10 +4,14 @@
 
 <div
   class="grid"
-  style="{
-    '--grid-columns': {{ columns }},
-    '--grid-gap': {{ gap }},
-  }"
+  style="
+    {% if columns %}
+      --grid-columns: {{ columns }};
+    {% endif %}
+    {% if gap %}
+      --grid-gap: {{ gap }};
+    {% endif %}
+  "
 >
   {{ content|safe }}
 </div>
