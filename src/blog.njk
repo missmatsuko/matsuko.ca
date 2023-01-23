@@ -10,7 +10,7 @@ layout: layouts/default.njk
   {% for blogPost in collections.blogPosts %}
     {{ components.render('excerpt', {
       headline: blogPost.data.title,
-      subheadline: blogPost.data.date,
+      subheadline: blogPost.data.formattedDate,
       body: blogPost.data.description,
       url: blogPost.url
     }) }}
