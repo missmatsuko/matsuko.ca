@@ -1,6 +1,10 @@
+const outputDir = 'dist';
+const inputDir = 'src';
+
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItBlockEmbed = require("markdown-it-block-embed");
+const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 
 const formatDate = function(UTCDate) {
   const date = new Date(UTCDate);
@@ -45,7 +49,7 @@ module.exports = function(eleventyConfig) {
   // Define passthrough copy files
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  // Markdown
+  // Markdown plugins
   let markdownLibrary = markdownIt({
   })
   .use(markdownItAnchor, {
@@ -55,12 +59,18 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  // Generate favicons and manifest
+  // TODO: Add more content to manifest?
+  eleventyConfig.addPlugin(faviconsPlugin, {
+    outputDir: outputDir,
+  });
+
   // Eleventy configuration
   return {
     // Set input and output directories
     dir: {
-      input: "src",
-      output: "dist",
+      input: inputDir,
+      output: outputDir,
     },
   }
 };
