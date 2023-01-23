@@ -1,0 +1,34 @@
+{% import 'components/index.njk' as components %}
+
+{% set headline = props.headline or '' %}
+{% set subheadline = props.subheadline or '' %}
+{% set body = props.body or '' %}
+{% set url = props.url or '' %}
+{% set cta = props.cta or '' %}
+
+<div
+    class="banner"
+  >
+  <div class="container rich-text">
+    <h2>{{ headline }}</h2>
+
+    {% if subheadline %}
+      {{ subheadline }}
+    {% endif %}
+
+    {% if body %}
+      <p>{{ body }}</p>
+    {% endif %}
+
+    {% set buttonContent %}
+      {% if cta %}
+        <span>{{ cta }}</span>
+      {% endif %%}
+    {% endset %}
+
+    {{ components.render('button', {
+      url: url,
+      content: buttonContent
+    }) }}
+  </div>
+</div>

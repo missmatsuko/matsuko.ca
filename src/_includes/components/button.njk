@@ -1,0 +1,12 @@
+{% set url = props.url or '' %}
+{% set content = props.content or '' %}
+{% set element = if url 'a' else 'button' %}
+
+<{{ element }}
+  {% if url %}
+  href="{{ url }}"
+  {% endif %}
+  class="button"
+>
+  {{ content|safe }}
+</{{ element }}>
