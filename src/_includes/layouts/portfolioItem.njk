@@ -1,3 +1,54 @@
+{% import 'components/index.njk' as components %}
+
+{% set details %}
+  <div class="rich-text">
+    {% if links %}
+      <div>
+        <h3>Links</h3>
+        <ul class="list-reset">
+          {% for link in links %}
+            <li>
+              <a href="{{ link.url }}">
+                {{ link.text }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if technologies %}
+      <div>
+        <h3>Technologies</h3>
+        <ul class="list-reset">
+          {% for technology in technologies %}
+            <li>
+              {{ technology }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+{% endset %}
+
+{# TODO: format date #}
+{% set introProps = {
+  title: title,
+  description: description,
+  src: '/assets/' + image,
+  details: details
+} %}
+
+{# TODO: move to site data? #}
+{% set bannerProps = {
+  headline: 'Get in touch!',
+  subheadline: 'Want to work together? Have a burning question or thoughtful comment?',
+  body: 'Send me an email to start the conversation!',
+  url: 'mailto:hello@matsuko.ca',
+  cta: 'Email me'
+} %}
+
 <!DOCTYPE html>
 <html lang="en">
   {% include "components/head.njk" %}
@@ -5,7 +56,17 @@
     {% include "components/header.njk" %}
 
     <main>
-     {{ content|safe }}
+     <article>
+        {{ components.render('intro', introProps) }}
+
+        <div class="container container--narrow">
+          <div class="rich-text">
+            {{ content|safe }}
+          </div>
+        </div>
+      </article>
+
+      {{ components.render('banner', bannerProps) }}
     </main>
 
     {% include "components/footer.njk" %}

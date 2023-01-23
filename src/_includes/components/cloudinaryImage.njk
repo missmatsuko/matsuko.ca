@@ -4,10 +4,11 @@
 {% set height = props.height or 0 %}
 {% set width = props.width or 0 %}
 {% set aspectRatio = (height/width or 0)*100 %}
+{% set class = props.class or '' %}
 
 {# TODO: Image transforms #}
 
-<div class="cloudinary-image image">
+<div class="cloudinary-image image {{ class }}">
   <div
     class="image-wrapper"
     style="
