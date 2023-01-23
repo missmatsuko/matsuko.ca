@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }} | Matsuko Friedland</title>
+  </head>
+  <body>
+    {% include "components/header.njk" %}
+
+    <main>
+     {{ content|safe }}
+    </main>
+
+    {% include "components/footer.njk" %}
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{% set src = props.src or '' %}
+{% set srcSet = props.srcSet or '' %}
+{% set alt = props.alt or '' %}
+{% set height = props.height or 0 %}
+{% set width = props.width or 0 %}
+{% set aspectRatio = (height/width or 0)*100 %}
+
+<div class="cloudinary-image image">
+  <div
+    class="image-wrapper"
+    style="
+      paddingBottom: {{ aspectRatio }}%
+    "
+  >
+    <img
+      src="{{ src }}"
+      srcSet="{{ srcSet }}"
+      alt="{{ alt }}"
+    />
+  </div>
+</div>

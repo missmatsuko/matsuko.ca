@@ -1,0 +1,18 @@
+---
+title: Portfolio
+layout: layouts/default.njk
+---
+
+{% import 'components/index.njk' as components %}
+
+{% set details %}
+  <p>Portfolio items will go here</p>
+{% endset %}
+
+{% set props = {
+  title: title,
+  description: 'Things I\'ve made.',
+  details: details
+} %}
+
+{{ components.render('intro', props) }}

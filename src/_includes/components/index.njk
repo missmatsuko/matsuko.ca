@@ -1,0 +1,4 @@
+{% macro render(componentName, props) %}
+  {# TODO: find out if there's prettier concatenation method? #}
+  {% include 'components/' + componentName + '.njk' %}
+{% endmacro %}
