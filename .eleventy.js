@@ -9,8 +9,12 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/portfolio/**/*.md");
   });
 
-  // Return your Object options:
+  // Define passthrough copy files
+  eleventyConfig.addPassthroughCopy("src/assets");
+
+  // Eleventy configuration
   return {
+    // Set input and output directories
     dir: {
       input: "src",
       output: "dist",
