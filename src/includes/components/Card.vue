@@ -2,10 +2,6 @@
   <Link
     class="card"
     :to="url"
-    :style="{
-      '--color-primary': colors.primary,
-      '--color-secondary': colors.secondary,
-    }"
   >
     <CloudinaryImage
       :imagePath="imagePath"
