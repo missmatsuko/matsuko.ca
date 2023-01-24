@@ -7,7 +7,6 @@ colors: {
   primary: '#FFFFFF',
   secondary: '#000000',
 }
-projectType: Browser Extension
 technologies:
   - HTML
   - CSS

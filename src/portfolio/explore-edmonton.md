@@ -7,7 +7,6 @@ colors: {
   primary: '#FFFFFF',
   secondary: '#2D2926',
 }
-projectType: Website
 technologies:
   - HTML
   - CSS

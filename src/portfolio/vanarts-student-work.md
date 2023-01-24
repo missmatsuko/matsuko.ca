@@ -7,7 +7,6 @@ colors: {
   primary: '#CC0101',
   secondary: '#FFFFFF',
 }
-projectType: Collection
 technologies:
   - HTML
   - CSS

@@ -7,7 +7,6 @@ colors: {
   primary: '#000000',
   secondary: '#D8D4FF',
 }
-projectType: Art
 technologies:
 links:
   - text: Publisher Site

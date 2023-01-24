@@ -7,7 +7,6 @@ colors: {
   primary: '#FFFFFF',
   secondary: '#A70000',
 }
-projectType: UX Case Study
 technologies:
 links:
 featured: true

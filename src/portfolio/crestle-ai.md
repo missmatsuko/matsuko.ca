@@ -7,7 +7,6 @@ colors: {
   primary: '#404040',
   secondary: '#FFFFFF',
 }
-projectType: Landing Page
 technologies:
   - HTML
   - CSS
