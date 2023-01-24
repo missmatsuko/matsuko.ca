@@ -85,6 +85,7 @@ module.exports = function(eleventyConfig) {
 
   // Markdown plugins
   let markdownLibrary = markdownIt({
+    html: true,
   })
   .use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.headerLink(),
