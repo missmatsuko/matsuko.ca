@@ -7,7 +7,6 @@ colors: {
   primary: '#FFFFFF',
   secondary: '#3B6E8F',
 }
-projectType: Website
 technologies:
   - HTML
   - PHP
