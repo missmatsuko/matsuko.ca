@@ -30,18 +30,20 @@
       }) }}
     {% endif %}
 
-    <h1>{{ title }}</h1>
+    <div class="rich-text">
+      <h1>{{ title }}</h1>
 
-    {% if description %}
-      <p>{{ description }}</p>
-    {% endif %}
+      {% if description %}
+        <p>{{ description }}</p>
+      {% endif %}
 
-    {% if details %}
-      <div class="details">
-        <h2 class="sr-only">Details</h2>
-        {{ details|safe }}
-      </div>
-    {% endif %}
+      {% if details %}
+        <div class="details">
+          <h2 class="sr-only">Details</h2>
+          {{ details|safe }}
+        </div>
+      {% endif %}
+    </div>
 
   </div>
 </div>
