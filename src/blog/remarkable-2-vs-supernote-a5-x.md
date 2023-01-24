@@ -115,7 +115,7 @@ File transfer with the reMarkable is pretty much only possible through their own
 
 Supernote, on the other hand, offers a variety of file transfer methods, including:
 - [Supernote Cloud](https://cloud.supernote.com.cn/#/login)
-- [Supernote Partner App](https://play.google.com/store/apps/details?id=com.ratta.supernote)
+- [Supernote Partner App](https://apps.apple.com/us/app/supernote-partner/id1494992020)
 - [DropBox](https://www.dropbox.com/)
 - Email
 - USB

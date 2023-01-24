@@ -22,7 +22,7 @@ layout: layouts/portfolioItem.njk
 ---
 
 ## Summary
-[Logitech Video Collaboration](http://www.logitech.com/VC) is the part of [Logitech](https://www.logitech.com/) dedicated to helping teams collaborate and communicate through video conferencing.
+[Logitech Video Collaboration](https://www.logitech.com/en-us/video-collaboration.html) is the part of [Logitech](https://www.logitech.com/) dedicated to helping teams collaborate and communicate through video conferencing.
 
 This landing page provides information about Logitech's Skype Room Systems and an interactive quiz (or "decision tree") to help people choose the appropriate video conferencing set-up for their organization.
 

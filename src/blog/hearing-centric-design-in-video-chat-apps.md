@@ -17,7 +17,7 @@ layout: layouts/blogPost.njk
 
 Around mid-March, the COVID-19 pandemic started to really affect life here in Vancouver. Within the span of a few days, we went from business as usual to the shut-down of most of the city's public spaces.
 
-This was a challenge for the ASL (American Sign Language) practice meetup I help organize, [ASL Social and Practice](https://www.meetup.com/ASL-Social/). Up until this point, we had been meeting in person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be feasible to move our meetup online.
+This was a challenge for the ASL (American Sign Language) practice meetup I help organize, ASL Social and Practice. Up until this point, we had been meeting in person at a public library. For the health and safety of our participants, and since more and more potential venues were shutting down anyway, we decided to look at whether it'd be feasible to move our meetup online.
 
 You might have expected that since sign languages are so visual, they would be well-suited for a visual format such as video. While video chat technology has made it possible to communicate in sign language online, it is no replacement for conversing in person. Since ASL is a 3-dimensional language, certain aspects of the language cannot be preserved in a 2-dimensional format.
 
@@ -25,7 +25,7 @@ With this in mind, three of us from the ASL practice group tested out the follow
 - [Discord](https://discordapp.com/)
 - [Google Hangouts](https://hangouts.google.com/)
 - [Google Meet](https://meet.google.com/)
-- [Houseparty](https://www.houseparty.com/)
+- Houseparty
 - [Jitsi Meet](https://meet.jit.si/)
 - [Skype](https://www.skype.com/)
 - [Zoom](https://zoom.us/)

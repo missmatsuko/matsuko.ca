@@ -7,7 +7,7 @@ image:
   alt: Sparkling light-painted '2021' against a pitch-black background.
   width: 1200
   height: 800
-  caption: '<a href="https://unsplash.com/photos/-PzyGU3QPJU" target="_blank" rel="nofollow noopener">Photo by Jude Beck on Unsplash</a>'
+  caption: 'Photo by Jude Beck on Unsplash'
 layout: layouts/blogPost.njk
 ---
 
@@ -46,7 +46,7 @@ I'm also curious about [the maker culture](https://en.wikipedia.org/wiki/Maker_c
 **Progress**
 - Starting weekly online singing lessons with Felicia at [Sing IT Studio](https://www.singitstudio.com/).
 - Rec centre ceramics classes were cancelled (twice!), so waiting for another creative opportunity.
-- Started monthly [Maker Crates from KiwiCo](https://www.kiwico.com/maker) to try out different crafts. [Use my referral link for $10 off](https://www.kiwico.com/Refer?i=MatsukoF)!
+- Started monthly [Maker Crates from KiwiCo](https://www.kiwico.com/maker) to try out different crafts. [Use my referral link for $10 off](https://www.kiwico.com/refer?i=MatsukoF)!
 
 ## Continue learning
 
