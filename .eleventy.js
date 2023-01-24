@@ -55,6 +55,7 @@ module.exports = function(eleventyConfig) {
       .getFilteredByGlob(`${inputDir}/blog/**/*.md`)
       .map((blogPost) => {
         blogPost.data['formattedDate'] = formatDate(blogPost.data.date);
+        blogPost.data['socialImagePath'] = blogPost.data.image.path || '';
         return blogPost;
       })
       .sort((a, b) => {
@@ -71,6 +72,7 @@ module.exports = function(eleventyConfig) {
       })
       .map((portfolioItem) => {
         portfolioItem.data['formattedDate'] = formatDate(portfolioItem.data.date);
+        portfolioItem.data['socialImagePath'] = portfolioItem.data.image || '';
         return portfolioItem;
       })
       .sort((a, b) => {

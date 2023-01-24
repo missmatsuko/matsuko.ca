@@ -2,7 +2,7 @@
 title: Explore Edmonton
 description: Website for Edmonton Tourism.
 date: 2018-09-27
-image: explore-edmonton-logo.png
+image: /explore-edmonton-logo.png
 colors: {
   primary: '#FFFFFF',
   secondary: '#2D2926',
