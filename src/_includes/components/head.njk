@@ -18,8 +18,8 @@
     {# og:image (1200 x 630) for Facebook
     https://developers.facebook.com/docs/sharing/webmasters/images #}
     <meta property="og:image" content="{%- cloudinaryUrl socialImagePath, {
-      width: 1200,
-      height: 630
+      height: 630,
+      width: 1200
     } -%}" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -30,8 +30,8 @@
     {# aspect ratio of 2:1 with minimum dimensions of 300x157 or maximum of 4096x4096 pixels
     https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image #}
     <meta property="twitter:image" content="{%- cloudinaryUrl socialImagePath, {
-      width: 1200,
-      height: 600
+      height: 600,
+      width: 1200
     } -%}" />
     <meta property="twitter:description" content="{{ description }}" />
     <meta property="twitter:site" content="@missmatsuko" />
