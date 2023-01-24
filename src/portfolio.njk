@@ -11,7 +11,7 @@ layout: layouts/default.njk
       headline: portfolioItem.data.title,
       subheadline: portfolioItem.data.subheadline,
       url: portfolioItem.url,
-      src: '/assets/' + portfolioItem.data.image,
+      src: portfolioItem.data.image,
       colors: portfolioItem.data.colors
     }) }}
   {% endfor %}
