@@ -6,7 +6,7 @@ layout: layouts/default.njk
 {% import 'components/index.njk' as components %}
 
 {% set content %}
-  {# TODO: format date, pagination #}
+  {# TODO: pagination #}
   {% for blogPost in collections.blogPosts %}
     {{ components.render('excerpt', {
       headline: blogPost.data.title,

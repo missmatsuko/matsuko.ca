@@ -1,6 +1,5 @@
 {% import 'components/index.njk' as components %}
 
-{# TODO: format date #}
 {% set introProps = {
   title: title,
   description: formattedDate
@@ -14,6 +13,7 @@
   class: 'cover-image'
 } %}
 
+{# TODO: move to site data? #}
 {% set bannerProps = {
   headline: 'Get in touch!',
   subheadline: 'Want to work together? Have a burning question or thoughtful comment?',
