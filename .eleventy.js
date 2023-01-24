@@ -35,7 +35,7 @@ const cloudinaryUrl = function(imagePath, options) {
     .filter(value => value !== null)
     .join(',');
 
-  return `https://res.cloudinary.com/dcelqcs5j/image/fetch/${optionsString ? `${optionsString},` : ''}c_fill,f_auto/https://matsuko.ca/assets${imagePath}`;
+  return `https://res.cloudinary.com/dcelqcs5j/image/fetch/${optionsString ? `${optionsString},` : ''}f_auto,c_fill/https://matsuko.ca/assets${imagePath}`;
 };
 
 const formatDate = function(UTCDate) {
