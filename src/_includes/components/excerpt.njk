@@ -1,0 +1,22 @@
+{% set headline = props.headline or '' %}
+{% set subheadline = props.subheadline or '' %}
+{% set body = props.body or '' %}
+{% set url = props.url or '' %}
+
+<div
+  class="excerpt nested-link rich-text"
+>
+  <h2>{{ headline }}</h2>
+  {% if subheadline %}
+    <p>{{ subheadline }}</p>
+  {% endif %}
+  {% if body %}
+    <p>{{ body }}</p>
+  {% endif %}
+  <a
+    href="{{ url }}"
+    aria-label="`Read more about {{ headline }}.`"
+  >
+    Read more
+  </a>
+</div>

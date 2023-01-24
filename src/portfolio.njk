@@ -1,0 +1,34 @@
+---
+title: Portfolio
+layout: layouts/default.njk
+---
+
+{% import 'components/index.njk' as components %}
+
+{% set content %}
+  {% for portfolioItem in collections.portfolioItems %}
+    {{ components.render('card', {
+      headline: portfolioItem.data.title,
+      subheadline: portfolioItem.data.subheadline,
+      url: portfolioItem.url,
+      src: '/assets/' + portfolioItem.data.image,
+      colors: portfolioItem.data.colors
+    }) }}
+  {% endfor %}
+{% endset %}
+
+{% set props = {
+  title: title,
+  description: 'Things I\'ve made.',
+  content: content,
+  columns: 3,
+  gap: 'var(--spacing-lg)'
+} %}
+
+<section>
+  {{ components.render('intro', props) }}
+
+  <div class="container">
+    {{ components.render('grid', props) }}
+  </div>
+</section>

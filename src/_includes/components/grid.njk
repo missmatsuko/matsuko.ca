@@ -1,0 +1,17 @@
+{% set content = props.content or '' %}
+{% set columns = props.columns or '' %}
+{% set gap = props.gap or '' %}
+
+<div
+  class="grid"
+  style="
+    {% if columns %}
+      --grid-columns: {{ columns }};
+    {% endif %}
+    {% if gap %}
+      --grid-gap: {{ gap }};
+    {% endif %}
+  "
+>
+  {{ content|safe }}
+</div>

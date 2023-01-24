@@ -1,0 +1,35 @@
+---
+title: Home
+layout: layouts/default.njk
+---
+
+{# TODO: base path? #}
+
+{% import 'components/index.njk' as components %}
+
+{% set details %}
+  <h3>Contact</h3>
+
+  <ul>
+    <li>
+      <a href="mailto:hello@matsuko.ca">Email</a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/matsuko/">LinkedIn</a>
+    </li>
+    <li>
+      <a href="https://github.com/missmatsuko/">GitHub</a>
+    </li>
+  </ul>
+{% endset %}
+
+{% set props = {
+  title: 'Matsuko Friedland',
+  description: 'Creating experiences with usability and accessibility in mind.',
+  details: details,
+  src: '/headshot.jpg'
+} %}
+
+{{ components.render('intro', props) }}
+
+

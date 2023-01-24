@@ -1,0 +1,33 @@
+---
+title: 404
+layout: layouts/default.njk
+---
+
+{% import 'components/index.njk' as components %}
+
+{% set details %}
+  <h3>Try these links</h3>
+
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/portfolio">Portfolio</a>
+    </li>
+    <li>
+      <a href="/blog">Blog</a>
+    </li>
+  </ul>
+{% endset %}
+
+{% set props = {
+  title: title,
+  description: 'Sorry, this page doesn\'t exist.',
+  details: details
+} %}
+
+{{ components.render('intro', props) }}
+
+
+

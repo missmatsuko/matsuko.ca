@@ -1,0 +1,49 @@
+{% set src = props.src or '' %}
+{% set alt = props.alt or '' %}
+{% set height = props.height or 0 %}
+{% set width = props.width or 0 %}
+{% set aspectRatio = (height/width or 0)*100 %}
+{% set class = props.class or '' %}
+{% set transforms = props.transforms or [
+  {
+    width: 100
+  },
+  {
+    width: 500
+  },
+  {
+    width: 1000
+  }
+] %}
+
+{%- set srcSet -%}
+  {%- for transform in transforms -%}
+    {% cloudinaryUrl src, transform %} {{ transform.width }}w{{ ', ' if not loop.last }}
+  {%- endfor -%}
+{%- endset -%}
+
+<div class="cloudinary-image image {{ class }}">
+  <div
+    class="image-wrapper"
+    style="
+      padding-bottom: {{ aspectRatio }}%
+    "
+  >
+    <img
+      src="{%- cloudinaryUrl src, {
+        height: height,
+        width: width
+      } -%}"
+      {% if srcSet %}
+        srcset="{{ srcSet }}"
+      {% endif %}
+      alt="{{ alt }}"
+      {% if width %}
+        width="{{ width }}"
+      {% endif %}
+      {% if height %}
+        height="{{ height }}"
+      {% endif %}
+    />
+  </div>
+</div>

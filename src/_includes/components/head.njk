@@ -1,0 +1,38 @@
+ {% set description = description or site.description %}
+ {% set socialImagePath =socialImagePath or '/default-seo.png' %}
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ description }}" />
+    <link data-vue-tag="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;display=swap">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/index.css" />
+    <meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    {% favicons './src/favicon.png' %}
+
+    {# OG/Facebook #}
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {# og:image (1200 x 630) for Facebook
+    https://developers.facebook.com/docs/sharing/webmasters/images #}
+    <meta property="og:image" content="{%- cloudinaryUrl socialImagePath, {
+      width: 1200,
+      height: 630
+    } -%}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    {# Twitter #}
+    <meta property="twitter:card" content="summary_large_card" />
+    <meta property="twitter:title" content="{{ title }}" />
+    {# aspect ratio of 2:1 with minimum dimensions of 300x157 or maximum of 4096x4096 pixels
+    https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image #}
+    <meta property="twitter:image" content="{%- cloudinaryUrl socialImagePath, {
+      width: 1200,
+      height: 600
+    } -%}" />
+    <meta property="twitter:description" content="{{ description }}" />
+    <meta property="twitter:site" content="@missmatsuko" />
+  </head>

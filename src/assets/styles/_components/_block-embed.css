@@ -1,0 +1,17 @@
+.block-embed {
+
+}
+
+/* TODO: Use new CSS for aspect ratio? */
+.block-embed-service-youtube {
+  position: relative;
+  padding-bottom: calc(100% * 9/16);
+}
+
+.block-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

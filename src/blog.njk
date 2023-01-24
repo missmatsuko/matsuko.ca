@@ -1,0 +1,33 @@
+---
+title: Blog
+layout: layouts/default.njk
+---
+
+{% import 'components/index.njk' as components %}
+
+{% set content %}
+  {# TODO: pagination #}
+  {% for blogPost in collections.blogPosts %}
+    {{ components.render('excerpt', {
+      headline: blogPost.data.title,
+      subheadline: blogPost.data.formattedDate,
+      body: blogPost.data.description,
+      url: blogPost.url
+    }) }}
+  {% endfor %}
+{% endset %}
+
+{% set props = {
+  title: title,
+  description: 'Things I\'ve written.',
+  content: content,
+  gap: 'var(--spacing-lg)'
+} %}
+
+<section>
+  {{ components.render('intro', props) }}
+
+  <div class="container">
+    {{ components.render('grid', props) }}
+  </div>
+</section>

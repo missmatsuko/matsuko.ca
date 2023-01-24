@@ -1,7 +1,7 @@
 # matsuko.ca
-Personal portfolio site. Built with [Gridsome](https://gridsome.org/), a [Vue](https://vuejs.org/)-based static site generator.
+Personal portfolio site. Built with [Eleventy](https://www.11ty.dev/), a simpler static site generator.
 
-### Local development
+## Local development
 ```
 $ git clone https://github.com/missmatsuko/matsuko.ca
 $ cd matsuko.ca
