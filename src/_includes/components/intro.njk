@@ -12,7 +12,21 @@
       {{ components.render('cloudinaryImage', {
         src: src,
         width: 100,
-        height: 100
+        height: 100,
+        transforms: [
+          {
+            width: 100,
+            height: 100
+          },
+          {
+            width: 250,
+            height: 250
+          },
+          {
+            width: 500,
+            height: 500
+          }
+        ]
       }) }}
     {% endif %}
 
