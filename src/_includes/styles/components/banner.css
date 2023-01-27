@@ -1,6 +1,6 @@
 .banner {
   padding: var(--spacing-xxl) 0;
   margin-top: var(--spacing-xxl);
-  background-color: var(--color-gray-extra-light);
+  background-color: var(--color-accent-extra-light);
   text-align: center;
 }

@@ -6,13 +6,13 @@
   width: 100px;
   border-radius: var(--spacing-xs);
   box-shadow: var(--box-shadow);
-  border: 1px solid var(--color-gray-extra-light);
+  border: 1px solid var(--color-accent-extra-light);
   overflow: hidden;
   display: inline-block;
 }
 .intro p {
   font-size: larger;
-  color: var(--color-gray-dark);
+  color: var(--color-accent-dark);
 }
 .details {
   font-size: smaller;
@@ -30,5 +30,5 @@
   padding: 0 var(--spacing-xs);
 }
 .details h3 {
-  color: var(--color-gray-dark);
+  color: var(--color-accent-dark);
 }

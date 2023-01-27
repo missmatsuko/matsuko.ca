@@ -1,6 +1,6 @@
 .image-wrapper {
   position: relative;
-  background-color: var(--color-gray);
+  background-color: var(--color-accent);
 }
 .image-wrapper img {
   position: absolute;
@@ -16,12 +16,12 @@
 .cover-image {
   border-radius: var(--spacing-xs);
   box-shadow: var(--box-shadow);
-  border: 1px solid var(--color-gray-extra-light);
+  border: 1px solid var(--color-accent-extra-light);
   overflow: hidden;
   width: 100%;
 }
 .cover-caption {
   margin-top: var(--spacing-md);
   font-size: smaller;
-  color: var(--color-gray-extra-dark);
+  color: var(--color-accent-extra-dark);
 }
