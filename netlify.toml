@@ -11,3 +11,5 @@
   from = "/about"
   to = "/"
   status = 302
+
+  /* /404/index.html 404
