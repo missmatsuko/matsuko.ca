@@ -12,6 +12,7 @@
   to = "/"
   status = 302
 
+[[redirects]]
   from = "/*"
   to = "/404/index.html"
   status = 404
